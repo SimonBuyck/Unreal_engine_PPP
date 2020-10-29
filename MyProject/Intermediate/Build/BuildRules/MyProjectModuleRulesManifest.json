@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\PPP\\MyProject\\Source\\MyProject\\MyProject.Build.cs",
-		"D:\\PPP\\MyProject\\Source\\MyProject.Target.cs",
-		"D:\\PPP\\MyProject\\Source\\MyProjectEditor.Target.cs"
+		"/Users/simonbuyck/Documents/Unreal Projects/MyProject/Source/MyProject/MyProject.Build.cs",
+		"/Users/simonbuyck/Documents/Unreal Projects/MyProject/Source/MyProject.Target.cs",
+		"/Users/simonbuyck/Documents/Unreal Projects/MyProject/Source/MyProjectEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
 }
