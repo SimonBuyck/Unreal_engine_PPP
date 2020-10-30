@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B143261D-42E3-476C-8F95-DFD094F64FC2}</UniqueIdentifier>
+      <UniqueIdentifier>{24F28133-AA4C-48C4-8B64-96C3E1C4E751}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{96ED4769-B607-4356-A280-227C1A8CBA8B}</UniqueIdentifier>
+      <UniqueIdentifier>{B6B34E61-155B-486C-9BEF-8C6482A458A1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyProject">
-      <UniqueIdentifier>{3BDA1F00-FE60-46C9-BF85-87DBC84B8038}</UniqueIdentifier>
+      <UniqueIdentifier>{9B3C1BDB-8DA4-491E-8D4F-9856553B2DF6}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyProject\MyActor.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\MyActor.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
     <None Include="..\..\Source\MyProject\MyProject.Build.cs">
       <Filter>Source\MyProject</Filter>
     </None>
