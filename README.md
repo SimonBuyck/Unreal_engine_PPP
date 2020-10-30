@@ -3,7 +3,11 @@
 ## De Klant: 
 _wie heb je gekozen als eindklant. Dit kan een externe partner zijn (bvb een goed doel Warmste week, medialab J.E.F., jezelf, ...)._
 
+<<<<<<< HEAD
 De klant die ik gekozen heb is mezelf.
+=======
+De klant die ik gekozen heb is mezelf. 
+>>>>>>> c81c26d0f8bda8e50334182e5e5ed5cbcf1ca2ce
 
 ## Core Project Statement: 
 _omschrijf bondig het uitgangspunt en onderzoeksvraag van je project (max 1000 karakters)._
