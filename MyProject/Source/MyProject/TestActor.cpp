@@ -20,6 +20,8 @@ ATestActor::ATestActor()
 		VisualMesh->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 	}
 
+
+
 }
 
 // Called when the game starts or when spawned

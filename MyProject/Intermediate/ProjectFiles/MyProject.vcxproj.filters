@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EBE8FF2C-927D-4BA1-B274-92678F37629D}</UniqueIdentifier>
+      <UniqueIdentifier>{EF5FBAD1-E824-4AC7-A32D-1F9564CE51E7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{00D80148-B245-449C-8DE7-701F997D5C12}</UniqueIdentifier>
+      <UniqueIdentifier>{B5DCC923-3164-4241-ADE3-8358026B50B2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,24 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\MyProject">
-      <UniqueIdentifier>{1AF1B07C-5C4C-443A-A475-5E82FB6E6A9E}</UniqueIdentifier>
+      <UniqueIdentifier>{7C9831E9-8825-488C-AECE-8DD0FA9EAB38}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyProject\CollidingPawn.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\CollidingPawn.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\CollidingPawnMovementComponent.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\CollidingPawnMovementComponent.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
     <None Include="..\..\Source\MyProject\MyProject.Build.cs">
       <Filter>Source\MyProject</Filter>
     </None>
