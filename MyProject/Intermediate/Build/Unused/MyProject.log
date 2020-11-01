@@ -1,0 +1,7 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\PPP).
+  Building MyProjectEditor...
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 1 action with 4 processes...
+    [1/1] MyProjectEditor.target
+  Total time in Parallel executor: 0,19 seconds
+  Total execution time: 0,90 seconds
