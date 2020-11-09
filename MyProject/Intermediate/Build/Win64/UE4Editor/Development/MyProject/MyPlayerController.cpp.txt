@@ -1,0 +1,4 @@
+D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
+D:\PPP\MyProject\Source\MyProject\MyPlayerController.h
+D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\MyPlayerController.generated.h
+D:\PPP\MyProject\Source\MyProject\MyProject.h

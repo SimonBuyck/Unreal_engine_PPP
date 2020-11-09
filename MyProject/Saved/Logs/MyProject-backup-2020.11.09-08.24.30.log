@@ -1,0 +1,1641 @@
+﻿Log file open, 11/09/20 09:18:57
+LogInit: Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.008127
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.09-08.19.00:101][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.09-08.19.00:101][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.09-08.19.00:102][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.09-08.19.00:102][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.09-08.19.00:103][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.09-08.19.00:103][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.09-08.19.00:103][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.09-08.19.00:103][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.09-08.19.00:103][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.09-08.19.00:103][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.09-08.19.00:125][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.09-08.19.00:125][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.09-08.19.00:126][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:126][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.09-08.19.00:127][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.09-08.19.00:127][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:127][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.09-08.19.00:127][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.09-08.19.00:127][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.09-08.19.00:127][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.09-08.19.00:127][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.09-08.19.00:127][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.09-08.19.00:127][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.09-08.19.00:134][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.09-08.19.00:134][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.09-08.19.00:151][  0]LogHAL: Display: Platform has ~ 16 GB [17137127424 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.09-08.19.00:151][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.09-08.19.00:159][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.09-08.19.00:159][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.09-08.19.00:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2020.11.09-08.19.00:161][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.09-08.19.00:174][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.09-08.19.00:174][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.09-08.19.00:174][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.09-08.19.00:174][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.09-08.19.00:194][  0]LogInit: Computer: SIEJEMAAN
+[2020.11.09-08.19.00:194][  0]LogInit: User: simon
+[2020.11.09-08.19.00:194][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.11.09-08.19.00:194][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.09-08.19.00:203][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.11.09-08.19.00:203][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.09-08.19.00:203][  0]LogMemory: Process Physical Memory: 115.36 MB used, 115.36 MB peak
+[2020.11.09-08.19.00:203][  0]LogMemory: Process Virtual Memory: 95.09 MB used, 95.09 MB peak
+[2020.11.09-08.19.00:203][  0]LogMemory: Physical Memory: 6441.22 MB used,  9902.02 MB free, 16343.24 MB total
+[2020.11.09-08.19.00:203][  0]LogMemory: Virtual Memory: 5094.10 MB used,  134212632.00 MB free, 134217728.00 MB total
+[2020.11.09-08.19.00:218][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.09-08.19.01:144][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.09-08.19.01:146][  0]LogInit: Using OS detected language (nl-NL).
+[2020.11.09-08.19.01:146][  0]LogInit: Using OS detected locale (nl-BE).
+[2020.11.09-08.19.01:304][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2020.11.09-08.19.01:709][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.09-08.19.02:103][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.09-08.19.02:103][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.09-08.19.03:083][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.09-08.19.03:083][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.09-08.19.03:083][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.09-08.19.03:083][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.09-08.19.03:174][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.11.09-08.19.03:175][  0]LogD3D11RHI:       8088/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.09-08.19.03:177][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.09-08.19.03:177][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.09-08.19.03:177][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.09-08.19.03:183][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.09-08.19.03:183][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.09-08.19.03:183][  0]LogWindows: EnumDisplayDevices:
+[2020.11.09-08.19.03:183][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.11.09-08.19.03:184][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.11.09-08.19.03:184][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.09-08.19.03:184][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.09-08.19.03:185][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.09-08.19.03:185][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.11.09-08.19.03:185][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2020.11.09-08.19.03:185][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2020.11.09-08.19.03:185][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.11.09-08.19.03:252][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.09-08.19.03:252][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.09-08.19.03:253][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.09-08.19.03:500][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.09-08.19.04:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.09-08.19.04:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.09-08.19.04:217][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.09-08.19.04:217][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.09-08.19.04:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.09-08.19.04:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.09-08.19.04:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.09-08.19.04:331][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.09-08.19.04:386][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.09-08.19.04:456][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.09-08.19.04:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.09-08.19.04:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.09-08.19.04:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.09-08.19.04:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.09-08.19.04:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.09-08.19.04:629][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.09-08.19.04:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.09-08.19.04:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.09-08.19.04:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.09-08.19.04:763][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.09-08.19.04:930][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.09-08.19.05:566][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../PPP/MyProject/Intermediate/Shaders/WorkingDirectory/19656/).
+[2020.11.09-08.19.05:566][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/simon/AppData/Local/Temp/UnrealShaderWorkingDir/C9C628B04AE57EC60456378C24D0172F/'.
+[2020.11.09-08.19.05:576][  0]LogXGEController: Cleaning working directory: C:/Users/simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.09-08.19.05:576][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.09-08.19.05:577][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.09-08.19.05:577][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.09-08.19.07:191][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.09-08.19.07:535][  0]LogDerivedDataCache: Loaded boot cache 0.34s 76MB C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.09-08.19.07:536][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.09-08.19.07:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PPP/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.09-08.19.07:536][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.09-08.19.07:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PPP/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.09-08.19.07:536][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.09-08.19.07:801][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.09-08.19.07:801][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.09-08.19.07:802][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.09-08.19.07:803][  0]LogDerivedDataCache: Using Local data cache path C:/Users/simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.09-08.19.07:803][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.09-08.19.07:803][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.09-08.19.07:910][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.09-08.19.08:015][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.09-08.19.08:543][  0]LogAssetRegistry: FAssetRegistry took 0.0514 seconds to start up
+[2020.11.09-08.19.10:926][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.09-08.19.12:162][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.09-08.19.12:162][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.09-08.19.12:162][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.09-08.19.12:162][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.09-08.19.12:163][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.09-08.19.12:340][  0]LogNetVersion: MyProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 709303259)
+[2020.11.09-08.19.16:728][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020ADCCE2980), frame # 0
+[2020.11.09-08.19.16:728][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020ADCBAC2C0), frame # 0
+[2020.11.09-08.19.16:762][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020ADCBD1C00), frame # 0
+[2020.11.09-08.19.17:056][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.083380 seconds
+[2020.11.09-08.19.17:075][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.09-08.19.17:075][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.09-08.19.17:075][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.09-08.19.20:815][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.09-08.19.20:853][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.09-08.19.20:853][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.20:853][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.20:853][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.22:189][  0]SourceControl: Source control is disabled
+[2020.11.09-08.19.22:199][  0]SourceControl: Source control is disabled
+[2020.11.09-08.19.22:262][  0]SourceControl: Source control is disabled
+[2020.11.09-08.19.22:284][  0]SourceControl: Source control is disabled
+[2020.11.09-08.19.22:325][  0]SourceControl: Source control is disabled
+[2020.11.09-08.19.24:352][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.09-08.19.24:462][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.09-08.19.24:462][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.09-08.19.24:763][  0]LogOcInput: OculusInput pre-init called
+[2020.11.09-08.19.24:821][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.09-08.19.24:821][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.09-08.19.25:743][  0]LogEngine: Initializing Engine...
+[2020.11.09-08.19.25:756][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.09-08.19.25:756][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.09-08.19.25:862][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.059 s
+[2020.11.09-08.19.26:252][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.09-08.19.26:596][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.09-08.19.26:596][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020AE005A000), frame # 0
+[2020.11.09-08.19.26:597][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020AE0076200), frame # 0
+[2020.11.09-08.19.26:643][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.09-08.19.26:643][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.09-08.19.26:643][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.09-08.19.26:643][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.09-08.19.26:643][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.09-08.19.26:643][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.09-08.19.26:643][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.09-08.19.26:643][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.09-08.19.26:649][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.09-08.19.26:649][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.09-08.19.26:717][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.09-08.19.26:717][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.09-08.19.26:863][  0]LogAudioMixer: Display: Using Audio Device headset (Realtek High Definition Audio)
+[2020.11.09-08.19.26:874][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.09-08.19.26:885][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.09-08.19.26:885][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.09-08.19.26:906][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.09-08.19.26:907][  0]LogInit: FAudioDevice initialized.
+[2020.11.09-08.19.26:908][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.09-08.19.27:050][  0]LogDerivedDataCache: Saved boot cache 0.14s 76MB C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.09-08.19.27:053][  0]LogInit: Texture streaming: Enabled
+[2020.11.09-08.19.27:182][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.09-08.19.27:183][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.09-08.19.27:192][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.09-08.19.27:369][  0]LogInit: Transaction tracking system initialized
+[2020.11.09-08.19.27:590][  0]BlueprintLog: New page: Editor Load
+[2020.11.09-08.19.28:691][  0]LocalizationService: Localization service is disabled
+[2020.11.09-08.19.30:916][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/MyProject/Content/' took 0.01s
+[2020.11.09-08.19.30:916][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.09-08.19.30:917][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.09-08.19.33:450][  0]SourceControl: Source control is disabled
+[2020.11.09-08.19.33:450][  0]LogUnrealEdMisc: Loading editor; pre map load, took 49.623
+[2020.11.09-08.19.33:475][  0]Cmd: MAP LOAD FILE="../../../../../PPP/MyProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.09-08.19.33:485][  0]LightingResults: New page: Lighting Build
+[2020.11.09-08.19.33:569][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-08.19.33:592][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.09-08.19.33:655][  0]MapCheck: New page: Map Check
+[2020.11.09-08.19.33:655][  0]LightingResults: New page: Lighting Build
+[2020.11.09-08.19.33:786][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020AE005A000), frame # 0
+[2020.11.09-08.19.33:786][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020AE0076200), frame # 0
+[2020.11.09-08.19.33:786][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.11.09-08.19.35:465][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.09-08.19.35:465][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020AD2688400), frame # 0
+[2020.11.09-08.19.35:465][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020AD2551440), frame # 0
+[2020.11.09-08.19.35:895][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.09-08.19.35:925][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.11.09-08.19.35:925][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.09-08.19.35:934][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 8,753ms to complete.
+[2020.11.09-08.19.35:934][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.459
+[2020.11.09-08.19.36:644][  0]LogUnrealEdMisc: Total Editor Startup Time, took 52.817
+[2020.11.09-08.19.37:249][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.09-08.19.37:255][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.09-08.19.37:261][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.09-08.19.37:267][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.09-08.19.37:489][  0]LogCollectionManager: Loaded 0 collections in 0.000695 seconds
+[2020.11.09-08.19.37:670][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/MyProject/Saved/Collections/' took 0.00s
+[2020.11.09-08.19.37:670][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/MyProject/Content/Developers/simon/Collections/' took 0.00s
+[2020.11.09-08.19.37:670][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/MyProject/Content/Collections/' took 0.00s
+[2020.11.09-08.19.37:670][  0]LogContentBrowser: Native class hierarchy populated in 0.0293 seconds. Added 3432 classes and 823 folders.
+[2020.11.09-08.19.37:716][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.09-08.19.38:470][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.09-08.19.39:968][  0]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.40:068][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.09-08.19.40:069][  0]LogLoad: (Engine Initialization) Total time: 56.24 seconds
+[2020.11.09-08.19.40:069][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.09-08.19.40:428][  0]LogAssetRegistry: Asset discovery search completed in 31.9137 seconds
+[2020.11.09-08.19.40:432][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2020.11.09-08.19.40:527][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 10 NumSamples 1 (Frame:1).
+[2020.11.09-08.19.40:527][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2020.11.09-08.19.40:653][  0]LogSlate: Took 0.044167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.09-08.19.40:707][  0]LogSlate: Took 0.032424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.09-08.19.40:738][  0]LogSlate: Took 0.015369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.09-08.19.40:994][  0]LogRenderer: Reallocating scene render targets to support 300x592 Format 10 NumSamples 1 (Frame:1).
+[2020.11.09-08.19.40:994][  0]LogSlate: Took 0.004810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.09-08.19.41:033][  1]LogActor: Warning: CollidingPawn /Engine/Transient.World_1:PersistentLevel.CollidingPawn_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.11.09-08.19.41:368][  2]LogActor: Warning: TestActor /Engine/Transient.World_2:PersistentLevel.TestActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.11.09-08.19.41:565][  3]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.41:565][  3]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.41:565][  3]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.41:695][  3]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.43:574][  9]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.43:575][  9]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.43:575][  9]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.43:703][  9]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.45:586][ 15]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.45:587][ 15]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.45:587][ 15]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.45:725][ 15]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.47:600][ 21]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.47:601][ 21]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.47:601][ 21]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.47:734][ 21]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.49:615][ 27]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.49:615][ 27]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.49:615][ 27]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.49:741][ 27]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.51:530][ 33]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.51:530][ 33]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.51:530][ 33]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.51:756][ 33]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.53:546][ 39]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.53:547][ 39]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.53:547][ 39]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.53:761][ 39]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.55:559][ 45]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.55:559][ 45]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.55:559][ 45]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.55:768][ 45]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.57:571][ 51]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.57:572][ 51]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.57:572][ 51]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.57:776][ 51]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.19.59:585][ 57]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.19.59:585][ 57]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.19.59:585][ 57]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.19.59:787][ 57]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.01:599][ 63]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.01:600][ 63]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.01:600][ 63]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.01:788][ 63]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.03:615][ 69]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.03:615][ 69]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.03:615][ 69]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.03:793][ 69]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.05:630][ 75]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.05:630][ 75]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.05:630][ 75]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.05:797][ 75]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.07:645][ 81]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.07:646][ 81]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.07:646][ 81]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.07:816][ 81]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.09:657][ 87]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.09:657][ 87]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.09:657][ 87]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.09:830][ 87]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.11:670][ 93]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.11:671][ 93]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.11:671][ 93]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.11:839][ 93]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.13:684][ 99]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.13:685][ 99]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.13:685][ 99]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.13:851][ 99]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.15:696][105]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.15:696][105]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.15:697][105]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.15:856][105]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.17:708][111]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.17:708][111]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.17:709][111]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.17:867][111]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.19:722][117]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.19:722][117]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.19:722][117]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.19:879][117]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.21:731][123]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.21:731][123]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.21:732][123]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.21:891][123]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.23:746][129]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.23:747][129]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.23:747][129]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.23:903][129]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.25:761][135]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.25:762][135]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.25:762][135]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.25:910][135]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.27:779][141]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.27:779][141]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.27:779][141]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.27:917][141]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.29:790][147]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.29:790][147]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.29:791][147]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.29:920][147]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.31:705][153]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.31:705][153]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.31:706][153]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.31:925][153]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.33:719][159]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.33:719][159]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.33:719][159]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.33:934][159]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.35:733][165]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.35:733][165]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.35:733][165]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.35:951][165]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.37:747][171]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.37:747][171]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.37:747][171]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.37:969][171]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.39:763][177]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.39:763][177]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.39:763][177]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.39:983][177]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.41:776][183]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.41:777][183]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.41:777][183]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.41:993][183]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.43:790][189]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.43:790][189]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.43:790][189]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.43:994][189]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.45:803][195]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.45:803][195]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.45:803][195]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.45:994][195]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.47:815][201]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.47:815][201]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.47:815][201]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.48:006][201]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.49:828][207]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.49:829][207]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.49:829][207]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.50:033][207]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.51:841][213]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.51:841][213]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.51:841][213]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.52:043][213]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.53:856][219]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.53:856][219]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.53:857][219]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.54:051][219]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.55:872][225]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.55:872][225]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.55:872][225]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.56:075][225]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.57:885][231]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.57:886][231]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.57:886][231]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.20.58:083][231]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.20.59:897][237]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.20.59:898][237]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.20.59:898][237]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.00:091][237]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.01:909][243]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.01:909][243]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.01:909][243]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.02:092][243]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.03:924][249]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.03:924][249]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.03:924][249]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.04:107][249]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.05:935][255]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.05:936][255]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.05:936][255]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.06:118][255]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.07:950][261]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.07:950][261]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.07:950][261]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.08:131][261]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.09:966][267]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.09:966][267]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.09:967][267]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.10:135][267]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.11:982][273]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.11:982][273]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.11:982][273]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.12:145][273]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.13:995][279]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.13:995][279]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.13:995][279]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.14:155][279]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.16:009][285]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.16:010][285]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.16:010][285]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.16:163][285]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.18:024][291]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.18:024][291]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.18:025][291]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.18:164][291]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.20:036][297]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.20:036][297]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.20:037][297]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.20:184][297]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.22:050][303]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.22:050][303]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.22:050][303]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.22:189][303]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.24:063][309]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.24:063][309]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.24:063][309]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.24:199][309]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.26:074][315]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.26:074][315]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.26:074][315]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.26:220][315]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.28:086][321]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.28:087][321]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.28:087][321]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.28:225][321]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.30:099][327]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.30:099][327]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.30:099][327]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.30:232][327]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.32:112][333]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.32:112][333]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.32:113][333]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.32:249][333]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.34:125][339]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.34:125][339]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.34:125][339]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.34:261][339]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.36:140][345]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.36:140][345]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.36:141][345]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.36:276][345]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.38:152][351]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.38:152][351]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.38:152][351]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.38:286][351]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.40:065][357]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.40:065][357]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.40:065][357]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.40:293][357]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.42:077][363]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.42:077][363]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.42:077][363]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.42:303][363]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.44:092][369]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.44:092][369]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.44:092][369]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.44:310][369]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.46:103][375]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.46:104][375]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.46:104][375]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.46:321][375]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.48:117][381]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.48:117][381]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.48:118][381]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.48:333][381]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.50:128][387]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.50:129][387]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.50:129][387]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.50:338][387]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.52:144][393]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.52:144][393]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.52:144][393]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.52:354][393]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.54:159][468]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.54:159][468]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.54:160][468]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.54:175][470]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.55:540][527]LogRenderer: Reallocating scene render targets to support 724x904 Format 10 NumSamples 1 (Frame:94).
+[2020.11.09-08.21.55:772][529]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.55:772][529]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.55:772][529]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.55:916][529]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.21.57:786][574]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.21.57:787][574]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.21.57:787][574]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.21.57:801][576]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.00:002][815]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.00:002][815]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.00:002][815]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.00:018][817]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.02:118][ 55]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.02:118][ 55]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.02:119][ 55]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.02:134][ 57]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.04:235][295]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.04:235][295]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.04:236][295]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.04:253][297]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.06:354][536]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.06:354][536]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.06:354][536]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.06:369][538]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.08:467][777]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.08:468][777]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.08:468][777]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.08:483][779]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.10:583][ 18]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.10:583][ 18]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.10:583][ 18]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.10:599][ 20]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.12:701][259]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.12:701][259]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.12:701][259]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.12:717][261]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.14:817][500]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.14:817][500]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.14:817][500]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.14:834][502]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.16:933][740]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.16:933][740]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.16:933][740]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.16:949][742]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.19:049][981]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.19:049][981]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.19:049][981]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.19:066][983]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.21:264][221]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.21:265][221]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.21:265][221]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.21:280][223]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.23:379][462]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.23:380][462]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.23:380][462]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.23:395][464]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.25:496][701]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.25:497][701]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.25:497][701]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.25:511][703]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.27:613][942]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.27:613][942]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.27:613][942]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.27:628][944]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.29:730][183]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.29:730][183]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.29:731][183]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.29:746][185]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.31:845][424]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.31:846][424]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.31:846][424]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.31:861][426]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.33:964][665]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.33:964][665]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.33:964][665]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.33:979][667]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.36:079][906]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.36:080][906]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.36:080][906]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.36:095][907]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.38:193][147]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.38:193][147]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.38:193][147]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.38:208][149]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.40:308][388]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.40:308][388]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.40:308][388]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.40:323][390]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.42:424][629]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.42:424][629]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.42:424][629]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.42:440][631]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.44:541][870]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.44:541][870]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.44:541][870]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.44:557][872]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.46:658][111]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.46:658][111]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.46:658][111]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.46:674][113]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.48:874][352]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.48:874][352]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.48:875][352]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.48:890][354]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.50:991][593]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.50:991][593]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.50:991][593]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.51:007][595]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.53:107][833]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.53:107][833]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.53:108][833]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.53:123][835]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.55:322][ 73]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.55:322][ 73]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.55:322][ 73]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.55:337][ 75]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.57:436][311]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.57:436][311]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.57:436][311]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.57:451][313]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.22.59:652][552]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.22.59:652][552]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.22.59:653][552]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.22.59:668][554]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.01:868][791]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.01:869][791]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.01:869][791]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.01:886][793]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.04:087][ 28]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.04:087][ 28]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.04:087][ 28]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.04:103][ 30]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.06:302][269]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.06:302][269]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.06:302][269]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.06:317][271]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.08:519][475]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.08:519][475]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.08:519][475]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.08:695][475]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.10:536][481]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.10:536][481]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.10:536][481]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.10:704][481]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.12:554][487]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.12:554][487]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.12:554][487]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.12:714][487]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.14:568][493]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.14:568][493]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.14:568][493]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.14:723][493]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.16:584][499]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.16:584][499]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.16:584][499]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.16:732][499]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.18:598][505]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.18:598][505]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.18:599][505]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.18:739][505]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.20:513][511]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.20:513][511]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.20:513][511]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.20:738][511]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.22:527][517]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.22:527][517]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.22:528][517]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.22:747][517]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.24:542][523]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.24:542][523]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.24:543][523]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.24:754][523]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.26:562][529]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.26:562][529]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.26:562][529]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.26:762][529]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.28:577][535]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.28:577][535]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.28:577][535]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.28:765][535]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.30:591][541]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.30:591][541]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.30:592][541]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.30:778][541]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.32:603][547]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.32:604][547]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.32:604][547]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.32:790][547]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.34:618][553]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.34:618][553]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.34:619][553]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.34:793][553]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.36:637][559]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.36:637][559]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.36:637][559]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.36:799][559]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.38:654][565]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.38:654][565]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.38:654][565]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.38:806][565]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.40:666][571]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.40:666][571]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.40:666][571]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.40:816][571]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.42:681][577]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.42:681][577]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.42:681][577]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.42:821][577]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.44:694][583]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.44:694][583]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.44:694][583]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.44:829][583]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.46:706][589]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.46:707][589]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.46:707][589]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.46:836][589]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.48:619][595]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.48:619][595]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.48:619][595]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.48:843][595]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.50:633][601]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.50:633][601]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.50:633][601]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.50:851][601]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.52:648][607]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.52:649][607]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.52:649][607]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.52:863][607]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.54:663][613]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.54:663][613]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.54:663][613]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.54:874][613]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.56:677][619]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.56:678][619]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.56:678][619]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.56:874][619]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.23.58:690][625]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.23.58:690][625]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.23.58:690][625]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.23.58:887][625]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.00:704][631]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.00:704][631]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.00:704][631]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.00:889][631]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.02:717][687]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.02:717][687]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.02:717][687]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.02:732][689]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.04:834][927]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.04:835][927]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.04:835][927]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.04:849][929]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.06:951][160]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.06:951][160]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.06:951][160]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.06:975][161]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.08:967][385]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.08:968][385]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.08:968][385]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.08:984][386]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.10:984][597]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.10:984][597]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.10:984][597]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.10:998][599]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.13:199][822]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.13:199][822]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.13:199][822]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.13:212][823]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.15:316][878]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.15:316][878]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.15:316][878]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.15:488][878]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.17:330][884]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.17:330][884]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.17:330][884]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.17:489][884]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.19:343][890]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.19:343][890]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.19:343][890]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.19:502][890]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.21:354][896]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.21:355][896]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.21:355][896]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.21:506][896]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.23:369][902]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.23:369][902]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.23:369][902]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.23:512][902]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.24:695][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.11.09-08.24.25:385][ 95]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.09-08.24.25:385][ 95]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.09-08.24.25:385][ 95]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.09-08.24.25:397][ 96]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.09-08.24.27:073][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.11.09-08.24.27:122][296]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2020.11.09-08.24.27:123][296]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.09-08.24.27:340][297]Cmd: QUIT_EDITOR
+[2020.11.09-08.24.27:340][297]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.11.09-08.24.27:393][297]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.09-08.24.27:503][297]LogExit: Preparing to exit.
+[2020.11.09-08.24.27:879][297]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-08.24.27:879][297]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-08.24.27:879][297]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-08.24.27:927][297]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.09-08.24.27:931][297]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.09-08.24.27:932][297]LogExit: Editor shut down
+[2020.11.09-08.24.27:932][297]LogExit: Transaction tracking system shut down
+[2020.11.09-08.24.28:367][297]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000020ADCCE2980), frame # 10297
+[2020.11.09-08.24.28:367][297]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020ADCBAC2C0), frame # 10297
+[2020.11.09-08.24.28:395][297]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020ADCBD1C00), frame # 10297
+[2020.11.09-08.24.28:669][297]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020AD2688400), frame # 10297
+[2020.11.09-08.24.28:669][297]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020AD2551440), frame # 10297
+[2020.11.09-08.24.28:689][297]LogExit: Object subsystem successfully closed.
+[2020.11.09-08.24.28:713][297]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.09-08.24.29:127][297]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (794)
+[2020.11.09-08.24.29:127][297]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (792)
+[2020.11.09-08.24.29:127][297]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2020.11.09-08.24.29:139][297]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2020.11.09-08.24.29:139][297]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2020.11.09-08.24.29:139][297]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2020.11.09-08.24.29:139][297]LogModuleManager: Shutting down and abandoning module SceneOutliner (782)
+[2020.11.09-08.24.29:139][297]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2020.11.09-08.24.29:149][297]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2020.11.09-08.24.29:149][297]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2020.11.09-08.24.29:149][297]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2020.11.09-08.24.29:162][297]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2020.11.09-08.24.29:162][297]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2020.11.09-08.24.29:162][297]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2020.11.09-08.24.29:162][297]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2020.11.09-08.24.29:162][297]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2020.11.09-08.24.29:163][297]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2020.11.09-08.24.29:163][297]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2020.11.09-08.24.29:163][297]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2020.11.09-08.24.29:163][297]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2020.11.09-08.24.29:163][297]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2020.11.09-08.24.29:163][297]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2020.11.09-08.24.29:164][297]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2020.11.09-08.24.29:164][297]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2020.11.09-08.24.29:178][297]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2020.11.09-08.24.29:178][297]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2020.11.09-08.24.29:178][297]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2020.11.09-08.24.29:178][297]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2020.11.09-08.24.29:178][297]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2020.11.09-08.24.29:178][297]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2020.11.09-08.24.29:178][297]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2020.11.09-08.24.29:224][297]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2020.11.09-08.24.29:232][297]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2020.11.09-08.24.29:247][297]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2020.11.09-08.24.29:268][297]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2020.11.09-08.24.29:268][297]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2020.11.09-08.24.29:268][297]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2020.11.09-08.24.29:269][297]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2020.11.09-08.24.29:269][297]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2020.11.09-08.24.29:269][297]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2020.11.09-08.24.29:269][297]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2020.11.09-08.24.29:407][297]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2020.11.09-08.24.29:407][297]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2020.11.09-08.24.29:407][297]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2020.11.09-08.24.29:407][297]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2020.11.09-08.24.29:407][297]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2020.11.09-08.24.29:447][297]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2020.11.09-08.24.29:467][297]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2020.11.09-08.24.29:467][297]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2020.11.09-08.24.29:467][297]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2020.11.09-08.24.29:467][297]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2020.11.09-08.24.29:480][297]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2020.11.09-08.24.29:498][297]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2020.11.09-08.24.29:498][297]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2020.11.09-08.24.29:498][297]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2020.11.09-08.24.29:508][297]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2020.11.09-08.24.29:540][297]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2020.11.09-08.24.29:540][297]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2020.11.09-08.24.29:553][297]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2020.11.09-08.24.29:569][297]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2020.11.09-08.24.29:569][297]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2020.11.09-08.24.29:569][297]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2020.11.09-08.24.29:570][297]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2020.11.09-08.24.29:578][297]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2020.11.09-08.24.29:606][297]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2020.11.09-08.24.29:606][297]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2020.11.09-08.24.29:607][297]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2020.11.09-08.24.29:633][297]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2020.11.09-08.24.29:641][297]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2020.11.09-08.24.29:701][297]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2020.11.09-08.24.29:701][297]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2020.11.09-08.24.29:701][297]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2020.11.09-08.24.29:701][297]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2020.11.09-08.24.29:701][297]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2020.11.09-08.24.29:701][297]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2020.11.09-08.24.29:701][297]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2020.11.09-08.24.29:701][297]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2020.11.09-08.24.29:702][297]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2020.11.09-08.24.29:709][297]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2020.11.09-08.24.29:709][297]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2020.11.09-08.24.29:709][297]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2020.11.09-08.24.29:709][297]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2020.11.09-08.24.29:905][297]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2020.11.09-08.24.29:905][297]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2020.11.09-08.24.29:906][297]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2020.11.09-08.24.29:906][297]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2020.11.09-08.24.29:926][297]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2020.11.09-08.24.29:926][297]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2020.11.09-08.24.29:926][297]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2020.11.09-08.24.29:926][297]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2020.11.09-08.24.29:926][297]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2020.11.09-08.24.29:926][297]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2020.11.09-08.24.29:926][297]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2020.11.09-08.24.29:927][297]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2020.11.09-08.24.29:928][297]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2020.11.09-08.24.29:928][297]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2020.11.09-08.24.29:928][297]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2020.11.09-08.24.29:928][297]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2020.11.09-08.24.29:933][297]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2020.11.09-08.24.29:937][297]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2020.11.09-08.24.29:937][297]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2020.11.09-08.24.29:947][297]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2020.11.09-08.24.29:947][297]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2020.11.09-08.24.29:947][297]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2020.11.09-08.24.29:947][297]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2020.11.09-08.24.29:947][297]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2020.11.09-08.24.29:948][297]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2020.11.09-08.24.29:958][297]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2020.11.09-08.24.29:961][297]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2020.11.09-08.24.29:965][297]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2020.11.09-08.24.29:970][297]LogModuleManager: Shutting down and abandoning module MyProject (366)
+[2020.11.09-08.24.29:970][297]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.11.09-08.24.29:970][297]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.11.09-08.24.29:970][297]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.11.09-08.24.29:970][297]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.11.09-08.24.29:970][297]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.11.09-08.24.29:970][297]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.11.09-08.24.29:970][297]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.11.09-08.24.30:071][297]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.11.09-08.24.30:172][297]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.11.09-08.24.30:172][297]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.11.09-08.24.30:172][297]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.11.09-08.24.30:187][297]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.11.09-08.24.30:187][297]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.11.09-08.24.30:187][297]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.11.09-08.24.30:187][297]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.11.09-08.24.30:187][297]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.11.09-08.24.30:187][297]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.11.09-08.24.30:189][297]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.11.09-08.24.30:189][297]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.11.09-08.24.30:189][297]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.11.09-08.24.30:189][297]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.11.09-08.24.30:189][297]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.11.09-08.24.30:190][297]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.11.09-08.24.30:190][297]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.11.09-08.24.30:190][297]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.11.09-08.24.30:190][297]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.11.09-08.24.30:190][297]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.11.09-08.24.30:190][297]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.11.09-08.24.30:190][297]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.11.09-08.24.30:190][297]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.11.09-08.24.30:191][297]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.11.09-08.24.30:192][297]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.11.09-08.24.30:192][297]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.11.09-08.24.30:192][297]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.11.09-08.24.30:192][297]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.11.09-08.24.30:192][297]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.11.09-08.24.30:192][297]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.11.09-08.24.30:203][297]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.11.09-08.24.30:204][297]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.11.09-08.24.30:204][297]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.11.09-08.24.30:219][297]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.11.09-08.24.30:220][297]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.11.09-08.24.30:221][297]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.11.09-08.24.30:222][297]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.11.09-08.24.30:222][297]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.11.09-08.24.30:222][297]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.11.09-08.24.30:222][297]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.11.09-08.24.30:222][297]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.11.09-08.24.30:222][297]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.11.09-08.24.30:222][297]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.11.09-08.24.30:222][297]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.11.09-08.24.30:234][297]LogXGEController: Cleaning working directory: C:/Users/simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.11.09-08.24.30:234][297]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.11.09-08.24.30:235][297]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.11.09-08.24.30:235][297]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.11.09-08.24.30:235][297]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.11.09-08.24.30:236][297]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.11.09-08.24.30:236][297]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.11.09-08.24.30:236][297]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.11.09-08.24.30:236][297]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.11.09-08.24.30:236][297]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.11.09-08.24.30:236][297]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.11.09-08.24.30:236][297]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.11.09-08.24.30:236][297]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.11.09-08.24.30:236][297]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.11.09-08.24.30:237][297]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.11.09-08.24.30:239][297]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.11.09-08.24.30:239][297]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.11.09-08.24.30:239][297]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.11.09-08.24.30:239][297]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.11.09-08.24.30:240][297]LogHMD: Freeing OpenVRDLLHandle.
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.11.09-08.24.30:240][297]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.11.09-08.24.30:241][297]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.11.09-08.24.30:249][297]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.11.09-08.24.30:296][297]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.11.09-08.24.30:296][297]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.11.09-08.24.30:296][297]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2E7497A5-4BBD-F72C-C0B9-EB8DD3CFD483%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=9802364344367be72cedb48aa9669453%7C6d19935f1d0e4732b61e0f6b4f91b612%7C3418914e-a4a8-4df0-805b-c85dc56f1dff&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.11.09-08.24.30:325][297]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.11.09-08.24.30:326][297]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.11.09-08.24.30:327][297]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.11.09-08.24.30:328][297]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.11.09-08.24.30:338][297]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.11.09-08.24.30:338][297]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.11.09-08.24.30:338][297]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.11.09-08.24.30:338][297]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.11.09-08.24.30:338][297]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.11.09-08.24.30:338][297]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.11.09-08.24.30:338][297]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.11.09-08.24.30:338][297]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.11.09-08.24.30:338][297]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.11.09-08.24.30:339][297]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.11.09-08.24.30:339][297]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.11.09-08.24.30:348][297]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.11.09-08.24.30:401][297]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.11.09-08.24.30:401][297]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.11.09-08.24.30:401][297]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.11.09-08.24.30:401][297]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.11.09-08.24.30:402][297]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.11.09-08.24.30:402][297]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.11.09-08.24.30:403][297]LogD3D11RHI: Shutdown
+[2020.11.09-08.24.30:403][297]LogD3D11RHI: CleanupD3DDevice
+[2020.11.09-08.24.30:408][297]LogExit: Exiting.
+[2020.11.09-08.24.30:447][297]Log file closed, 11/09/20 09:24:30

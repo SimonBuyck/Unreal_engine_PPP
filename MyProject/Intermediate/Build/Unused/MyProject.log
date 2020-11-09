@@ -1,16 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\PPP).
-  Parsing headers for MyProjectEditor
-    Running UnrealHeaderTool "D:\PPP\MyProject\MyProject.uproject" "D:\PPP\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\simon\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for MyProjectEditor in 4,7585185 seconds
   Building MyProjectEditor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 4 processes...
-    [1/5] CollidingPawn.gen.cpp
-    [2/5] CollidingPawn.cpp
-    [3/5] UE4Editor-MyProject-0037.lib
-       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0037.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0037.exp
-    [4/5] UE4Editor-MyProject-0037.dll
-       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0037.suppressed.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0037.suppressed.exp
-    [5/5] MyProjectEditor.target
-  Total time in Parallel executor: 2,03 seconds
-  Total execution time: 7,62 seconds
+  Building 4 actions with 4 processes...
+    [1/4] CollidingPawnMovementComponent.cpp
+    [2/4] UE4Editor-MyProject-0043.lib
+       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0043.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0043.exp
+    [3/4] UE4Editor-MyProject-0043.dll
+       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0043.suppressed.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0043.suppressed.exp
+    [4/4] MyProjectEditor.target
+  Total time in Parallel executor: 80,54 seconds
+  Total execution time: 83,07 seconds
