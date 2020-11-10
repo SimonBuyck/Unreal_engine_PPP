@@ -1,8 +1,8 @@
-﻿Log file open, 11/10/20 14:03:08
+﻿Log file open, 11/10/20 17:45:16
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.398077
+LogStats: Stats thread started at 0.721060
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,356 +194,1109 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.11.10-13.03.10:811][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.11.10-13.03.10:811][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.11.10-13.03.10:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.11.10-13.03.10:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.11.10-13.03.10:812][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.11.10-13.03.10:839][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:839][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.10-13.03.10:839][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.10-13.03.10:839][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:839][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.10-13.03.10:839][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:839][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.10-13.03.10:839][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.10-13.03.10:839][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.10-13.03.10:839][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.10-13.03.10:840][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.10-13.03.10:841][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.10-13.03.10:842][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.10-13.03.10:842][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.10-13.03.10:842][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.10-13.03.10:842][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.11.10-13.03.10:864][  0]LogHAL: Display: Platform has ~ 16 GB [17137127424 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.11.10-13.03.10:864][  0]LogInit: Going up to parent DeviceProfile []
-[2020.11.10-13.03.10:865][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
-[2020.11.10-13.03.10:865][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.10-13.03.10:866][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
-[2020.11.10-13.03.10:867][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.11.10-13.03.10:877][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.11.10-13.03.10:877][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.11.10-13.03.10:877][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.11.10-13.03.10:877][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.11.10-13.03.10:930][  0]LogInit: Computer: SIEJEMAAN
-[2020.11.10-13.03.10:930][  0]LogInit: User: simon
-[2020.11.10-13.03.10:930][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.11.10-13.03.10:930][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.11.10-13.03.10:930][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2020.11.10-13.03.10:930][  0]LogMemory: Platform Memory Stats for Windows
-[2020.11.10-13.03.10:930][  0]LogMemory: Process Physical Memory: 116.08 MB used, 116.09 MB peak
-[2020.11.10-13.03.10:930][  0]LogMemory: Process Virtual Memory: 97.55 MB used, 97.55 MB peak
-[2020.11.10-13.03.10:931][  0]LogMemory: Physical Memory: 8315.67 MB used,  8027.57 MB free, 16343.24 MB total
-[2020.11.10-13.03.10:931][  0]LogMemory: Virtual Memory: 5096.23 MB used,  134212632.00 MB free, 134217728.00 MB total
-[2020.11.10-13.03.10:939][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.11.10-13.03.11:449][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.11.10-13.03.11:451][  0]LogInit: Using OS detected language (nl-NL).
-[2020.11.10-13.03.11:451][  0]LogInit: Using OS detected locale (nl-BE).
-[2020.11.10-13.03.11:592][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
-[2020.11.10-13.03.12:123][  0]LogInit: Setting process to per monitor DPI aware
-[2020.11.10-13.03.12:604][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.11.10-13.03.12:604][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.11.10-13.03.13:694][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.10-13.03.13:694][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.11.10-13.03.13:694][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.11.10-13.03.13:694][  0]LogD3D11RHI: D3D11 adapters:
-[2020.11.10-13.03.13:879][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2020.11.10-13.03.13:879][  0]LogD3D11RHI:       8088/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.11.10-13.03.13:881][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.11.10-13.03.13:881][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.11.10-13.03.13:881][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.11.10-13.03.13:935][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.11.10-13.03.13:951][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2020.11.10-13.03.13:951][  0]LogWindows: EnumDisplayDevices:
-[2020.11.10-13.03.13:951][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2020.11.10-13.03.13:952][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2020.11.10-13.03.13:952][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.11.10-13.03.13:952][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.11.10-13.03.13:953][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.11.10-13.03.13:953][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2020.11.10-13.03.13:953][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
-[2020.11.10-13.03.13:953][  0]LogD3D11RHI:      Driver Date: 9-30-2020
-[2020.11.10-13.03.13:953][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2020.11.10-13.03.14:016][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.11.10-13.03.14:016][  0]LogD3D11RHI: Async texture creation enabled
-[2020.11.10-13.03.14:016][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.11.10-13.03.14:197][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.11.10-13.03.15:319][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.11.10-13.03.15:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.11.10-13.03.15:419][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.11.10-13.03.15:419][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.11.10-13.03.15:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.11.10-13.03.15:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.11.10-13.03.15:513][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.11.10-13.03.15:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.11.10-13.03.15:569][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.11.10-13.03.15:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.11.10-13.03.15:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.11.10-13.03.15:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.11.10-13.03.15:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.11.10-13.03.15:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.11.10-13.03.15:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.11.10-13.03.15:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.11.10-13.03.15:698][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.11.10-13.03.15:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.11.10-13.03.15:739][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.11.10-13.03.15:739][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.11.10-13.03.15:836][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.11.10-13.03.16:347][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (../../../../../PPP/MyProject/Intermediate/Shaders/WorkingDirectory/7908/).
-[2020.11.10-13.03.16:347][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/simon/AppData/Local/Temp/UnrealShaderWorkingDir/BDA8F86046DEB2D334EE7BBA638EA051/'.
-[2020.11.10-13.03.16:355][  0]LogXGEController: Cleaning working directory: C:/Users/simon/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.11.10-13.03.16:355][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.11.10-13.03.16:355][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.11.10-13.03.16:355][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.11.10-13.03.17:880][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.11.10-13.03.18:236][  0]LogDerivedDataCache: Loaded boot cache 0.35s 76MB C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.10-13.03.18:236][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.11.10-13.03.18:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PPP/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.11.10-13.03.18:236][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.11.10-13.03.18:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PPP/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.10-13.03.18:236][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.11.10-13.03.18:271][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.11.10-13.03.18:271][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.10-13.03.18:271][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.11.10-13.03.18:273][  0]LogDerivedDataCache: Using Local data cache path C:/Users/simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.11.10-13.03.18:273][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.11.10-13.03.18:273][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.11.10-13.03.18:343][  0]LogSlate: Using FreeType 2.10.0
-[2020.11.10-13.03.18:372][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.11.10-13.03.19:193][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
-[2020.11.10-13.03.22:070][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.10-13.03.22:845][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.11.10-13.03.22:845][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.11.10-13.03.22:845][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.11.10-13.03.22:845][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.11.10-13.03.22:854][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.11.10-13.03.22:937][  0]LogNetVersion: MyProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 709303259)
+[2020.11.10-16.45.19:210][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.10-16.45.19:210][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.10-16.45.19:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.10-16.45.19:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.10-16.45.19:211][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.10-16.45.19:253][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.10-16.45.19:253][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.10-16.45.19:254][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:255][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.10-16.45.19:255][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.10-16.45.19:255][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.10-16.45.19:255][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.10-16.45.19:255][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.10-16.45.19:255][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.10-16.45.19:255][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.10-16.45.19:255][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.10-16.45.19:256][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.10-16.45.19:271][  0]LogHAL: Display: Platform has ~ 16 GB [17137127424 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.10-16.45.19:271][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.10-16.45.19:271][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.10-16.45.19:271][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [D:/PPP/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2020.11.10-16.45.19:272][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.10-16.45.19:285][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.10-16.45.19:285][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.10-16.45.19:285][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.10-16.45.19:285][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/PPP/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.11.10-16.45.19:357][  0]LogInit: Computer: SIEJEMAAN
+[2020.11.10-16.45.19:357][  0]LogInit: User: simon
+[2020.11.10-16.45.19:357][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.11.10-16.45.19:357][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.10-16.45.19:358][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.11.10-16.45.19:358][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.10-16.45.19:358][  0]LogMemory: Process Physical Memory: 115.99 MB used, 115.99 MB peak
+[2020.11.10-16.45.19:358][  0]LogMemory: Process Virtual Memory: 97.24 MB used, 97.24 MB peak
+[2020.11.10-16.45.19:358][  0]LogMemory: Physical Memory: 6339.46 MB used,  10003.77 MB free, 16343.24 MB total
+[2020.11.10-16.45.19:358][  0]LogMemory: Virtual Memory: 5096.16 MB used,  134212632.00 MB free, 134217728.00 MB total
+[2020.11.10-16.45.19:365][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.10-16.45.20:022][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.10-16.45.20:084][  0]LogInit: Using OS detected language (nl-NL).
+[2020.11.10-16.45.20:084][  0]LogInit: Using OS detected locale (nl-BE).
+[2020.11.10-16.45.20:112][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2020.11.10-16.45.20:604][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.10-16.45.20:914][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.10-16.45.20:914][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.10-16.45.21:628][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.10-16.45.21:628][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.10-16.45.21:628][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.10-16.45.21:628][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.10-16.45.21:720][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.11.10-16.45.21:720][  0]LogD3D11RHI:       8088/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.10-16.45.21:723][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.10-16.45.21:723][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.10-16.45.21:723][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.10-16.45.21:738][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.10-16.45.21:739][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.10-16.45.21:739][  0]LogWindows: EnumDisplayDevices:
+[2020.11.10-16.45.21:739][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.11.10-16.45.21:739][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.11.10-16.45.21:739][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.10-16.45.21:740][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.10-16.45.21:740][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.10-16.45.21:740][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.11.10-16.45.21:740][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2020.11.10-16.45.21:740][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2020.11.10-16.45.21:740][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.11.10-16.45.21:862][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.10-16.45.21:863][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.10-16.45.21:863][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.10-16.45.22:222][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.10-16.45.23:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.10-16.45.23:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.10-16.45.23:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.10-16.45.23:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.10-16.45.23:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.10-16.45.23:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.10-16.45.23:102][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.10-16.45.23:102][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.10-16.45.23:102][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.10-16.45.23:102][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.10-16.45.23:102][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.10-16.45.23:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.10-16.45.23:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.10-16.45.23:253][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.10-16.45.23:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.10-16.45.23:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.10-16.45.23:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.10-16.45.23:365][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.10-16.45.23:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.10-16.45.23:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.10-16.45.23:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.10-16.45.23:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.10-16.45.23:480][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.10-16.45.23:480][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.10-16.45.23:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.10-16.45.23:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.10-16.45.23:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.10-16.45.23:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.10-16.45.23:566][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.10-16.45.23:655][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.10-16.45.24:221][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../PPP/MyProject/Intermediate/Shaders/WorkingDirectory/12936/).
+[2020.11.10-16.45.24:221][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/simon/AppData/Local/Temp/UnrealShaderWorkingDir/8B4B3D8C427C4FB66F98F3B3943336C0/'.
+[2020.11.10-16.45.24:231][  0]LogXGEController: Cleaning working directory: C:/Users/simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.10-16.45.24:231][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.10-16.45.24:231][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.10-16.45.24:232][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.10-16.45.25:537][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.10-16.45.25:883][  0]LogDerivedDataCache: Loaded boot cache 0.34s 76MB C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.10-16.45.25:883][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.10-16.45.25:884][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PPP/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.10-16.45.25:884][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.10-16.45.25:884][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PPP/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.10-16.45.25:884][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.10-16.45.25:913][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.10-16.45.25:913][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.10-16.45.25:913][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.10-16.45.25:914][  0]LogDerivedDataCache: Using Local data cache path C:/Users/simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.10-16.45.25:914][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.10-16.45.25:914][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.10-16.45.26:047][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.10-16.45.26:122][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.10-16.45.26:579][  0]LogAssetRegistry: FAssetRegistry took 0.0201 seconds to start up
+[2020.11.10-16.45.30:400][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.10-16.45.31:289][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.10-16.45.31:289][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.10-16.45.31:289][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.10-16.45.31:289][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.10-16.45.31:290][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.10-16.45.31:482][  0]LogNetVersion: MyProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 709303259)
+[2020.11.10-16.45.35:222][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000012EA2414340), frame # 0
+[2020.11.10-16.45.35:222][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012EA54902C0), frame # 0
+[2020.11.10-16.45.35:306][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012EA54B1C00), frame # 0
+[2020.11.10-16.45.35:586][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.094016 seconds
+[2020.11.10-16.45.35:591][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.10-16.45.35:592][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.10-16.45.35:592][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.10-16.45.39:327][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.10-16.45.39:370][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.10-16.45.39:370][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.45.39:370][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.45.39:370][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.45.40:261][  0]SourceControl: Source control is disabled
+[2020.11.10-16.45.40:270][  0]SourceControl: Source control is disabled
+[2020.11.10-16.45.40:341][  0]SourceControl: Source control is disabled
+[2020.11.10-16.45.40:403][  0]SourceControl: Source control is disabled
+[2020.11.10-16.45.40:445][  0]SourceControl: Source control is disabled
+[2020.11.10-16.45.42:314][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.10-16.45.42:405][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.10-16.45.42:406][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.10-16.45.42:674][  0]LogOcInput: OculusInput pre-init called
+[2020.11.10-16.45.42:712][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.10-16.45.42:712][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.10-16.45.43:747][  0]LogEngine: Initializing Engine...
+[2020.11.10-16.45.43:760][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.10-16.45.43:760][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.10-16.45.43:832][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.041 s
+[2020.11.10-16.45.44:186][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.10-16.45.44:484][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.10-16.45.44:484][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012EA90CBC00), frame # 0
+[2020.11.10-16.45.44:484][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012EA90D3B00), frame # 0
+[2020.11.10-16.45.44:602][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.10-16.45.44:602][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.10-16.45.44:602][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.10-16.45.44:602][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.10-16.45.44:602][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.10-16.45.44:602][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.10-16.45.44:602][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.10-16.45.44:602][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.10-16.45.44:611][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.10-16.45.44:611][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.10-16.45.44:678][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.10-16.45.44:678][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.10-16.45.44:716][  0]LogAudioMixer: Display: Using Audio Device headset (Realtek High Definition Audio)
+[2020.11.10-16.45.44:736][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.10-16.45.44:747][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.10-16.45.44:747][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.10-16.45.44:768][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.10-16.45.44:770][  0]LogInit: FAudioDevice initialized.
+[2020.11.10-16.45.44:771][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.10-16.45.44:922][  0]LogDerivedDataCache: Saved boot cache 0.15s 76MB C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.10-16.45.44:925][  0]LogInit: Texture streaming: Enabled
+[2020.11.10-16.45.45:078][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.10-16.45.45:078][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.10-16.45.45:105][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.10-16.45.45:324][  0]LogInit: Transaction tracking system initialized
+[2020.11.10-16.45.45:601][  0]BlueprintLog: New page: Editor Load
+[2020.11.10-16.45.46:580][  0]LocalizationService: Localization service is disabled
+[2020.11.10-16.45.48:526][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/MyProject/Content/' took 0.03s
+[2020.11.10-16.45.48:526][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.10-16.45.48:526][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.10-16.45.50:687][  0]SourceControl: Source control is disabled
+[2020.11.10-16.45.50:701][  0]LogUnrealEdMisc: Loading editor; pre map load, took 41.193
+[2020.11.10-16.45.50:713][  0]Cmd: MAP LOAD FILE="../../../../../PPP/MyProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.10-16.45.50:781][  0]LightingResults: New page: Lighting Build
+[2020.11.10-16.45.50:872][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.10-16.45.50:896][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.10-16.45.50:917][  0]MapCheck: New page: Map Check
+[2020.11.10-16.45.50:917][  0]LightingResults: New page: Lighting Build
+[2020.11.10-16.45.51:148][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012EA90CBC00), frame # 0
+[2020.11.10-16.45.51:148][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012EA90D3B00), frame # 0
+[2020.11.10-16.45.51:149][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.11.10-16.45.52:544][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.10-16.45.52:544][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012E9B917000), frame # 0
+[2020.11.10-16.45.52:544][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012E9B911A80), frame # 0
+[2020.11.10-16.45.52:823][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.10-16.45.52:902][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.11.10-16.45.52:902][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.10-16.45.52:904][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,145ms to complete.
+[2020.11.10-16.45.52:904][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.193
+[2020.11.10-16.45.53:515][  0]LogUnrealEdMisc: Total Editor Startup Time, took 44.006
+[2020.11.10-16.45.53:980][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.10-16.45.53:987][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.10-16.45.53:994][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.10-16.45.54:000][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.10-16.45.54:159][  0]LogCollectionManager: Loaded 0 collections in 0.000687 seconds
+[2020.11.10-16.45.54:365][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/MyProject/Saved/Collections/' took 0.00s
+[2020.11.10-16.45.54:365][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/MyProject/Content/Developers/simon/Collections/' took 0.00s
+[2020.11.10-16.45.54:365][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/MyProject/Content/Collections/' took 0.00s
+[2020.11.10-16.45.54:365][  0]LogContentBrowser: Native class hierarchy populated in 0.0313 seconds. Added 3432 classes and 823 folders.
+[2020.11.10-16.45.54:402][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.10-16.45.55:158][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.10-16.45.56:548][  0]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.45.56:608][  0]LogSlate: Took 0.019449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.10-16.45.56:661][  0]LogSlate: Took 0.009370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.10-16.45.56:725][  0]LogSlate: Took 0.016187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.10-16.45.56:994][  0]LogRenderer: Reallocating scene render targets to support 1280x924 Format 10 NumSamples 1 (Frame:1).
+[2020.11.10-16.45.57:403][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.10-16.45.57:403][  0]LogLoad: (Engine Initialization) Total time: 47.89 seconds
+[2020.11.10-16.45.57:403][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.10-16.45.57:519][  0]LogAssetRegistry: Asset discovery search completed in 30.9425 seconds
+[2020.11.10-16.45.57:523][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2020.11.10-16.45.57:617][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2020.11.10-16.45.57:730][  0]LogSlate: Took 0.039195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.10-16.45.58:702][  4]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.45.58:703][  4]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.45.58:703][  4]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.45.58:844][  4]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.10-16.45.58:877][  5]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.00:719][ 10]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.00:719][ 10]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.00:719][ 10]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.00:849][ 10]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.02:635][ 16]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.02:635][ 16]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.02:635][ 16]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.02:858][ 16]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.04:749][ 22]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.04:749][ 22]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.04:749][ 22]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.04:878][ 22]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.06:665][ 28]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.06:665][ 28]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.06:665][ 28]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.06:890][ 28]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.08:783][ 34]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.08:783][ 34]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.08:784][ 34]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.08:911][ 34]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.10:797][117]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.10:798][117]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.10:798][117]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.10:813][119]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.12:914][333]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.12:914][333]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.12:914][333]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.12:929][335]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.13:272][336]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Level01.Level01
+[2020.11.10-16.46.13:291][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.11.10-16.46.13:292][336]Cmd: MAP LOAD FILE="../../../../../PPP/MyProject/Content/Levels/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.10-16.46.13:292][336]LightingResults: New page: Lighting Build
+[2020.11.10-16.46.13:292][336]LoadErrors: New page: Loading map: Level01.umap
+[2020.11.10-16.46.13:304][336]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.11.10-16.46.13:304][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.10-16.46.13:304][336]MapCheck: New page: Map Check
+[2020.11.10-16.46.13:304][336]LightingResults: New page: Lighting Build
+[2020.11.10-16.46.13:364][336]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012E9B917000), frame # 336
+[2020.11.10-16.46.13:364][336]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012E9B911A80), frame # 336
+[2020.11.10-16.46.13:364][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.11.10-16.46.13:588][336]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.10-16.46.13:588][336]LogAIModule: Creating AISystem for world Level01
+[2020.11.10-16.46.13:588][336]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012EC9F44A00), frame # 336
+[2020.11.10-16.46.13:588][336]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012EE2947880), frame # 336
+[2020.11.10-16.46.13:597][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.11.10-16.46.13:612][336]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.10-16.46.13:612][336]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,068ms to complete.
+[2020.11.10-16.46.13:612][336]LogFileHelpers: Loading map 'Level01' took 0.321
+[2020.11.10-16.46.15:031][483]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.15:031][483]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.15:031][483]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.15:047][485]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.17:149][720]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.17:149][720]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.17:149][720]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.17:164][722]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.18:267][835]LogTemp: Repeating last play command: Standalone Game
+[2020.11.10-16.46.18:325][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.11.10-16.46.19:363][925]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.19:363][925]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.19:363][925]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.19:381][927]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.21:781][ 78]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.21:781][ 78]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.21:781][ 78]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.21:963][ 78]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.23:797][ 84]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.23:797][ 84]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.23:797][ 84]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.23:968][ 84]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.25:813][ 90]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.25:813][ 90]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.25:813][ 90]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.25:979][ 90]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.27:829][ 96]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.27:829][ 96]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.27:829][ 96]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.27:986][ 96]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.29:846][102]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.29:846][102]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.29:846][102]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.29:989][102]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.31:862][108]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.31:862][108]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.31:862][108]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.32:007][108]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.33:879][114]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.33:879][114]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.33:879][114]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.34:037][114]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.35:898][120]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.35:898][120]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.35:898][120]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.36:046][120]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.37:916][126]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.37:916][126]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.37:916][126]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.38:058][126]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.39:934][132]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.39:934][132]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.39:934][132]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.40:064][132]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.41:851][138]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.41:851][138]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.41:851][138]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.42:068][138]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.43:866][144]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.43:866][144]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.43:866][144]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.44:081][144]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.45:883][150]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.45:883][150]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.45:884][150]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.46:086][150]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.47:901][156]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.47:901][156]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.47:901][156]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.48:091][156]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.49:918][162]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.49:918][162]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.49:918][162]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.50:095][162]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.51:936][168]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.51:936][168]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.51:936][168]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.52:105][168]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.53:954][174]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.53:954][174]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.53:954][174]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.54:122][174]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.55:971][180]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.55:971][180]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.55:971][180]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.56:138][180]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.46.57:992][186]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.46.57:992][186]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.46.57:992][186]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.46.58:150][186]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.00:022][192]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.00:024][192]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.00:024][192]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.00:166][192]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.02:052][198]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.02:052][198]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.02:055][198]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.02:178][198]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.04:072][204]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.04:072][204]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.04:072][204]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.04:199][204]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.05:990][210]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.05:990][210]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.05:990][210]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.06:213][210]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.08:112][216]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.08:112][216]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.08:112][216]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.08:237][216]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.10:032][222]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.10:032][222]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.10:032][222]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.10:252][222]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.12:063][228]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.12:063][228]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.12:063][228]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.12:262][228]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.14:084][234]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.14:084][234]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.14:084][234]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.14:287][234]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.16:101][240]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.16:101][240]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.16:101][240]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.16:303][240]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.18:121][246]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.18:121][246]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.18:121][246]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.18:308][246]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.20:141][252]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.20:141][252]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.20:141][252]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.20:322][252]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.22:158][258]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.22:158][258]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.22:159][258]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.22:338][258]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.24:174][264]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.24:174][264]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.24:174][264]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.24:348][264]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.26:192][270]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.26:192][270]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.26:192][270]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.26:363][270]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.28:209][276]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.28:209][276]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.28:209][276]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.28:371][276]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.30:225][282]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.30:226][282]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.30:226][282]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.30:378][282]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.31:065][284]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.11.10-16.47.31:068][284]Candidate modules for hot reload:
+[2020.11.10-16.47.31:068][284]  MyProject
+[2020.11.10-16.47.31:069][284]Launching UnrealBuildTool... [D:/games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,1076 MyProjectEditor Win64 Development -Project="D:/PPP/MyProject/MyProject.uproject" "D:/PPP/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2020.11.10-16.47.31:073][284]Warning: Starting HotReload took  0.0s.
+[2020.11.10-16.47.32:241][386]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.32:242][386]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.32:242][386]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.32:257][388]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.34:357][610]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.34:357][610]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.34:357][610]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.34:372][612]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.36:776][846]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.36:777][846]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.36:777][846]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.37:000][846]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.38:793][852]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.10-16.47.38:793][852]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.10-16.47.38:793][852]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.10-16.47.38:995][852]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.10-16.47.39:823][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.11.10-16.47.39:867][946]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2020.11.10-16.47.39:868][946]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.10-16.47.40:301][947]Cmd: QUIT_EDITOR
+[2020.11.10-16.47.40:301][947]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.11.10-16.47.40:361][947]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.10-16.47.40:457][947]LogExit: Preparing to exit.
+[2020.11.10-16.47.40:648][947]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.10-16.47.40:663][947]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.10-16.47.40:714][947]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.10-16.47.40:714][947]LogExit: Editor shut down
+[2020.11.10-16.47.40:715][947]LogExit: Transaction tracking system shut down
+[2020.11.10-16.47.40:994][947]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000012EA2414340), frame # 1947
+[2020.11.10-16.47.40:994][947]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012EA54902C0), frame # 1947
+[2020.11.10-16.47.40:994][947]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012EA54B1C00), frame # 1947
+[2020.11.10-16.47.41:246][947]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012EE2947880), frame # 1947
+[2020.11.10-16.47.41:246][947]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012EC9F44A00), frame # 1947
+[2020.11.10-16.47.41:271][947]LogExit: Object subsystem successfully closed.
+[2020.11.10-16.47.41:286][947]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.10-16.47.41:834][947]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (794)
+[2020.11.10-16.47.41:834][947]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (792)
+[2020.11.10-16.47.41:834][947]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2020.11.10-16.47.41:849][947]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2020.11.10-16.47.41:849][947]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2020.11.10-16.47.41:849][947]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2020.11.10-16.47.41:849][947]LogModuleManager: Shutting down and abandoning module SceneOutliner (782)
+[2020.11.10-16.47.41:849][947]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2020.11.10-16.47.41:870][947]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2020.11.10-16.47.41:870][947]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2020.11.10-16.47.41:870][947]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2020.11.10-16.47.41:872][947]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2020.11.10-16.47.41:888][947]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2020.11.10-16.47.41:888][947]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2020.11.10-16.47.41:888][947]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2020.11.10-16.47.41:888][947]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2020.11.10-16.47.41:888][947]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2020.11.10-16.47.41:888][947]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2020.11.10-16.47.41:888][947]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2020.11.10-16.47.41:908][947]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2020.11.10-16.47.41:981][947]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2020.11.10-16.47.41:982][947]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2020.11.10-16.47.42:011][947]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2020.11.10-16.47.42:011][947]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2020.11.10-16.47.42:011][947]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2020.11.10-16.47.42:012][947]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2020.11.10-16.47.42:012][947]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2020.11.10-16.47.42:012][947]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2020.11.10-16.47.42:012][947]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2020.11.10-16.47.42:160][947]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2020.11.10-16.47.42:160][947]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2020.11.10-16.47.42:160][947]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2020.11.10-16.47.42:160][947]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2020.11.10-16.47.42:160][947]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2020.11.10-16.47.42:508][947]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2020.11.10-16.47.42:509][947]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2020.11.10-16.47.42:509][947]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2020.11.10-16.47.42:509][947]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2020.11.10-16.47.42:509][947]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2020.11.10-16.47.42:522][947]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2020.11.10-16.47.42:522][947]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2020.11.10-16.47.42:522][947]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2020.11.10-16.47.42:522][947]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2020.11.10-16.47.42:522][947]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2020.11.10-16.47.42:522][947]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2020.11.10-16.47.42:522][947]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2020.11.10-16.47.42:522][947]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2020.11.10-16.47.42:522][947]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2020.11.10-16.47.42:523][947]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2020.11.10-16.47.42:523][947]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2020.11.10-16.47.42:523][947]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2020.11.10-16.47.42:557][947]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2020.11.10-16.47.42:566][947]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2020.11.10-16.47.42:566][947]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2020.11.10-16.47.42:576][947]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2020.11.10-16.47.42:609][947]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2020.11.10-16.47.42:609][947]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2020.11.10-16.47.42:637][947]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2020.11.10-16.47.42:888][947]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2020.11.10-16.47.42:888][947]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2020.11.10-16.47.42:888][947]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2020.11.10-16.47.42:888][947]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2020.11.10-16.47.42:898][947]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2020.11.10-16.47.42:912][947]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2020.11.10-16.47.42:913][947]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2020.11.10-16.47.42:944][947]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2020.11.10-16.47.42:951][947]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2020.11.10-16.47.42:959][947]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2020.11.10-16.47.43:011][947]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2020.11.10-16.47.43:252][947]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2020.11.10-16.47.43:252][947]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2020.11.10-16.47.43:252][947]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2020.11.10-16.47.43:252][947]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2020.11.10-16.47.43:252][947]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2020.11.10-16.47.43:252][947]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2020.11.10-16.47.43:253][947]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2020.11.10-16.47.43:254][947]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2020.11.10-16.47.43:268][947]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2020.11.10-16.47.43:271][947]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2020.11.10-16.47.43:296][947]LogModuleManager: Shutting down and abandoning module MyProject (366)
+[2020.11.10-16.47.43:296][947]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.11.10-16.47.43:296][947]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.11.10-16.47.43:296][947]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.11.10-16.47.43:296][947]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.11.10-16.47.43:296][947]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.11.10-16.47.43:296][947]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.11.10-16.47.43:296][947]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.11.10-16.47.43:397][947]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.11.10-16.47.43:498][947]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.11.10-16.47.43:498][947]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.11.10-16.47.43:498][947]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.11.10-16.47.43:499][947]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.11.10-16.47.43:500][947]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.11.10-16.47.43:501][947]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.11.10-16.47.43:502][947]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.11.10-16.47.43:502][947]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.11.10-16.47.43:530][947]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.11.10-16.47.43:530][947]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.11.10-16.47.43:531][947]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.11.10-16.47.43:531][947]LogXGEController: Cleaning working directory: C:/Users/simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.11.10-16.47.43:532][947]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.11.10-16.47.43:533][947]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.11.10-16.47.43:534][947]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.11.10-16.47.43:537][947]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.11.10-16.47.43:537][947]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.11.10-16.47.43:537][947]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.11.10-16.47.43:537][947]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.11.10-16.47.43:538][947]LogHMD: Freeing OpenVRDLLHandle.
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.11.10-16.47.43:538][947]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.11.10-16.47.43:539][947]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.11.10-16.47.43:539][947]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.11.10-16.47.43:543][947]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.11.10-16.47.43:543][947]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.11.10-16.47.43:543][947]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82CCB10A-407F-87A1-9269-998B46ED66A5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=9802364344367be72cedb48aa9669453%7C6d19935f1d0e4732b61e0f6b4f91b612%7C3418914e-a4a8-4df0-805b-c85dc56f1dff&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.11.10-16.47.43:552][947]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.11.10-16.47.43:552][947]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.11.10-16.47.43:553][947]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.11.10-16.47.43:554][947]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.11.10-16.47.43:555][947]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.11.10-16.47.43:555][947]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.11.10-16.47.43:556][947]LogD3D11RHI: Shutdown
+[2020.11.10-16.47.43:556][947]LogD3D11RHI: CleanupD3DDevice
+[2020.11.10-16.47.43:563][947]LogExit: Exiting.
+[2020.11.10-16.47.43:605][947]Log file closed, 11/10/20 17:47:43
