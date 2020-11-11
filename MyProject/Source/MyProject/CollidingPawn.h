@@ -15,62 +15,20 @@ class MYPROJECT_API ACollidingPawn : public APawn
 public:
 	// Sets default values for this pawn's properties
 
+	//particle system
 	UPROPERTY()
 		class UParticleSystemComponent* OurParticleSystem;
 
+	//custom movementComponent
 	UPROPERTY()
 		class UCollidingPawnMovementComponent* OurMovementComponent;
 
+	//properties for the player
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed")
 		float MovementSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 		float Health;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		float FullHealth;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		float HealthPercentage;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		float PreviousHealth;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		bool TakingDamage;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		UCurveFloat* HealthCurve;
-
-	UPROPERTY(EditAnywhere, Category = "Health")
-		FTimeline MyTimeline;
-
-	float CurveFloatValue;
-	float TimelineValue;
-	bool bCanUseMagic1;
-	bool bCanUseMagic2;
-	bool bCanUseMagic3;
-
-	//UFUNCTION(BlueprintPure, Category = "Health")
-	//	float GetHealth();
-
-	//UFUNCTION(BlueprintPure, Category = "Health")
-	//	float GetHealthInText();
-
-	//UFUNCTION()
-	//	void SetHealthState();
-
-	////UFUNCTION(BlueprintPure, Category = "Health")
-	////	void PlayTakingDamage();
-
-	//UFUNCTION()
-	//	void recievePointDamage(float Damage, const UDamageType* DamageType, FVector HitLocation, FVector Hitnormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController* InstigatedBy, AActor* DamagaCauser, const FHitResult & HitInfo);
-
-	//UFUNCTION(BlueprintCallable, Category = "Health")
-	//	void UpdateHealth(float HealthChange);
-
-	//UFUNCTION(BlueprintCallable, Category = "MovementSpeed")
-	//	void UpdateMovementSpeed(float HealthChange);
 
 	ACollidingPawn();
 

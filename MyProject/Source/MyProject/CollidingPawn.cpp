@@ -15,11 +15,6 @@ ACollidingPawn::ACollidingPawn()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-    //setting up the default values of the character and the callback functions
-    FullHealth = 100.f;
-    Health = FullHealth;
-    HealthPercentage = 1.f;
-
     MovementSpeed = 3.f;
 
     // Create and position a mesh component so we can see where our sphere is
@@ -47,6 +42,18 @@ ACollidingPawn::ACollidingPawn()
     OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("GameCamera"));
     OurCamera->SetupAttachment(OurCameraSpringArm, USpringArmComponent::SocketName);
 
+
+    // Create a particle system that we can activate or deactivate
+    OurParticleSystem = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("MovementParticles"));
+    OurParticleSystem->SetupAttachment(SphereVisual);
+    OurParticleSystem->bAutoActivate = false;
+    OurParticleSystem->SetRelativeLocation(FVector(-20.0f, 0.0f, 20.0f));
+    static ConstructorHelpers::FObjectFinder<UParticleSystem> ParticleAsset(TEXT("/Game/StarterContent/Particles/P_Fire.P_Fire"));
+    if (ParticleAsset.Succeeded())
+    {
+        OurParticleSystem->SetTemplate(ParticleAsset.Object);
+    }
+
     // Take control of the default player
     AutoPossessPlayer = EAutoReceiveInput::Player0;
 }
@@ -56,24 +63,12 @@ void ACollidingPawn::BeginPlay()
 {
 	Super::BeginPlay();
     
-    if (HealthCurve) {
-        FOnTimelineFloat TimelineCallback;
-        FOnTimelineEventStatic TimelineFinishedCallback;
-
-        TimelineCallback.BindUFunction(this, FName("SetHealthValue"));
-        TimelineFinishedCallback.BindUFunction(this, FName("SetHealthState"));
-        MyTimeline.AddInterpFloat(HealthCurve, TimelineCallback);
-        MyTimeline.SetTimelineFinishedFunc(TimelineFinishedCallback);
-    }
 }
 
 // Called every frame
 void ACollidingPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-    //setting the timeline to the tick
-    MyTimeline.TickTimeline(DeltaTime);
 
 
     //Rotate our actor's yaw, which will turn our camera because we're attached to it
@@ -109,9 +104,10 @@ void ACollidingPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-    //PlayerInputComponent->BindAction("Ability1", this, &ACollidingPawn::Ability1);
-    //PlayerInputComponent->BindAction("Ability2", this, &ACollidingPawn::Ability2);
-    //PlayerInputComponent->BindAction("Ability3", this, &ACollidingPawn::Ability3);
+    PlayerInputComponent->BindAction("Ability1", IE_Pressed, this, &ACollidingPawn::Ability1);
+    PlayerInputComponent->BindAction("Ability2", IE_Pressed, this, &ACollidingPawn::Ability2);
+    PlayerInputComponent->BindAction("Ability3", IE_Pressed, this, &ACollidingPawn::Ability3);
+
 
     //Hook up every-frame handling for our four axes
     PlayerInputComponent->BindAxis("MoveForward", this, &ACollidingPawn::MoveForward);
@@ -149,13 +145,22 @@ void ACollidingPawn::YawCamera(float AxisValue)
 }
 
 void ACollidingPawn::Ability1() {
-
+    if (OurParticleSystem && OurParticleSystem->Template)
+    {
+        OurParticleSystem->ToggleActive();
+    }
 }
 
 void ACollidingPawn::Ability2() {
-
+    if (OurParticleSystem && OurParticleSystem->Template)
+    {
+        OurParticleSystem->ToggleActive();
+    }
 }
 
 void ACollidingPawn::Ability3() {
-
+    if (OurParticleSystem && OurParticleSystem->Template)
+    {
+        OurParticleSystem->ToggleActive();
+    }
 }

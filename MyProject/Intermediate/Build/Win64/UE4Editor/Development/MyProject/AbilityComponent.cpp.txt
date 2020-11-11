@@ -1,0 +1,3 @@
+D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
+D:\PPP\MyProject\Source\MyProject\AbilityComponent.h
+D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\AbilityComponent.generated.h

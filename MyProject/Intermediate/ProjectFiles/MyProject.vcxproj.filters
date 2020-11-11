@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{66E09FE6-532A-42F0-8CF7-994A67D1B8D0}</UniqueIdentifier>
+      <UniqueIdentifier>{9D1A7103-AC34-4151-996C-1707CDAB4E3B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{10647544-A298-492E-97BC-EE8D8F9EF224}</UniqueIdentifier>
+      <UniqueIdentifier>{393516FC-5956-45CB-9561-F76AB258CC62}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyProject">
-      <UniqueIdentifier>{2CF781C7-4B89-49A2-8743-0D2D5AC37CC8}</UniqueIdentifier>
+      <UniqueIdentifier>{5A230F1D-F9E6-44F6-9069-85B6A0EC7E3D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyProject\AbilityComponent.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\AbilityComponent.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyProject\CollidingPawn.cpp">
       <Filter>Source\MyProject</Filter>
     </ClCompile>
@@ -39,6 +45,12 @@
       <Filter>Source\MyProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProject\CollidingPawnMovementComponent.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\HealthComponent.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\HealthComponent.h">
       <Filter>Source\MyProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\MyProject\MyPlayerController.cpp">
@@ -68,6 +80,5 @@
     <ClInclude Include="..\..\Source\MyProject\TestActor.h">
       <Filter>Source\MyProject</Filter>
     </ClInclude>
-    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
