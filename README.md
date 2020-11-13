@@ -28,4 +28,4 @@ _opsomming van de deliverables_
 - eindresultaat broncode
 
 ## Url naar je blog
-https://simonsblog240925458.wordpress.com/
+https://simoneu4.wordpress.com/
