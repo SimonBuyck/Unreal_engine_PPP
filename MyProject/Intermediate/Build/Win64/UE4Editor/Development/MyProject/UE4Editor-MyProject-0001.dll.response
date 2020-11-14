@@ -34,6 +34,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "D:\PPP\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\CooldownComponent.cpp.obj"
 "D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\AbilityComponent.cpp.obj"
 "D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\CollidingPawn.cpp.obj"
 "D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\CollidingPawnMovementComponent.cpp.obj"
@@ -45,6 +46,7 @@
 "D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\AbilityComponent.gen.cpp.obj"
 "D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\CollidingPawn.gen.cpp.obj"
 "D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\CollidingPawnMovementComponent.gen.cpp.obj"
+"D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\CooldownComponent.gen.cpp.obj"
 "D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\HealthComponent.gen.cpp.obj"
 "D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyPlayerController.gen.cpp.obj"
 "D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProject.init.gen.cpp.obj"
