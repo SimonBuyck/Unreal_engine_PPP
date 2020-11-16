@@ -4,7 +4,35 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+
+#include "Engine/DataTable.h"
+
 #include "AbilityComponent.generated.h"
+
+
+
+USTRUCT(BlueprintType)
+struct FAbilities : public FTableRowBase {
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
+		int rarity = 1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
+		FString name = "De naam";
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
+		FString category = "category";
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
+		float Points = 10.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
+		float Cooldown;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability ")
+		FString description = "De beschrijving van de ability";
+};
 
 UCLASS()
 class MYPROJECT_API AAbilityComponent : public AActor
@@ -14,20 +42,8 @@ class MYPROJECT_API AAbilityComponent : public AActor
 public:	
 	// Sets default values for this actor's properties
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
-		int rarity = 1;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
-		FString name = "De naam";
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
-		int category;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
-		float points = 10.f;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability ")
-		FString description = "De beschrijving van de ability";
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "DataTable")
+		class UDataTable* AbilityData;
 
 	AAbilityComponent();
 

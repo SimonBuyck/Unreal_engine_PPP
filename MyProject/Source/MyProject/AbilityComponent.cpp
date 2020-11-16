@@ -9,6 +9,11 @@ AAbilityComponent::AAbilityComponent()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//load data table
+	static ConstructorHelpers::FObjectFinder<UDataTable> AbilityDataObject(TEXT("DataTable'/Game/Assets/Abilities.Abilities'"));
+	if (AbilityDataObject.Succeeded()) {
+
+	}
 }
 
 // Called when the game starts or when spawned

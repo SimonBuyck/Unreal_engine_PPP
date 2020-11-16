@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9D1A7103-AC34-4151-996C-1707CDAB4E3B}</UniqueIdentifier>
+      <UniqueIdentifier>{A00CA03C-7816-4645-8559-0F676B26C476}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{393516FC-5956-45CB-9561-F76AB258CC62}</UniqueIdentifier>
+      <UniqueIdentifier>{889C29EC-FD50-4F33-8EE1-39736C012FEA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyProject">
-      <UniqueIdentifier>{5A230F1D-F9E6-44F6-9069-85B6A0EC7E3D}</UniqueIdentifier>
+      <UniqueIdentifier>{C72EFED0-216F-41B8-85FE-8B0AE8B1F80D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyProject\AbilityComponent.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\AbilityComponent.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyProject\CollidingPawn.cpp">
       <Filter>Source\MyProject</Filter>
     </ClCompile>
