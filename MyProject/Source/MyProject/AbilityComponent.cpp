@@ -12,7 +12,7 @@ AAbilityComponent::AAbilityComponent()
 	//load data table
 	static ConstructorHelpers::FObjectFinder<UDataTable> AbilityDataObject(TEXT("DataTable'/Game/Assets/Abilities.Abilities'"));
 	if (AbilityDataObject.Succeeded()) {
-
+		AbilityDataTable = AbilityDataObject.Object;
 	}
 }
 
@@ -20,6 +20,14 @@ AAbilityComponent::AAbilityComponent()
 void AAbilityComponent::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (AbilityDataTable) {
+		static const FString ContextString(TEXT("Abilitie context"));
+		FAbilities* Abilities = AbilityDataTable->FindRow<FAbilities>(1, ContextString, true);
+		if (Abilities) {
+			category = Abilities->category;
+		}
+	}
 
 }
 
