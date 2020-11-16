@@ -27,8 +27,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed")
 		float MovementSpeed;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		float Health;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
+		TArray<int32> Inventory;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
+		int CastingAbility;
 
 	ACollidingPawn();
 
@@ -43,6 +46,8 @@ protected:
 		//Input variables
 		FVector2D MovementInput;
 		FVector2D CameraInput;
+
+		TArray<int32> IntArray;
 
 		//Input functions
 		void MoveForward(float AxisValue);
@@ -60,6 +65,8 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	void CheckInventory(int index);
 
 	virtual UPawnMovementComponent* GetMovementComponent() const override;
 

@@ -17,6 +17,9 @@ ACollidingPawn::ACollidingPawn()
 
     MovementSpeed = 3.f;
 
+    //setting the size of the inventory
+    Inventory.SetNum(3);
+
     // Create and position a mesh component so we can see where our sphere is
     UStaticMeshComponent* SphereVisual = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisualRepresentation"));
     SphereVisual->SetupAttachment(RootComponent);
@@ -41,18 +44,6 @@ ACollidingPawn::ACollidingPawn()
     //creating the player camera
     OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("GameCamera"));
     OurCamera->SetupAttachment(OurCameraSpringArm, USpringArmComponent::SocketName);
-
-
-    // Create a particle system that we can activate or deactivate
-    OurParticleSystem = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("MovementParticles"));
-    OurParticleSystem->SetupAttachment(SphereVisual);
-    OurParticleSystem->bAutoActivate = false;
-    OurParticleSystem->SetRelativeLocation(FVector(-20.0f, 0.0f, 20.0f));
-    static ConstructorHelpers::FObjectFinder<UParticleSystem> ParticleAsset(TEXT("/Game/StarterContent/Particles/P_Fire.P_Fire"));
-    if (ParticleAsset.Succeeded())
-    {
-        OurParticleSystem->SetTemplate(ParticleAsset.Object);
-    }
 
     // Take control of the default player
     AutoPossessPlayer = EAutoReceiveInput::Player0;
@@ -145,22 +136,20 @@ void ACollidingPawn::YawCamera(float AxisValue)
 }
 
 void ACollidingPawn::Ability1() {
-    if (OurParticleSystem && OurParticleSystem->Template)
-    {
-        OurParticleSystem->ToggleActive();
-    }
+    CheckInventory(0);
 }
 
 void ACollidingPawn::Ability2() {
-    if (OurParticleSystem && OurParticleSystem->Template)
-    {
-        OurParticleSystem->ToggleActive();
-    }
+    CheckInventory(1);
 }
 
 void ACollidingPawn::Ability3() {
-    if (OurParticleSystem && OurParticleSystem->Template)
-    {
-        OurParticleSystem->ToggleActive();
+    CheckInventory(2);
+}
+
+void ACollidingPawn::CheckInventory(int index) {
+    if (Inventory[index] != 0) {
+        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Ability Casted!"));
     }
+
 }

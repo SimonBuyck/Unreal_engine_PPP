@@ -10,9 +10,21 @@ AAbilityComponent::AAbilityComponent()
 	PrimaryActorTick.bCanEverTick = true;
 
 	//load data table
-	static ConstructorHelpers::FObjectFinder<UDataTable> AbilityDataObject(TEXT("DataTable'/Game/Assets/Abilities.Abilities'"));
+	static ConstructorHelpers::FObjectFinder<UDataTable> AbilityDataObject(TEXT("DataTable'/Game/Assets/DataTables/Abilities.Abilities'"));
 	if (AbilityDataObject.Succeeded()) {
 		AbilityDataTable = AbilityDataObject.Object;
+		if (AbilityDataTable) {
+			static const FString ContextString(TEXT("Abilitie context"));
+			FAbilities* Abilities = AbilityDataTable->FindRow<FAbilities>(FName(TEXT("15")), ContextString, true);
+			if (Abilities) {
+				rarity = Abilities->rarity;
+				category = Abilities->category;
+				name = Abilities->name;
+				Points = Abilities->Points;
+				Cooldown = Abilities->Cooldown;
+				description = Abilities->description;
+			}
+		}
 	}
 }
 
@@ -21,12 +33,17 @@ void AAbilityComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (AbilityDataTable) {
-		static const FString ContextString(TEXT("Abilitie context"));
-		FAbilities* Abilities = AbilityDataTable->FindRow<FAbilities>(1, ContextString, true);
-		if (Abilities) {
-			category = Abilities->category;
-		}
+	if (category == "movement speed") {
+
+	}
+	else if (category == "shield") {
+
+	}
+	else  if (category == "healing") {
+
+	}
+	else {
+
 	}
 
 }
