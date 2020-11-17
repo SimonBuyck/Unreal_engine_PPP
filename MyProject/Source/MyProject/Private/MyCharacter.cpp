@@ -19,18 +19,10 @@ AMyCharacter::AMyCharacter()
 
     //creating a spring arm
     OurCameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraSpringArm"));
-    OurCameraSpringArm->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, 150.0f), FRotator(-40.0f, 0.0f, 0.0f));
-    OurCameraSpringArm->TargetArmLength = 400.f;
+    OurCameraSpringArm->SetRelativeLocationAndRotation(FVector(0.0f, 25.0f, 150.0f), FRotator(-5.0f, 0.0f, 0.0f));
+    OurCameraSpringArm->TargetArmLength = 50.f;
 
-    //OurCameraSpringArm->bInheritPitch = true; // This inherits the pitch rotation from the parent of the camera boom.
-    //OurCameraSpringArm->bInheritYaw = true; // This inherits the yaw rotation from the parent of the camera boom.
-    //OurCameraSpringArm->bInheritRoll = true; // This inherits the roll rotation from the parent of the camera boom.
-
-    //OurCameraSpringArm->bUseControllerViewRotation = true;
-
-    //OurCameraSpringArm->bAbsoluteRotation = false;
-
-    //creating the player camera
+    //creating the player camerad
     OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("GameCamera"));
     OurCamera->SetupAttachment(OurCameraSpringArm, USpringArmComponent::SocketName);
 
@@ -66,7 +58,6 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
     //Hook up every-frame handling for our four axes
     PlayerInputComponent->BindAxis("MoveForward", this, &AMyCharacter::MoveForward);
     PlayerInputComponent->BindAxis("MoveRight", this, &AMyCharacter::MoveRight);
-    //PlayerInputComponent->BindAxis("CameraPitch", this, &AMyCharacter::PitchCamera);
     PlayerInputComponent->BindAxis("CameraYaw", this, &AMyCharacter::YawCamera);
 }
 

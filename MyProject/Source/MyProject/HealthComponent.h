@@ -26,6 +26,8 @@ protected:
 	UPROPERTY(BlueprintReadOnly)
 		float Health;
 
+	AActor* Owner = GetOwner();
+
 	UFUNCTION()
 		void TakeDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* instigatedBy, AActor* DamageCauser);
 };
