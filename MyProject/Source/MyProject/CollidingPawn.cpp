@@ -40,6 +40,7 @@ ACollidingPawn::ACollidingPawn()
     OurCameraSpringArm->SetupAttachment(RootComponent);
     OurCameraSpringArm->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, 50.0f), FRotator(-60.0f, 0.0f, 0.0f));
     OurCameraSpringArm->TargetArmLength = 400.f;
+    OurCameraSpringArm->AddLocalOffset(FVector(200.0f));
 
     //creating the player camera
     OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("GameCamera"));
@@ -109,11 +110,6 @@ void ACollidingPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 }
 
-UPawnMovementComponent* ACollidingPawn::GetMovementComponent() const
-{
-    return OurMovementComponent;
-}
-
 //Input functions
 void ACollidingPawn::MoveForward(float AxisValue)
 {
@@ -137,19 +133,22 @@ void ACollidingPawn::YawCamera(float AxisValue)
 
 void ACollidingPawn::Ability1() {
     CheckInventory(0);
+    CastingAbility = 1;
 }
 
 void ACollidingPawn::Ability2() {
     CheckInventory(1);
+    CastingAbility = 2;
 }
 
 void ACollidingPawn::Ability3() {
     CheckInventory(2);
+    CastingAbility = 3;
 }
 
 void ACollidingPawn::CheckInventory(int index) {
-    if (Inventory[index] != 0) {
-        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Ability Casted!"));
-    }
-
+    //if (Inventory[index] != 0) {
+    //    GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Ability Casted!"));
+    //}
+    GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Ability Casted!"));
 }

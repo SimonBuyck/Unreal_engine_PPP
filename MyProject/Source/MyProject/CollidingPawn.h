@@ -67,7 +67,4 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void CheckInventory(int index);
-
-	virtual UPawnMovementComponent* GetMovementComponent() const override;
-
 };

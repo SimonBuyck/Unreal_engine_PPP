@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A00CA03C-7816-4645-8559-0F676B26C476}</UniqueIdentifier>
+      <UniqueIdentifier>{5E3A9D39-3A04-4E94-991C-F97E0FFFF9B0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{889C29EC-FD50-4F33-8EE1-39736C012FEA}</UniqueIdentifier>
+      <UniqueIdentifier>{8272AE31-38B3-4AE4-BDFE-F3DABC493CB6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyProject">
-      <UniqueIdentifier>{C72EFED0-216F-41B8-85FE-8B0AE8B1F80D}</UniqueIdentifier>
+      <UniqueIdentifier>{F69960FD-34EB-4298-A144-E3DC4C9FF798}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyProject\AbilityComponent.cpp">
       <Filter>Source\MyProject</Filter>
@@ -79,6 +79,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProject\TestActor.h">
       <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyProject\Private">
+      <UniqueIdentifier>{67938360-BF5B-4D74-8CB9-7B681785956A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Private\MyCharacter.cpp">
+      <Filter>Source\MyProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MyProject\Public">
+      <UniqueIdentifier>{671A5080-992B-43A3-89D8-948E34849383}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyProject\Public\MyCharacter.h">
+      <Filter>Source\MyProject\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
