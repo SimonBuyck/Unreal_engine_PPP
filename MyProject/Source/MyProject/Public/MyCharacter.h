@@ -27,6 +27,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
 		float Sensitivity = 5;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
+	TSubclassOf<AActor> Ability;
+
 	AMyCharacter();
 
 protected:
@@ -46,6 +49,9 @@ protected:
 	void Ability1();
 	void Ability2();
 	void Ability3();
+
+	UFUNCTION()
+		void SpawnAbility(FVector Loc, FRotator Rot);
 
 	FVector CurrentVelocity;
 

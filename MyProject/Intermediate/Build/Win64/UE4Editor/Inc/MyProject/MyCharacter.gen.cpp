@@ -17,10 +17,64 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	MYPROJECT_API UClass* Z_Construct_UClass_AMyCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_MyProject();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AMyCharacter::execSpawnAbility)
+	{
+		P_GET_STRUCT(FVector,Z_Param_Loc);
+		P_GET_STRUCT(FRotator,Z_Param_Rot);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SpawnAbility(Z_Param_Loc,Z_Param_Rot);
+		P_NATIVE_END;
+	}
 	void AMyCharacter::StaticRegisterNativesAMyCharacter()
 	{
+		UClass* Class = AMyCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "SpawnAbility", &AMyCharacter::execSpawnAbility },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics
+	{
+		struct MyCharacter_eventSpawnAbility_Parms
+		{
+			FVector Loc;
+			FRotator Rot;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Rot;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Loc;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::NewProp_Rot = { "Rot", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacter_eventSpawnAbility_Parms, Rot), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::NewProp_Loc = { "Loc", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacter_eventSpawnAbility_Parms, Loc), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::NewProp_Rot,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::NewProp_Loc,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, nullptr, "SpawnAbility", nullptr, nullptr, sizeof(MyCharacter_eventSpawnAbility_Parms), Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00880401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyCharacter_SpawnAbility()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AMyCharacter_NoRegister()
 	{
@@ -29,6 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	struct Z_Construct_UClass_AMyCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -36,6 +91,10 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OurCameraSpringArm_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OurCameraSpringArm;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Ability_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Ability;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Sensitivity_MetaData[];
 #endif
@@ -61,6 +120,9 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProject,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AMyCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMyCharacter_SpawnAbility, "SpawnAbility" }, // 949758893
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -76,6 +138,13 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_OurCameraSpringArm = { "OurCameraSpringArm", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, OurCameraSpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_OurCameraSpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_OurCameraSpringArm_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability_MetaData[] = {
+		{ "Category", "Spawning" },
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability = { "Ability", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, Ability), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_Sensitivity_MetaData[] = {
 		{ "Category", "Inventory" },
@@ -109,6 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, MovementSpeed), METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_MovementSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_MovementSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_OurCameraSpringArm,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Sensitivity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastingAbility,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Inventory,
@@ -123,11 +193,11 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AMyCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -142,7 +212,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacter, 2018323960);
+	IMPLEMENT_CLASS(AMyCharacter, 1861050988);
 	template<> MYPROJECT_API UClass* StaticClass<AMyCharacter>()
 	{
 		return AMyCharacter::StaticClass();

@@ -8,14 +8,24 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
+struct FRotator;
 #ifdef MYPROJECT_MyCharacter_generated_h
 #error "MyCharacter.generated.h already included, missing '#pragma once' in MyCharacter.h"
 #endif
 #define MYPROJECT_MyCharacter_generated_h
 
 #define MyProject_Source_MyProject_Public_MyCharacter_h_12_SPARSE_DATA
-#define MyProject_Source_MyProject_Public_MyCharacter_h_12_RPC_WRAPPERS
-#define MyProject_Source_MyProject_Public_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define MyProject_Source_MyProject_Public_MyCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSpawnAbility);
+
+
+#define MyProject_Source_MyProject_Public_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSpawnAbility);
+
+
 #define MyProject_Source_MyProject_Public_MyCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \

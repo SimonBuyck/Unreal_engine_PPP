@@ -104,10 +104,17 @@ void AMyCharacter::Ability3() {
     CastingAbility = 3;
 }
 
+void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
+{
+    FActorSpawnParameters SpawnParams;
+    AActor* SpawnedActorRef = GetWorld()->SpawnActor<AActor>(Ability, Loc, Rot, SpawnParams);
+}
+
 void AMyCharacter::CheckInventory(int index) {
-    //if (Inventory[index] != 0) {
-    //    GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Ability Casted!"));
-    //}
-    GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Ability Casted!"));
+    if (Inventory[index] != 0) {
+        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Ability Casted!"));
+        GEngine->AddOnScreenDebugMessage(-10, 1.f, FColor::Yellow, FString::Printf(TEXT("itemIndex: %i"), Inventory[index]));
+        SpawnAbility(GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation(), GetControlRotation());
+    }
 }
 
