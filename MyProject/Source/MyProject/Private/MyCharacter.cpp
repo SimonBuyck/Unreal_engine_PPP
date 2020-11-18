@@ -6,6 +6,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/CapsuleComponent.h"
 
+
+
 // Sets default values
 AMyCharacter::AMyCharacter()
 {
@@ -79,29 +81,26 @@ void AMyCharacter::MoveRight(float AxisValue)
     AddMovementInput(Direction, AxisValue);
 }
 
-//void AMyCharacter::PitchCamera(float AxisValue)
-//{
-//    AddControllerPitchInput(AxisValue);
-//}
-
 void AMyCharacter::YawCamera(float AxisValue)
 {
+
+    //need to add a sensitivity
     AddControllerYawInput(AxisValue);
 }
 
 void AMyCharacter::Ability1() {
     CheckInventory(0);
-    CastingAbility = 1;
+    CastedAbility = 1;
 }
 
 void AMyCharacter::Ability2() {
     CheckInventory(1);
-    CastingAbility = 2;
+    CastedAbility = 2;
 }
 
 void AMyCharacter::Ability3() {
     CheckInventory(2);
-    CastingAbility = 3;
+    CastedAbility = 3;
 }
 
 void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
@@ -113,8 +112,12 @@ void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
 void AMyCharacter::CheckInventory(int index) {
     if (Inventory[index] != 0) {
         GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Ability Casted!"));
-        GEngine->AddOnScreenDebugMessage(-10, 1.f, FColor::Yellow, FString::Printf(TEXT("itemIndex: %i"), Inventory[index]));
         SpawnAbility(GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation(), GetControlRotation());
     }
+}
+
+int AMyCharacter::GetCastedAbility()
+{
+    return CastedAbility;
 }
 

@@ -1,11 +1,28 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\PPP).
+  Parsing headers for MyProjectEditor
+    Running UnrealHeaderTool "D:\PPP\MyProject\MyProject.uproject" "D:\PPP\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\simon\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for MyProjectEditor in 5,4991157 seconds
+  Deleted hot-reload file: D:\PPP\MyProject\Binaries\Win64\UE4Editor-MyProject-0004.dll
+  Deleted hot-reload file: D:\PPP\MyProject\Binaries\Win64\UE4Editor-MyProject-0005.dll
+  Deleted hot-reload file: D:\PPP\MyProject\Binaries\Win64\UE4Editor-MyProject-0010.dll
+  Deleted hot-reload file: D:\PPP\MyProject\Binaries\Win64\UE4Editor-MyProject-0012.dll
+  Deleted hot-reload file: D:\PPP\MyProject\Binaries\Win64\UE4Editor-MyProject-0041.dll
+  Deleted hot-reload file: D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0004.lib
+  Deleted hot-reload file: D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0005.lib
+  Deleted hot-reload file: D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0010.lib
+  Deleted hot-reload file: D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0012.lib
+  Deleted hot-reload file: D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0041.lib
   Building MyProjectEditor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 4 processes...
-    [1/3] UE4Editor-MyProject-0041.lib
-       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0041.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0041.exp
-    [2/3] UE4Editor-MyProject-0041.dll
-       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0041.suppressed.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0041.suppressed.exp
-    [3/3] MyProjectEditor.target
-  Total time in Parallel executor: 1,35 seconds
-  Total execution time: 2,16 seconds
+  Building 7 actions with 4 processes...
+    [1/7] MyCharacter.gen.cpp
+    [2/7] AbilityComponent.gen.cpp
+    [3/7] AbilityComponent.cpp
+    [4/7] MyCharacter.cpp
+    [5/7] UE4Editor-MyProject.lib
+       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.exp
+    [6/7] UE4Editor-MyProject.dll
+       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.suppressed.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.suppressed.exp
+    [7/7] MyProjectEditor.target
+  Total time in Parallel executor: 6,04 seconds
+  Total execution time: 12,82 seconds

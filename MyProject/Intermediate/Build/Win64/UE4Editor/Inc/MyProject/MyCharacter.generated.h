@@ -18,12 +18,14 @@ struct FRotator;
 #define MyProject_Source_MyProject_Public_MyCharacter_h_12_SPARSE_DATA
 #define MyProject_Source_MyProject_Public_MyCharacter_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execSpawnAbility);
+	DECLARE_FUNCTION(execSpawnAbility); \
+	DECLARE_FUNCTION(execGetCastedAbility);
 
 
 #define MyProject_Source_MyProject_Public_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execSpawnAbility);
+	DECLARE_FUNCTION(execSpawnAbility); \
+	DECLARE_FUNCTION(execGetCastedAbility);
 
 
 #define MyProject_Source_MyProject_Public_MyCharacter_h_12_INCLASS_NO_PURE_DECLS \
@@ -69,7 +71,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 
 
 #define MyProject_Source_MyProject_Public_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__OurCameraSpringArm() { return STRUCT_OFFSET(AMyCharacter, OurCameraSpringArm); }
+	FORCEINLINE static uint32 __PPO__OurCameraSpringArm() { return STRUCT_OFFSET(AMyCharacter, OurCameraSpringArm); } \
+	FORCEINLINE static uint32 __PPO__CastedAbility() { return STRUCT_OFFSET(AMyCharacter, CastedAbility); }
 
 
 #define MyProject_Source_MyProject_Public_MyCharacter_h_9_PROLOG

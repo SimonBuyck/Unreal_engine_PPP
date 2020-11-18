@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-
+#include "MyCharacter.h"
 #include "Engine/DataTable.h"
 
 #include "AbilityComponent.generated.h"
@@ -73,4 +73,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability ")
 		FString description = "De beschrijving van de ability";
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "reference ")
+		int CastedAbility;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "reference")
+		AMyCharacter* MyCharacterInstance;
 };

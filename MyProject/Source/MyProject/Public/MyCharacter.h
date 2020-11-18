@@ -22,13 +22,13 @@ public:
 		TArray<int32> Inventory;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
-		int CastingAbility;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
 		float Sensitivity = 5;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
 	TSubclassOf<AActor> Ability;
+
+	UFUNCTION(BlueprintCallable)
+		int GetCastedAbility();
 
 	AMyCharacter();
 
@@ -43,7 +43,6 @@ protected:
 	//Input functions
 	void MoveForward(float AxisValue);
 	void MoveRight(float AxisValue);
-	void PitchCamera(float AxisValue);
 	void YawCamera(float AxisValue);
 
 	void Ability1();
@@ -52,6 +51,9 @@ protected:
 
 	UFUNCTION()
 		void SpawnAbility(FVector Loc, FRotator Rot);
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Inventory")
+		int CastedAbility = 30;
 
 	FVector CurrentVelocity;
 
