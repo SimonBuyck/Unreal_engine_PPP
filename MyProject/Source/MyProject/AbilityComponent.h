@@ -51,10 +51,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
+public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
 		int rarity = 1;
 
@@ -77,5 +74,10 @@ public:
 		int CastedAbility;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "reference")
-		AMyCharacter* MyCharacterInstance;
+		AMyCharacter* MyCharacter;
+
+	/* Handle to manage the timer */
+	FTimerHandle FuzeTimerHandle;
+
+	void OnCooldown();
 };

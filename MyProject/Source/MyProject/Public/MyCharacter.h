@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "MyCharacter.generated.h"
 
+
 UCLASS()
 class MYPROJECT_API AMyCharacter : public ACharacter
 {
@@ -27,8 +28,23 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
 	TSubclassOf<AActor> Ability;
 
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+		bool CanCast1 = true;
+
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+		bool CanCast2 = true;
+
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+		bool CanCast3 = true;
+
 	UFUNCTION(BlueprintCallable)
 		int GetCastedAbility();
+
+	UFUNCTION(BlueprintCallable)
+		float GetPlayerHealth();
+
+	UFUNCTION(BlueprintCallable)
+		float GetPlayerDefaultHealth();
 
 	AMyCharacter();
 
@@ -53,7 +69,7 @@ protected:
 		void SpawnAbility(FVector Loc, FRotator Rot);
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Inventory")
-		int CastedAbility = 30;
+		int CastedAbility;
 
 	FVector CurrentVelocity;
 

@@ -23,7 +23,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float DefaultHealth;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 		float Health;
 
 	AActor* Owner = GetOwner();

@@ -32,6 +32,20 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		P_THIS->SpawnAbility(Z_Param_Loc,Z_Param_Rot);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AMyCharacter::execGetPlayerDefaultHealth)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->GetPlayerDefaultHealth();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AMyCharacter::execGetPlayerHealth)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->GetPlayerHealth();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AMyCharacter::execGetCastedAbility)
 	{
 		P_FINISH;
@@ -44,6 +58,8 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		UClass* Class = AMyCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetCastedAbility", &AMyCharacter::execGetCastedAbility },
+			{ "GetPlayerDefaultHealth", &AMyCharacter::execGetPlayerDefaultHealth },
+			{ "GetPlayerHealth", &AMyCharacter::execGetPlayerHealth },
 			{ "SpawnAbility", &AMyCharacter::execSpawnAbility },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -77,6 +93,70 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacter_GetCastedAbility_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics
+	{
+		struct MyCharacter_eventGetPlayerDefaultHealth_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacter_eventGetPlayerDefaultHealth_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, nullptr, "GetPlayerDefaultHealth", nullptr, nullptr, sizeof(MyCharacter_eventGetPlayerDefaultHealth_Parms), Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics
+	{
+		struct MyCharacter_eventGetPlayerHealth_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacter_eventGetPlayerHealth_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, nullptr, "GetPlayerHealth", nullptr, nullptr, sizeof(MyCharacter_eventGetPlayerHealth_Parms), Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyCharacter_GetPlayerHealth()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacter_GetPlayerHealth_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -136,6 +216,21 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OurCameraSpringArm;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CanCast3_MetaData[];
+#endif
+		static void NewProp_CanCast3_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_CanCast3;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CanCast2_MetaData[];
+#endif
+		static void NewProp_CanCast2_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_CanCast2;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CanCast1_MetaData[];
+#endif
+		static void NewProp_CanCast1_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_CanCast1;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Ability_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Ability;
@@ -162,6 +257,8 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMyCharacter_GetCastedAbility, "GetCastedAbility" }, // 658599373
+		{ &Z_Construct_UFunction_AMyCharacter_GetPlayerDefaultHealth, "GetPlayerDefaultHealth" }, // 3473752797
+		{ &Z_Construct_UFunction_AMyCharacter_GetPlayerHealth, "GetPlayerHealth" }, // 3682204452
 		{ &Z_Construct_UFunction_AMyCharacter_SpawnAbility, "SpawnAbility" }, // 949758893
 	};
 #if WITH_METADATA
@@ -186,6 +283,39 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_OurCameraSpringArm = { "OurCameraSpringArm", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, OurCameraSpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_OurCameraSpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_OurCameraSpringArm_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast3_MetaData[] = {
+		{ "Category", "Spawning" },
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast3_SetBit(void* Obj)
+	{
+		((AMyCharacter*)Obj)->CanCast3 = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast3 = { "CanCast3", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacter), &Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast3_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast3_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast3_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast2_MetaData[] = {
+		{ "Category", "Spawning" },
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast2_SetBit(void* Obj)
+	{
+		((AMyCharacter*)Obj)->CanCast2 = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast2 = { "CanCast2", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacter), &Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast2_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast2_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast1_MetaData[] = {
+		{ "Category", "Spawning" },
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast1_SetBit(void* Obj)
+	{
+		((AMyCharacter*)Obj)->CanCast1 = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast1 = { "CanCast1", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacter), &Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast1_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast1_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability_MetaData[] = {
 		{ "Category", "Spawning" },
@@ -220,6 +350,9 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbility,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_OurCameraSpringArm,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast3,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast2,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast1,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Sensitivity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Inventory,
@@ -253,7 +386,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacter, 1333750033);
+	IMPLEMENT_CLASS(AMyCharacter, 3740189962);
 	template<> MYPROJECT_API UClass* StaticClass<AMyCharacter>()
 	{
 		return AMyCharacter::StaticClass();

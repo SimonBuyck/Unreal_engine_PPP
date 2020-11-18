@@ -5,8 +5,32 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Runtime\Engine\Classes\Kismet\GameplayStatics.h"
+#include <MyProject\HealthComponent.h>
 
 
+
+float AMyCharacter::GetPlayerHealth()
+{   
+    float PlayerHealth = 0;
+    UHealthComponent* HealthComponent = Cast<UHealthComponent>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+    if (HealthComponent) {
+        PlayerHealth = HealthComponent->__PPO__Health();
+    }
+
+    return PlayerHealth;
+}
+
+float AMyCharacter::GetPlayerDefaultHealth()
+{
+    float DefaultHealth = 0;
+    UHealthComponent* HealthComponent = Cast<UHealthComponent>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+    if (HealthComponent) {
+        DefaultHealth = HealthComponent->__PPO__DefaultHealth();
+    }
+
+    return DefaultHealth;
+}
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -27,8 +51,6 @@ AMyCharacter::AMyCharacter()
     //creating the player camerad
     OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("GameCamera"));
     OurCamera->SetupAttachment(OurCameraSpringArm, USpringArmComponent::SocketName);
-
-
 
     // Take control of the default player
     AutoPossessPlayer = EAutoReceiveInput::Player0;
@@ -90,17 +112,14 @@ void AMyCharacter::YawCamera(float AxisValue)
 
 void AMyCharacter::Ability1() {
     CheckInventory(0);
-    CastedAbility = 1;
 }
 
 void AMyCharacter::Ability2() {
     CheckInventory(1);
-    CastedAbility = 2;
 }
 
 void AMyCharacter::Ability3() {
     CheckInventory(2);
-    CastedAbility = 3;
 }
 
 void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
@@ -110,9 +129,23 @@ void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
 }
 
 void AMyCharacter::CheckInventory(int index) {
+    CastedAbility = Inventory[index];
+    bool canCast = false;
     if (Inventory[index] != 0) {
-        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Ability Casted!"));
-        SpawnAbility(GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation(), GetControlRotation());
+        if (index == 0 && CanCast1 == true) {
+            canCast = true;
+        }
+        else if (index == 1 && CanCast2 == true) {
+            canCast = true;
+        }
+        else if(index == 2 && CanCast3 == true) {
+            canCast = true;
+        }
+        
+    }
+    if (canCast) {
+        FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+        SpawnAbility(ActorLocation, GetControlRotation());
     }
 }
 
