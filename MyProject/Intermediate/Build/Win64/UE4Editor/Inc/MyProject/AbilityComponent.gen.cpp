@@ -166,8 +166,47 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFAbilities
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FAbilities_Hash() { return 556825228U; }
+	DEFINE_FUNCTION(AAbilityComponent::execCountdownHasFinished)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->CountdownHasFinished_Implementation();
+		P_NATIVE_END;
+	}
+	static FName NAME_AAbilityComponent_CountdownHasFinished = FName(TEXT("CountdownHasFinished"));
+	void AAbilityComponent::CountdownHasFinished()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AAbilityComponent_CountdownHasFinished),NULL);
+	}
 	void AAbilityComponent::StaticRegisterNativesAAbilityComponent()
 	{
+		UClass* Class = AAbilityComponent::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "CountdownHasFinished", &AAbilityComponent::execCountdownHasFinished },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AAbilityComponent_CountdownHasFinished_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAbilityComponent_CountdownHasFinished_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "AbilityComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAbilityComponent_CountdownHasFinished_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAbilityComponent, nullptr, "CountdownHasFinished", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAbilityComponent_CountdownHasFinished_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAbilityComponent_CountdownHasFinished_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAbilityComponent_CountdownHasFinished()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAbilityComponent_CountdownHasFinished_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AAbilityComponent_NoRegister()
 	{
@@ -176,6 +215,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFAbilities
 	struct Z_Construct_UClass_AAbilityComponent_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -222,6 +262,9 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFAbilities
 	UObject* (*const Z_Construct_UClass_AAbilityComponent_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProject,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AAbilityComponent_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AAbilityComponent_CountdownHasFinished, "CountdownHasFinished" }, // 3653149315
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAbilityComponent_Statics::Class_MetaDataParams[] = {
@@ -313,11 +356,11 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFAbilities
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AAbilityComponent_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AAbilityComponent_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -332,7 +375,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFAbilities
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAbilityComponent, 2764742786);
+	IMPLEMENT_CLASS(AAbilityComponent, 1317700893);
 	template<> MYPROJECT_API UClass* StaticClass<AAbilityComponent>()
 	{
 		return AAbilityComponent::StaticClass();

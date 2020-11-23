@@ -22,8 +22,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> MYPROJECT_API UScriptStruct* StaticStruct<struct FAbilities>();
 
 #define MyProject_Source_MyProject_AbilityComponent_h_40_SPARSE_DATA
-#define MyProject_Source_MyProject_AbilityComponent_h_40_RPC_WRAPPERS
-#define MyProject_Source_MyProject_AbilityComponent_h_40_RPC_WRAPPERS_NO_PURE_DECLS
+#define MyProject_Source_MyProject_AbilityComponent_h_40_RPC_WRAPPERS \
+	virtual void CountdownHasFinished_Implementation(); \
+ \
+	DECLARE_FUNCTION(execCountdownHasFinished);
+
+
+#define MyProject_Source_MyProject_AbilityComponent_h_40_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCountdownHasFinished);
+
+
+#define MyProject_Source_MyProject_AbilityComponent_h_40_EVENT_PARMS
+#define MyProject_Source_MyProject_AbilityComponent_h_40_CALLBACK_WRAPPERS
 #define MyProject_Source_MyProject_AbilityComponent_h_40_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAbilityComponent(); \
@@ -67,13 +78,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAbilityComponent); \
 
 
 #define MyProject_Source_MyProject_AbilityComponent_h_40_PRIVATE_PROPERTY_OFFSET
-#define MyProject_Source_MyProject_AbilityComponent_h_37_PROLOG
+#define MyProject_Source_MyProject_AbilityComponent_h_37_PROLOG \
+	MyProject_Source_MyProject_AbilityComponent_h_40_EVENT_PARMS
+
+
 #define MyProject_Source_MyProject_AbilityComponent_h_40_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProject_Source_MyProject_AbilityComponent_h_40_PRIVATE_PROPERTY_OFFSET \
 	MyProject_Source_MyProject_AbilityComponent_h_40_SPARSE_DATA \
 	MyProject_Source_MyProject_AbilityComponent_h_40_RPC_WRAPPERS \
+	MyProject_Source_MyProject_AbilityComponent_h_40_CALLBACK_WRAPPERS \
 	MyProject_Source_MyProject_AbilityComponent_h_40_INCLASS \
 	MyProject_Source_MyProject_AbilityComponent_h_40_STANDARD_CONSTRUCTORS \
 public: \
@@ -86,6 +101,7 @@ public: \
 	MyProject_Source_MyProject_AbilityComponent_h_40_PRIVATE_PROPERTY_OFFSET \
 	MyProject_Source_MyProject_AbilityComponent_h_40_SPARSE_DATA \
 	MyProject_Source_MyProject_AbilityComponent_h_40_RPC_WRAPPERS_NO_PURE_DECLS \
+	MyProject_Source_MyProject_AbilityComponent_h_40_CALLBACK_WRAPPERS \
 	MyProject_Source_MyProject_AbilityComponent_h_40_INCLASS_NO_PURE_DECLS \
 	MyProject_Source_MyProject_AbilityComponent_h_40_ENHANCED_CONSTRUCTORS \
 private: \
