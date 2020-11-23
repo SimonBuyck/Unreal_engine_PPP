@@ -1,17 +1,22 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "AbilityComponent.h"
-#include "MyCharacter.h"
+
+#include "Components/TextRenderComponent.h"
 #include "Runtime\Engine\Classes\Kismet\GameplayStatics.h"
-
-
+#include "MyCharacter.h"
+#include "AbilityComponent.h"
 
 // Sets default values
 AAbilityComponent::AAbilityComponent()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
+
+	CountdownText = CreateDefaultSubobject<UTextRenderComponent>(TEXT("CountdownNumber"));
+	CountdownText->SetHorizontalAlignment(EHTA_Center);
+	CountdownText->SetWorldSize(150.0f);
+	RootComponent = CountdownText;
 
 	//getting a reference to MyCharacter
 	MyCharacter = Cast<AMyCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
@@ -53,31 +58,34 @@ void AAbilityComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (category == "movement speed") {
-		MyCharacter->GetMovementComponent();
-	}
-	else if (category == "shield") {
-
-	}
-	else  if (category == "healing") {
-		if (CastedAbility = 1, 6, 7, 14) {
-
-		}
-		else {
-			float Health = MyCharacter->GetPlayerHealth();
-			float DefaultHealth = MyCharacter->GetPlayerDefaultHealth();
-			float NewHealth = FMath::Clamp(Health + Points, 0.0f, DefaultHealth);	
-		}
-	}
-	else {
-
-	}
-
-	GetWorld()->GetTimerManager().SetTimer(FuzeTimerHandle, this, &AAbilityComponent::OnCooldown, Cooldown, false);
+	UpdateTimerDisplay();
+	GetWorld()->GetTimerManager().SetTimer(CountdownTimerHandle, this, &AAbilityComponent::AdvanceTimer, Cooldown, true);
 }
 
-void AAbilityComponent::OnCooldown() {
+void AAbilityComponent::UpdateTimerDisplay()
+{
+	CountdownText->SetText(FString::FromInt(Cooldown));
 }
+
+void AAbilityComponent::AdvanceTimer()
+{
+	--Cooldown;
+	UpdateTimerDisplay();
+	if (Cooldown < 1)
+	{
+		// We're done counting down, so stop running the timer.
+		GetWorldTimerManager().ClearTimer(CountdownTimerHandle);
+		//Perform any special actions we want to do when the timer ends.
+		CountdownHasFinished();
+	}
+}
+
+void AAbilityComponent::CountdownHasFinished_Implementation()
+{
+	//Change to a special readout
+	CountdownText->SetText(TEXT("DELETE ME!"));
+}
+
 
 
 

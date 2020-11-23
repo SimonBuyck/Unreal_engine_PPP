@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "MyCharacter.h"
 #include "Engine/DataTable.h"
-
+#include "Components/TextRenderComponent.h"
 #include "AbilityComponent.generated.h"
 
 
@@ -76,8 +76,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "reference")
 		AMyCharacter* MyCharacter;
 
-	/* Handle to manage the timer */
-	FTimerHandle FuzeTimerHandle;
+	void UpdateTimerDisplay();
+	void AdvanceTimer();
 
-	void OnCooldown();
+	UTextRenderComponent* CountdownText;
+
+	UFUNCTION(BlueprintNativeEvent)
+		void CountdownHasFinished();
+		virtual void CountdownHasFinished_Implementation();
+
+	FTimerHandle CountdownTimerHandle;
 };

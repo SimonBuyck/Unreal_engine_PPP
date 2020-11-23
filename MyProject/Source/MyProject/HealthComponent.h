@@ -10,6 +10,9 @@
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class MYPROJECT_API UHealthComponent : public UActorComponent
 {
+	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
+		TSubclassOf<AActor> Ability;
+
 	GENERATED_BODY()
 
 public:	

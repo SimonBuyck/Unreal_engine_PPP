@@ -38,22 +38,23 @@ AMyCharacter::AMyCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-    MovementSpeed = 3.0f;
-
     //setting the size of the inventory
     Inventory.SetNum(3);
 
-    //creating a spring arm
-    OurCameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraSpringArm"));
-    OurCameraSpringArm->SetRelativeLocationAndRotation(FVector(0.0f, 25.0f, 150.0f), FRotator(-5.0f, 0.0f, 0.0f));
-    OurCameraSpringArm->TargetArmLength = 50.f;
-
-    //creating the player camerad
-    OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("GameCamera"));
-    OurCamera->SetupAttachment(OurCameraSpringArm, USpringArmComponent::SocketName);
-
-    // Take control of the default player
     AutoPossessPlayer = EAutoReceiveInput::Player0;
+
+    bUseControllerRotationYaw = false;
+
+    Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+
+    Arm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
+    Arm->AttachTo(RootComponent);
+    Arm->TargetArmLength = 50.f;
+    Arm->SetRelativeLocationAndRotation(FVector(0.f, 50.f, 50.f), FRotator(0.f, 0.f, 0.f));
+
+    Camera->AttachTo(Arm, USpringArmComponent::SocketName);
+
+    jumping = false;
 }
 
 // Called when the game starts or when spawned
@@ -66,6 +67,10 @@ void AMyCharacter::BeginPlay()
 void AMyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+    if (jumping) {
+        Jump();
+    }
 
 }
 
@@ -83,31 +88,51 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
     PlayerInputComponent->BindAxis("MoveForward", this, &AMyCharacter::MoveForward);
     PlayerInputComponent->BindAxis("MoveRight", this, &AMyCharacter::MoveRight);
     PlayerInputComponent->BindAxis("CameraYaw", this, &AMyCharacter::YawCamera);
+    PlayerInputComponent->BindAxis("CameraPitch", this, &AMyCharacter::PitchCamera);
+
+    PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMyCharacter::CheckJump);
+    PlayerInputComponent->BindAction("Jump", IE_Released, this, &AMyCharacter::CheckJump);
 }
 
 //Input functions
 void AMyCharacter::MoveForward(float AxisValue)
 {
-    // find out which way is forward
-    FRotator Rotation = Controller->GetControlRotation();
-
-    // add movement in that direction
-    const FVector Direction = FRotationMatrix(Rotation).GetScaledAxis(EAxis::X);
-    AddMovementInput(Direction, AxisValue);
+    if (AxisValue) {
+        AddMovementInput(GetActorForwardVector(), AxisValue);
+    }
 }
 
 void AMyCharacter::MoveRight(float AxisValue)
 {
-    // Find out which way is "right" and record that the player wants to move that way.
-    FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
-    AddMovementInput(Direction, AxisValue);
+    if (AxisValue) {
+        AddMovementInput(GetActorRightVector(), AxisValue);
+    }
 }
 
 void AMyCharacter::YawCamera(float AxisValue)
 {
+    if (AxisValue) {
+        AddActorLocalRotation(FRotator(0, AxisValue, 0));
+    }
+}
 
-    //need to add a sensitivity
-    AddControllerYawInput(AxisValue);
+void AMyCharacter::PitchCamera(float AxisValue)
+{
+    if (AxisValue) {
+        float temp = Arm->GetRelativeRotation().Pitch + AxisValue;
+        if (temp < 25 && temp > -65) {
+            Arm->AddLocalRotation(FRotator(AxisValue, 0, 0));
+        }
+    }
+}
+
+void AMyCharacter::CheckJump()
+{
+    if (jumping) {
+        jumping = false;
+    }else {
+        jumping = true;
+    }
 }
 
 void AMyCharacter::Ability1() {

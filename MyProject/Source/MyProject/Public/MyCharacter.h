@@ -19,11 +19,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovementSpeed")
 		float MovementSpeed;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
-		TArray<int32> Inventory;
+	UPROPERTY()
+		bool jumping;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
-		float Sensitivity = 5;
+		TArray<int32> Inventory;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
 	TSubclassOf<AActor> Ability;
@@ -37,14 +37,21 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Spawning")
 		bool CanCast3 = true;
 
-	UFUNCTION(BlueprintCallable)
-		int GetCastedAbility();
+	UPROPERTY(EditAnywhere)
+		bool Ability1Cooldown;
 
-	UFUNCTION(BlueprintCallable)
-		float GetPlayerHealth();
+	UPROPERTY(EditAnywhere)
+		bool Ability2Cooldown;
 
-	UFUNCTION(BlueprintCallable)
-		float GetPlayerDefaultHealth();
+	UPROPERTY(EditAnywhere)
+		bool Ability3Cooldown;
+
+	UPROPERTY(EditAnywhere)
+		bool Shield;
+
+	int GetCastedAbility();
+	float GetPlayerHealth();
+	float GetPlayerDefaultHealth();
 
 	AMyCharacter();
 
@@ -52,14 +59,17 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere)
-		class USpringArmComponent* OurCameraSpringArm;
-		class UCameraComponent* OurCamera;
+	UPROPERTY()
+		class USpringArmComponent* Arm;
+		class UCameraComponent* Camera;
 
 	//Input functions
 	void MoveForward(float AxisValue);
 	void MoveRight(float AxisValue);
 	void YawCamera(float AxisValue);
+	void PitchCamera(float AxisValue);
+
+	void CheckJump();
 
 	void Ability1();
 	void Ability2();
