@@ -61,6 +61,10 @@ void AAbilityComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
+	UHealthComponent* HealthComponent = MyCharacter->FindComponentByClass<UHealthComponent>();
+
+	HealthComponent->__PPO__DefaultHealth();
+
 	UpdateTimerDisplay();
 	GetWorld()->GetTimerManager().SetTimer(CountdownTimerHandle, this, &AAbilityComponent::AdvanceTimer, 1.f, true);
 }
