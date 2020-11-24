@@ -44,6 +44,8 @@ AMyCharacter::AMyCharacter()
     AutoPossessPlayer = EAutoReceiveInput::Player0;
 
     bUseControllerRotationYaw = false;
+    
+    HealthComponent = Cast<UHealthComponent>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 
     Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 
@@ -70,6 +72,19 @@ void AMyCharacter::Tick(float DeltaTime)
 
     if (jumping) {
         Jump();
+    }
+
+    if (HealthComponent) {
+        if (HealthComponent->__PPO__Health()) {
+            if (HealthComponent->__PPO__Health() <= 0.f) {
+                Dead = true;
+            }
+        }
+    }
+
+    if (Dead){
+        Arm->TargetArmLength = 300.f;
+        Arm->SetRelativeLocationAndRotation(FVector(0.f, 0.f, 50.f), FRotator(-75.f, 0.f, 0.f));
     }
 
 }

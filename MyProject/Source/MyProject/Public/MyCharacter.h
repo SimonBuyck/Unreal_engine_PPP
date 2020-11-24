@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "MyProject\HealthComponent.h"
 #include "MyCharacter.generated.h"
-
 
 UCLASS()
 class MYPROJECT_API AMyCharacter : public ACharacter
@@ -49,6 +49,9 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool Shield;
 
+	UPROPERTY(EditAnywhere)
+		bool Dead;
+
 	int GetCastedAbility();
 	float GetPlayerHealth();
 	float GetPlayerDefaultHealth();
@@ -62,6 +65,7 @@ protected:
 	UPROPERTY()
 		class USpringArmComponent* Arm;
 		class UCameraComponent* Camera;
+		class UHealthComponent* HealthComponent;
 
 	//Input functions
 	void MoveForward(float AxisValue);

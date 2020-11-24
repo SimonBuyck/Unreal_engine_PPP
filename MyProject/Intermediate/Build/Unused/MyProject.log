@@ -1,18 +1,28 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\PPP).
   Parsing headers for MyProjectEditor
     Running UnrealHeaderTool "D:\PPP\MyProject\MyProject.uproject" "D:\PPP\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\simon\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for MyProjectEditor in 5,6946634 seconds
+  Reflection code generated for MyProjectEditor in 5,1645199 seconds
+  Deleted hot-reload file: D:\PPP\MyProject\Binaries\Win64\UE4Editor-MyProject-0015.dll
+  Deleted hot-reload file: D:\PPP\MyProject\Binaries\Win64\UE4Editor-MyProject-0016.dll
+  Deleted hot-reload file: D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0015.lib
+  Deleted hot-reload file: D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0016.lib
+  Deleted hot-reload file: D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0054.lib
   Building MyProjectEditor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 4 processes...
-    [1/5] AbilityComponent.gen.cpp
-    [2/5] AbilityComponent.cpp
-    [3/5] UE4Editor-MyProject-0054.lib
-       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0054.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0054.exp
-    [4/5] UE4Editor-MyProject-0054.dll
-       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0054.suppressed.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0054.suppressed.exp
-AbilityComponent.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAbilityComponent::Tick(float)" (?Tick@AAbilityComponent@@UEAAXM@Z)
-AbilityComponent.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAbilityComponent::Tick(float)" (?Tick@AAbilityComponent@@UEAAXM@Z)
-D:\PPP\MyProject\Binaries\Win64\UE4Editor-MyProject-0054.dll : fatal error LNK1120: 1 unresolved externals
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "C:\WINDOWS\System32\chcp.com 65001 >NUL 
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:  D:\games\UE_4.25\Engine\Build\BatchFiles\Build.bat MyProjectEditor Win64 Development -Project="D:\PPP\MyProject\MyProject.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+  Building 8 actions with 4 processes...
+    [1/8] MyProject.init.gen.cpp
+    [2/8] MyCharacter.gen.cpp
+    [3/8] AbilityComponent.gen.cpp
+    [4/8] AbilityComponent.cpp
+D:\PPP\MyProject\Source\MyProject\AbilityComponent.cpp(67): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+D:\PPP\MyProject\Source\MyProject\AbilityComponent.cpp(86): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [5/8] MyCharacter.cpp
+D:\PPP\MyProject\Source\MyProject\Private\MyCharacter.cpp(51): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+D:\PPP\MyProject\Source\MyProject\Private\MyCharacter.cpp(55): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [6/8] UE4Editor-MyProject.lib
+       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.exp
+    [7/8] UE4Editor-MyProject.dll
+       Creating library D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.suppressed.lib and object D:\PPP\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.suppressed.exp
+    [8/8] MyProjectEditor.target
+  Total time in Parallel executor: 11,45 seconds
+  Total execution time: 17,59 seconds
