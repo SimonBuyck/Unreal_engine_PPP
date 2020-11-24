@@ -49,6 +49,9 @@ AAbilityComponent::AAbilityComponent()
 				}
 			}
 		}
+		if (MyCharacter->GetCastedAbilityIndex()) {
+			AbilityIndex = MyCharacter->GetCastedAbilityIndex();
+		}
 	}
 
 }
@@ -59,7 +62,7 @@ void AAbilityComponent::BeginPlay()
 	Super::BeginPlay();
 
 	UpdateTimerDisplay();
-	GetWorld()->GetTimerManager().SetTimer(CountdownTimerHandle, this, &AAbilityComponent::AdvanceTimer, Cooldown, true);
+	GetWorld()->GetTimerManager().SetTimer(CountdownTimerHandle, this, &AAbilityComponent::AdvanceTimer, 1.f, true);
 }
 
 void AAbilityComponent::UpdateTimerDisplay()
@@ -77,6 +80,7 @@ void AAbilityComponent::AdvanceTimer()
 		GetWorldTimerManager().ClearTimer(CountdownTimerHandle);
 		//Perform any special actions we want to do when the timer ends.
 		CountdownHasFinished();
+		MyCharacter->CanCast1 = true;
 	}
 }
 

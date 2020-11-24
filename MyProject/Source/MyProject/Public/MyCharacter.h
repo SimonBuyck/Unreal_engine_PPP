@@ -46,15 +46,14 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool Ability3Cooldown;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool Shield;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool Dead;
 
 	int GetCastedAbility();
-	float GetPlayerHealth();
-	float GetPlayerDefaultHealth();
+	int GetCastedAbilityIndex();
 
 	AMyCharacter();
 
@@ -84,6 +83,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Inventory")
 		int CastedAbility;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Inventory")
+		int CastedAbilityIndex;
 
 	FVector CurrentVelocity;
 

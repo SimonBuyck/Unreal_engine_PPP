@@ -8,30 +8,6 @@
 #include "Runtime\Engine\Classes\Kismet\GameplayStatics.h"
 #include <MyProject\HealthComponent.h>
 
-
-
-float AMyCharacter::GetPlayerHealth()
-{   
-    float PlayerHealth = 0;
-    UHealthComponent* HealthComponent = Cast<UHealthComponent>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
-    if (HealthComponent) {
-        PlayerHealth = HealthComponent->__PPO__Health();
-    }
-
-    return PlayerHealth;
-}
-
-float AMyCharacter::GetPlayerDefaultHealth()
-{
-    float DefaultHealth = 0;
-    UHealthComponent* HealthComponent = Cast<UHealthComponent>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
-    if (HealthComponent) {
-        DefaultHealth = HealthComponent->__PPO__DefaultHealth();
-    }
-
-    return DefaultHealth;
-}
-
 // Sets default values
 AMyCharacter::AMyCharacter()
 {
@@ -50,11 +26,11 @@ AMyCharacter::AMyCharacter()
     Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 
     Arm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
-    Arm->AttachTo(RootComponent);
+    Arm->SetupAttachment(RootComponent);
     Arm->TargetArmLength = 50.f;
     Arm->SetRelativeLocationAndRotation(FVector(0.f, 50.f, 50.f), FRotator(0.f, 0.f, 0.f));
 
-    Camera->AttachTo(Arm, USpringArmComponent::SocketName);
+    Camera->SetupAttachment(Arm, USpringArmComponent::SocketName);
 
     jumping = false;
 }
@@ -170,27 +146,35 @@ void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
 
 void AMyCharacter::CheckInventory(int index) {
     CastedAbility = Inventory[index];
-    bool canCast = false;
+    CastedAbilityIndex = index;
     if (Inventory[index] != 0) {
         if (index == 0 && CanCast1 == true) {
-            canCast = true;
+            FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+            SpawnAbility(ActorLocation, GetControlRotation());
+            CanCast1 = false;
         }
         else if (index == 1 && CanCast2 == true) {
-            canCast = true;
+            FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+            SpawnAbility(ActorLocation, GetControlRotation());
+            CanCast2 = false;
         }
         else if(index == 2 && CanCast3 == true) {
-            canCast = true;
+            FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+            SpawnAbility(ActorLocation, GetControlRotation());
+            CanCast3 = false;
         }
-        
     }
-    if (canCast) {
-        FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
-        SpawnAbility(ActorLocation, GetControlRotation());
-    }
+    
+
 }
 
 int AMyCharacter::GetCastedAbility()
 {
     return CastedAbility;
+}
+
+int AMyCharacter::GetCastedAbilityIndex()
+{
+    return CastedAbilityIndex;
 }
 

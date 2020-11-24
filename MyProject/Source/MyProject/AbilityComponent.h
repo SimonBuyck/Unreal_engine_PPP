@@ -73,6 +73,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "reference ")
 		int CastedAbility;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "reference ")
+		int AbilityIndex;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "reference")
 		AMyCharacter* MyCharacter;
 

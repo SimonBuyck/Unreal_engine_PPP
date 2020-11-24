@@ -224,6 +224,10 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFAbilities
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyCharacter;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilityIndex_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_AbilityIndex;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CastedAbility_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_CastedAbility;
@@ -279,6 +283,13 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFAbilities
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAbilityComponent_Statics::NewProp_MyCharacter = { "MyCharacter", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAbilityComponent, MyCharacter), Z_Construct_UClass_AMyCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAbilityComponent_Statics::NewProp_MyCharacter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAbilityComponent_Statics::NewProp_MyCharacter_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAbilityComponent_Statics::NewProp_AbilityIndex_MetaData[] = {
+		{ "Category", "reference" },
+		{ "ModuleRelativePath", "AbilityComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AAbilityComponent_Statics::NewProp_AbilityIndex = { "AbilityIndex", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAbilityComponent, AbilityIndex), METADATA_PARAMS(Z_Construct_UClass_AAbilityComponent_Statics::NewProp_AbilityIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAbilityComponent_Statics::NewProp_AbilityIndex_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAbilityComponent_Statics::NewProp_CastedAbility_MetaData[] = {
 		{ "Category", "reference" },
@@ -339,6 +350,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFAbilities
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAbilityComponent_Statics::NewProp_AbilityDataTable = { "AbilityDataTable", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAbilityComponent, AbilityDataTable), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAbilityComponent_Statics::NewProp_AbilityDataTable_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAbilityComponent_Statics::NewProp_AbilityDataTable_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAbilityComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAbilityComponent_Statics::NewProp_MyCharacter,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAbilityComponent_Statics::NewProp_AbilityIndex,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAbilityComponent_Statics::NewProp_CastedAbility,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAbilityComponent_Statics::NewProp_description,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAbilityComponent_Statics::NewProp_Cooldown,
@@ -375,7 +387,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFAbilities
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAbilityComponent, 1317700893);
+	IMPLEMENT_CLASS(AAbilityComponent, 1349943011);
 	template<> MYPROJECT_API UClass* StaticClass<AAbilityComponent>()
 	{
 		return AAbilityComponent::StaticClass();
