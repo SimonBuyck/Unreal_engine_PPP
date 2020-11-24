@@ -61,9 +61,12 @@ void AAbilityComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UHealthComponent* HealthComponent = MyCharacter->FindComponentByClass<UHealthComponent>();
 
-	HealthComponent->__PPO__DefaultHealth();
+	
+
+	
+
+	MyCharacter->CanCast1 = false;
 
 	UpdateTimerDisplay();
 	GetWorld()->GetTimerManager().SetTimer(CountdownTimerHandle, this, &AAbilityComponent::AdvanceTimer, 1.f, true);
@@ -72,6 +75,16 @@ void AAbilityComponent::BeginPlay()
 void AAbilityComponent::UpdateTimerDisplay()
 {
 	CountdownText->SetText(FString::FromInt(Cooldown));
+
+	if (AbilityIndex == 0) {
+		MyCharacter->Ability1Cooldown = Cooldown;
+	}
+	if (AbilityIndex == 1) {
+		MyCharacter->Ability2Cooldown = Cooldown;
+	}
+	if (AbilityIndex == 2) {
+		MyCharacter->Ability3Cooldown = Cooldown;
+	}
 }
 
 void AAbilityComponent::AdvanceTimer()
@@ -84,7 +97,16 @@ void AAbilityComponent::AdvanceTimer()
 		GetWorldTimerManager().ClearTimer(CountdownTimerHandle);
 		//Perform any special actions we want to do when the timer ends.
 		CountdownHasFinished();
-		MyCharacter->CanCast1 = true;
+		
+		if (AbilityIndex == 0) {
+			MyCharacter->CanCast1 = true;
+		}
+		if (AbilityIndex == 1) {
+			MyCharacter->CanCast2 = true;
+		}
+		if (AbilityIndex == 2) {
+			MyCharacter->CanCast3 = true;
+		}
 	}
 }
 

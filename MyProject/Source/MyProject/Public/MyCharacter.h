@@ -37,14 +37,14 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Spawning")
 		bool CanCast3 = true;
 
-	UPROPERTY(EditAnywhere)
-		bool Ability1Cooldown;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int Ability1Cooldown;
 
-	UPROPERTY(EditAnywhere)
-		bool Ability2Cooldown;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int Ability2Cooldown;
 
-	UPROPERTY(EditAnywhere)
-		bool Ability3Cooldown;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int Ability3Cooldown;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool Shield;
@@ -81,10 +81,10 @@ protected:
 	UFUNCTION()
 		void SpawnAbility(FVector Loc, FRotator Rot);
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Inventory")
+	UPROPERTY(EditAnywhere)
 		int CastedAbility;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Inventory")
+	UPROPERTY(EditAnywhere)
 		int CastedAbilityIndex;
 
 	FVector CurrentVelocity;

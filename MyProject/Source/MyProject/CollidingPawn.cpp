@@ -20,16 +20,6 @@ ACollidingPawn::ACollidingPawn()
     //setting the size of the inventory
     Inventory.SetNum(3);
 
-    // Create and position a mesh component so we can see where our sphere is
-    UStaticMeshComponent* SphereVisual = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisualRepresentation"));
-    SphereVisual->SetupAttachment(RootComponent);
-    static ConstructorHelpers::FObjectFinder<UStaticMesh> SphereVisualAsset(TEXT("/Game/StarterContent/Shapes/Shape_NarrowCapsule"));
-    if (SphereVisualAsset.Succeeded())
-    {
-        SphereVisual->SetStaticMesh(SphereVisualAsset.Object);
-        SphereVisual->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
-        SphereVisual->SetWorldScale3D(FVector(1.f));
-    }
 
     // Create an instance of our movement component, and tell it to update the root.
     OurMovementComponent = CreateDefaultSubobject<UCollidingPawnMovementComponent>(TEXT("CustomMovementComponent"));

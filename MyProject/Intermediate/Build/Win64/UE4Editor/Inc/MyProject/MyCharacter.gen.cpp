@@ -112,18 +112,15 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Ability3Cooldown_MetaData[];
 #endif
-		static void NewProp_Ability3Cooldown_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Ability3Cooldown;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Ability3Cooldown;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Ability2Cooldown_MetaData[];
 #endif
-		static void NewProp_Ability2Cooldown_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Ability2Cooldown;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Ability2Cooldown;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Ability1Cooldown_MetaData[];
 #endif
-		static void NewProp_Ability1Cooldown_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Ability1Cooldown;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Ability1Cooldown;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CanCast3_MetaData[];
 #endif
@@ -177,18 +174,18 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbilityIndex_MetaData[] = {
-		{ "Category", "Inventory" },
+		{ "Category", "MyCharacter" },
 		{ "ModuleRelativePath", "Public/MyCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbilityIndex = { "CastedAbilityIndex", nullptr, (EPropertyFlags)0x0020080000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, CastedAbilityIndex), METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbilityIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbilityIndex_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbilityIndex = { "CastedAbilityIndex", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, CastedAbilityIndex), METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbilityIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbilityIndex_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbility_MetaData[] = {
-		{ "Category", "Inventory" },
+		{ "Category", "MyCharacter" },
 		{ "ModuleRelativePath", "Public/MyCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbility = { "CastedAbility", nullptr, (EPropertyFlags)0x0020080000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, CastedAbility), METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbility_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbility_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbility = { "CastedAbility", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, CastedAbility), METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbility_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CastedAbility_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_Arm_MetaData[] = {
 		{ "EditInline", "true" },
@@ -224,33 +221,21 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		{ "ModuleRelativePath", "Public/MyCharacter.h" },
 	};
 #endif
-	void Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability3Cooldown_SetBit(void* Obj)
-	{
-		((AMyCharacter*)Obj)->Ability3Cooldown = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability3Cooldown = { "Ability3Cooldown", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacter), &Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability3Cooldown_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability3Cooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability3Cooldown_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability3Cooldown = { "Ability3Cooldown", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, Ability3Cooldown), METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability3Cooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability3Cooldown_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability2Cooldown_MetaData[] = {
 		{ "Category", "MyCharacter" },
 		{ "ModuleRelativePath", "Public/MyCharacter.h" },
 	};
 #endif
-	void Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability2Cooldown_SetBit(void* Obj)
-	{
-		((AMyCharacter*)Obj)->Ability2Cooldown = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability2Cooldown = { "Ability2Cooldown", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacter), &Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability2Cooldown_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability2Cooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability2Cooldown_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability2Cooldown = { "Ability2Cooldown", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, Ability2Cooldown), METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability2Cooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability2Cooldown_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability1Cooldown_MetaData[] = {
 		{ "Category", "MyCharacter" },
 		{ "ModuleRelativePath", "Public/MyCharacter.h" },
 	};
 #endif
-	void Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability1Cooldown_SetBit(void* Obj)
-	{
-		((AMyCharacter*)Obj)->Ability1Cooldown = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability1Cooldown = { "Ability1Cooldown", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacter), &Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability1Cooldown_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability1Cooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability1Cooldown_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability1Cooldown = { "Ability1Cooldown", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, Ability1Cooldown), METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability1Cooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability1Cooldown_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast3_MetaData[] = {
 		{ "Category", "Spawning" },
@@ -363,7 +348,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacter, 2145630933);
+	IMPLEMENT_CLASS(AMyCharacter, 2330013533);
 	template<> MYPROJECT_API UClass* StaticClass<AMyCharacter>()
 	{
 		return AMyCharacter::StaticClass();
