@@ -49,20 +49,6 @@ void AMyCharacter::Tick(float DeltaTime)
     if (jumping) {
         Jump();
     }
-
-    if (HealthComponent) {
-        if (HealthComponent->__PPO__Health()) {
-            if (HealthComponent->__PPO__Health() <= 0.f) {
-                Dead = true;
-            }
-        }
-    }
-
-    if (Dead){
-        Arm->TargetArmLength = 300.f;
-        Arm->SetRelativeLocationAndRotation(FVector(0.f, 0.f, 50.f), FRotator(-75.f, 0.f, 0.f));
-    }
-
 }
 
 // Called to bind functionality to input
@@ -73,7 +59,6 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
     PlayerInputComponent->BindAction("Ability1", IE_Pressed, this, &AMyCharacter::Ability1);
     PlayerInputComponent->BindAction("Ability2", IE_Pressed, this, &AMyCharacter::Ability2);
     PlayerInputComponent->BindAction("Ability3", IE_Pressed, this, &AMyCharacter::Ability3);
-
 
     //Hook up every-frame handling for our four axes
     PlayerInputComponent->BindAxis("MoveForward", this, &AMyCharacter::MoveForward);

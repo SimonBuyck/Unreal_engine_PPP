@@ -70,6 +70,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 
 #define MyProject_Source_MyProject_Public_MyCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Arm() { return STRUCT_OFFSET(AMyCharacter, Arm); } \
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AMyCharacter, Camera); } \
 	FORCEINLINE static uint32 __PPO__CastedAbility() { return STRUCT_OFFSET(AMyCharacter, CastedAbility); } \
 	FORCEINLINE static uint32 __PPO__CastedAbilityIndex() { return STRUCT_OFFSET(AMyCharacter, CastedAbilityIndex); }
 

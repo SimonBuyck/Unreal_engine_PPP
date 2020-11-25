@@ -28,13 +28,13 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
 	TSubclassOf<AActor> Ability;
 
-	UPROPERTY(EditAnywhere, Category = "Spawning")
+	UPROPERTY(EditAnywhere)
 		bool CanCast1 = true;
 
-	UPROPERTY(EditAnywhere, Category = "Spawning")
+	UPROPERTY(EditAnywhere)
 		bool CanCast2 = true;
 
-	UPROPERTY(EditAnywhere, Category = "Spawning")
+	UPROPERTY(EditAnywhere)
 		bool CanCast3 = true;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -61,8 +61,10 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class USpringArmComponent* Arm;
+
+	UPROPERTY()
 		class UCameraComponent* Camera;
 		class UHealthComponent* HealthComponent;
 
