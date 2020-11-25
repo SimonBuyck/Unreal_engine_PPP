@@ -100,6 +100,7 @@ void AAbilityComponent::AdvanceTimer()
 		if (AbilityIndex == 2) {
 			MyCharacter->CanCast3 = true;
 		}
+		Destroy();
 	}
 }
 
