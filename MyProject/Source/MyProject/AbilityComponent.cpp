@@ -61,13 +61,6 @@ void AAbilityComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-
-	
-
-	
-
-	MyCharacter->CanCast1 = false;
-
 	UpdateTimerDisplay();
 	GetWorld()->GetTimerManager().SetTimer(CountdownTimerHandle, this, &AAbilityComponent::AdvanceTimer, 1.f, true);
 }
