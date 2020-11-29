@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheTravelersJourney.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2560921A-F31F-47C2-93D1-F7770D1BABE3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheTravelersJourney.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheTravelersJourneyEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{CA62B1D6-276F-4E3E-A744-D5B59C799C90}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheTravelersJourney">
+      <UniqueIdentifier>{B74FBE54-0CD6-41B5-B835-4908E1CF83F6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TheTravelersJourney\AbilityComponent.cpp">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheTravelersJourney\AbilityComponent.h">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheTravelersJourney\HealthComponent.cpp">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheTravelersJourney\HealthComponent.h">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheTravelersJourney\MyPlayerController.cpp">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheTravelersJourney\MyPlayerController.h">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheTravelersJourney\TestActor.cpp">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheTravelersJourney\TestActor.h">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TheTravelersJourney\TheTravelersJourney.Build.cs">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheTravelersJourney\TheTravelersJourney.cpp">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheTravelersJourney\TheTravelersJourney.h">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheTravelersJourney\TheTravelersJourneyGameModeBase.cpp">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheTravelersJourney\TheTravelersJourneyGameModeBase.h">
+      <Filter>Source\TheTravelersJourney</Filter>
+    </ClInclude>
+    <Filter Include="Source\TheTravelersJourney\Private">
+      <UniqueIdentifier>{450102B3-B886-4FBF-BF94-FE3392C39B95}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TheTravelersJourney\Private\MyCharacter.cpp">
+      <Filter>Source\TheTravelersJourney\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TheTravelersJourney\Public">
+      <UniqueIdentifier>{EF6099E1-2488-47B0-BEDE-D6648757FD5A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TheTravelersJourney\Public\MyCharacter.h">
+      <Filter>Source\TheTravelersJourney\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

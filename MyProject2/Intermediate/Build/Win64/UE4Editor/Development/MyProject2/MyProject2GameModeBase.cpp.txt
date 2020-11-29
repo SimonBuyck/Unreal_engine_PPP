@@ -1,7 +1,0 @@
-D:\PPP\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\Definitions.MyProject2.h
-D:\PPP\MyProject2\Source\MyProject2\MyProject2GameModeBase.h
-D:\games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\PPP\MyProject2\Intermediate\Build\Win64\UE4Editor\Inc\MyProject2\MyProject2GameModeBase.generated.h

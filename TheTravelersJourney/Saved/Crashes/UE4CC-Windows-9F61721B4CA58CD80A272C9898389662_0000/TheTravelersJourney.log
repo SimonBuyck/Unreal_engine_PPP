@@ -1,0 +1,1389 @@
+﻿Log file open, 11/29/20 10:58:44
+LogInit: Display: Running engine for game: TheTravelersJourney
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 3.749598
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.29-09.58.50:115][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.29-09.58.50:115][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Engine.ini]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Engine.ini]
+[2020.11.29-09.58.50:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Engine.ini]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Engine.ini]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.29-09.58.50:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Engine.ini]
+[2020.11.29-09.58.50:129][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Engine.ini]
+[2020.11.29-09.58.50:608][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:608][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.29-09.58.50:608][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.29-09.58.50:608][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:608][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.29-09.58.50:608][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:608][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.29-09.58.50:608][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.29-09.58.50:608][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.29-09.58.50:608][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.29-09.58.50:608][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.29-09.58.50:609][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.29-09.58.50:610][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.29-09.58.50:692][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.29-09.58.50:709][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.29-09.58.50:828][  0]LogHAL: Display: Platform has ~ 16 GB [17137127424 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.29-09.58.50:828][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.29-09.58.50:834][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.29-09.58.50:834][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.29-09.58.50:835][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Scalability.ini]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.29-09.58.50:836][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/PPP/TheTravelersJourney/Saved/Config/Windows/Engine.ini]
+[2020.11.29-09.58.50:967][  0]LogInit: Computer: SIEJEMAAN
+[2020.11.29-09.58.50:968][  0]LogInit: User: simon
+[2020.11.29-09.58.50:969][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.11.29-09.58.50:969][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.29-09.58.50:973][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.11.29-09.58.50:976][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.29-09.58.50:977][  0]LogMemory: Process Physical Memory: 115.27 MB used, 115.27 MB peak
+[2020.11.29-09.58.50:977][  0]LogMemory: Process Virtual Memory: 103.32 MB used, 103.32 MB peak
+[2020.11.29-09.58.50:977][  0]LogMemory: Physical Memory: 9813.43 MB used,  6529.81 MB free, 16343.24 MB total
+[2020.11.29-09.58.50:977][  0]LogMemory: Virtual Memory: 5102.36 MB used,  134212624.00 MB free, 134217728.00 MB total
+[2020.11.29-09.58.50:984][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.29-09.58.51:861][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.29-09.58.51:887][  0]LogInit: Using OS detected language (nl-NL).
+[2020.11.29-09.58.51:887][  0]LogInit: Using OS detected locale (nl-BE).
+[2020.11.29-09.58.52:020][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2020.11.29-09.58.53:168][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.29-09.58.54:501][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.29-09.58.54:501][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.29-09.58.55:958][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.29-09.58.55:958][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.29-09.58.55:958][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.29-09.58.55:958][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.29-09.58.56:062][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.11.29-09.58.56:062][  0]LogD3D11RHI:       8088/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.29-09.58.56:065][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.29-09.58.56:065][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.29-09.58.56:065][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.29-09.58.56:086][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.29-09.58.56:086][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.29-09.58.56:086][  0]LogWindows: EnumDisplayDevices:
+[2020.11.29-09.58.56:086][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.11.29-09.58.56:087][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.11.29-09.58.56:087][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.29-09.58.56:087][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.11.29-09.58.56:087][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.29-09.58.56:087][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.11.29-09.58.56:088][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2020.11.29-09.58.56:088][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2020.11.29-09.58.56:088][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.11.29-09.58.56:220][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.29-09.58.56:220][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.29-09.58.56:220][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.29-09.58.56:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.29-09.58.58:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.29-09.58.58:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.29-09.58.58:283][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.29-09.58.58:283][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.29-09.58.58:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.29-09.58.58:364][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.29-09.58.58:386][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.29-09.58.58:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.29-09.58.58:405][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.29-09.58.58:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.29-09.58.58:434][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.29-09.58.58:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.29-09.58.58:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.29-09.58.58:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.29-09.58.58:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.29-09.58.58:546][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.29-09.58.58:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.29-09.58.58:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.29-09.58.58:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.29-09.58.58:654][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.29-09.58.58:742][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.29-09.58.59:908][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../PPP/TheTravelersJourney/Intermediate/Shaders/WorkingDirectory/10808/).
+[2020.11.29-09.58.59:908][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/simon/AppData/Local/Temp/UnrealShaderWorkingDir/D9BE713141773F0C69DF198600D19F47/'.
+[2020.11.29-09.58.59:927][  0]LogXGEController: Cleaning working directory: C:/Users/simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.29-09.58.59:928][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.29-09.58.59:928][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.29-09.58.59:928][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.29-09.59.02:770][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.29-09.59.03:121][  0]LogDerivedDataCache: Loaded boot cache 0.35s 76MB C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.29-09.59.03:121][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.29-09.59.03:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PPP/TheTravelersJourney/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.29-09.59.03:121][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.29-09.59.03:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PPP/TheTravelersJourney/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.29-09.59.03:121][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.29-09.59.03:192][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.29-09.59.03:192][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.29-09.59.03:192][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.29-09.59.03:194][  0]LogDerivedDataCache: Using Local data cache path C:/Users/simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.29-09.59.03:195][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.29-09.59.03:195][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.29-09.59.04:098][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.29-09.59.04:186][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.29-09.59.05:909][  0]LogAssetRegistry: FAssetRegistry took 0.0073 seconds to start up
+[2020.11.29-09.59.11:781][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.29-09.59.13:237][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.29-09.59.13:237][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.29-09.59.13:237][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.29-09.59.13:237][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.29-09.59.13:238][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.29-09.59.13:499][  0]LogNetVersion: TheTravelersJourney 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 941444678)
+[2020.11.29-09.59.21:570][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024958FB9E40), frame # 0
+[2020.11.29-09.59.21:570][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002495A3302C0), frame # 0
+[2020.11.29-09.59.21:580][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002495A351C00), frame # 0
+[2020.11.29-09.59.22:427][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.170218 seconds
+[2020.11.29-09.59.22:461][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.29-09.59.22:461][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.29-09.59.22:461][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.29-09.59.34:317][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.29-09.59.34:863][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.29-09.59.35:191][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-09.59.35:191][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-09.59.35:191][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-09.59.36:690][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2020.11.29-09.59.36:690][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2020.11.29-09.59.38:464][  0]SourceControl: Source control is disabled
+[2020.11.29-09.59.38:465][  0]SourceControl: Source control is disabled
+[2020.11.29-09.59.38:659][  0]SourceControl: Source control is disabled
+[2020.11.29-09.59.38:713][  0]SourceControl: Source control is disabled
+[2020.11.29-09.59.38:786][  0]SourceControl: Source control is disabled
+[2020.11.29-09.59.43:319][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.29-09.59.43:597][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.29-09.59.43:597][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.29-09.59.44:185][  0]LogOcInput: OculusInput pre-init called
+[2020.11.29-09.59.44:289][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.29-09.59.44:289][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.29-09.59.47:492][  0]LogAutomationTest: Warning: Smoke tests took > 2s to run: 2.21s
+[2020.11.29-09.59.47:937][  0]LogEngine: Initializing Engine...
+[2020.11.29-09.59.48:048][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.29-09.59.48:103][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.29-09.59.48:672][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.020 s
+[2020.11.29-09.59.49:168][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.29-09.59.51:069][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.29-09.59.51:070][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024960D9FC00), frame # 0
+[2020.11.29-09.59.51:083][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024960E1D800), frame # 0
+[2020.11.29-09.59.51:901][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.29-09.59.51:901][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.29-09.59.51:901][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.29-09.59.51:901][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.29-09.59.51:901][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.29-09.59.51:901][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.29-09.59.51:901][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.29-09.59.51:901][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.29-09.59.51:977][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.29-09.59.51:977][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.29-09.59.52:577][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.29-09.59.52:577][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.29-09.59.52:643][  0]LogAudioMixer: Display: Using Audio Device headset (Realtek High Definition Audio)
+[2020.11.29-09.59.53:089][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.29-09.59.53:091][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.29-09.59.53:116][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.29-09.59.53:542][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.29-09.59.53:619][  0]LogInit: FAudioDevice initialized.
+[2020.11.29-09.59.53:751][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.29-09.59.53:918][  0]LogDerivedDataCache: Saved boot cache 0.17s 76MB C:/Users/simon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.29-09.59.53:924][  0]LogInit: Texture streaming: Enabled
+[2020.11.29-09.59.54:380][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.29-09.59.54:380][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.29-09.59.54:503][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.29-09.59.55:129][  0]LogInit: Transaction tracking system initialized
+[2020.11.29-09.59.55:940][  0]BlueprintLog: New page: Editor Load
+[2020.11.29-09.59.58:271][  0]LocalizationService: Localization service is disabled
+[2020.11.29-10.00.04:850][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/TheTravelersJourney/Content/' took 0.01s
+[2020.11.29-10.00.04:850][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.29-10.00.04:850][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.29-10.00.15:025][  0]SourceControl: Source control is disabled
+[2020.11.29-10.00.15:067][  0]LogUnrealEdMisc: Loading editor; pre map load, took 120.296
+[2020.11.29-10.00.15:965][  0]Cmd: MAP LOAD FILE="../../../../../PPP/TheTravelersJourney/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.29-10.00.16:077][  0]LogEditorServer: Warning: Can't find file '../../../../../PPP/TheTravelersJourney/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.11.29-10.00.16:493][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.29-10.00.17:320][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 751,94ms to complete.
+[2020.11.29-10.00.17:382][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.894
+[2020.11.29-10.00.20:954][  0]LogUnrealEdMisc: Total Editor Startup Time, took 126.182
+[2020.11.29-10.00.22:033][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.29-10.00.22:042][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.29-10.00.22:049][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.29-10.00.22:055][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.29-10.00.22:639][  0]LogCollectionManager: Loaded 0 collections in 0.000812 seconds
+[2020.11.29-10.00.22:780][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/TheTravelersJourney/Saved/Collections/' took 0.00s
+[2020.11.29-10.00.22:780][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/TheTravelersJourney/Content/Developers/simon/Collections/' took 0.00s
+[2020.11.29-10.00.22:780][  0]LogFileCache: Scanning file cache for directory 'D:/PPP/TheTravelersJourney/Content/Collections/' took 0.00s
+[2020.11.29-10.00.22:780][  0]LogContentBrowser: Native class hierarchy populated in 0.0302 seconds. Added 3433 classes and 824 folders.
+[2020.11.29-10.00.22:949][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.29-10.00.24:111][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.29-10.00.27:477][  0]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.28:103][  0]LogSlate: Took 0.399682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.29-10.00.28:946][  0]LogSlate: Took 0.031424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.29-10.00.30:078][  0]LogRenderer: Reallocating scene render targets to support 1292x924 Format 10 NumSamples 1 (Frame:1).
+[2020.11.29-10.00.30:951][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.29-10.00.30:951][  0]LogLoad: (Engine Initialization) Total time: 136.18 seconds
+[2020.11.29-10.00.30:951][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.29-10.00.31:265][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2020.11.29-10.00.31:785][  1]LogAssetRegistry: Asset discovery search completed in 85.8804 seconds
+[2020.11.29-10.00.31:791][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000264 seconds (updated 0 objects)
+[2020.11.29-10.00.32:178][  3]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.32:178][  3]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.32:179][  3]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.32:370][  3]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.34:197][  9]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.34:197][  9]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.34:197][  9]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.34:377][  9]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.36:218][ 15]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.36:218][ 15]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.36:218][ 15]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.36:383][ 15]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.38:235][ 21]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.38:235][ 21]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.38:235][ 21]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.38:389][ 21]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.40:251][ 27]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.40:251][ 27]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.40:251][ 27]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.40:394][ 27]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.42:169][ 33]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.42:169][ 33]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.42:169][ 33]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.42:396][ 33]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.44:189][ 39]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.44:189][ 39]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.44:189][ 39]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.44:401][ 39]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.46:205][ 45]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.46:205][ 45]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.46:205][ 45]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.46:405][ 45]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.48:220][159]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.48:220][159]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.48:220][159]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.48:237][160]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.50:243][390]LogRenderer: Reallocating scene render targets to support 1300x924 Format 10 NumSamples 1 (Frame:340).
+[2020.11.29-10.00.50:346][390]LogRenderer: Reallocating scene render targets to support 1340x924 Format 10 NumSamples 1 (Frame:342).
+[2020.11.29-10.00.50:539][391]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.50:539][391]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.50:539][391]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.50:554][391]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.50:572][392]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:344).
+[2020.11.29-10.00.50:609][393]LogRenderer: Reallocating scene render targets to support 1436x924 Format 10 NumSamples 1 (Frame:346).
+[2020.11.29-10.00.50:645][394]LogRenderer: Reallocating scene render targets to support 1440x924 Format 10 NumSamples 1 (Frame:348).
+[2020.11.29-10.00.50:678][395]LogRenderer: Reallocating scene render targets to support 1444x924 Format 10 NumSamples 1 (Frame:350).
+[2020.11.29-10.00.50:713][396]LogRenderer: Reallocating scene render targets to support 1448x924 Format 10 NumSamples 1 (Frame:352).
+[2020.11.29-10.00.51:762][471]LogSlate: Took 0.013520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.29-10.00.51:827][471]LogSlate: Took 0.011609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.29-10.00.52:454][519]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.52:454][519]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.52:454][519]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.52:470][520]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.53:662][626]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.29-10.00.53:662][626]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.29-10.00.53:662][626]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.29-10.00.53:677][628]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.29-10.00.55:546][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:546][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:546][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:546][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:546][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:546][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/DataTables/Abilities.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/DataTables/Abilities.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/DataTables/Abilities.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/DataTables/Abilities.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Assets/BP/Ability.Ability_C
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:547][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Assets/BP/Ability.Ability_C
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Assets/BP/Ability.Ability_C
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Assets/BP/Ability.Ability_C
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: Unable to load Default__Ability_C with outer Package /Game/Assets/BP/Ability because its class does not exist
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Assets/BP/Ability.Ability_C
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Assets/BP/Ability.Ability_C
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:548][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:549][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:650][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:650][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:650][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:650][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:650][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:650][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: Unable to load Default__MyPlayableCharacter_C with outer Package /Game/MyPlayableCharacter because its class does not exist
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:651][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:652][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:652][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:652][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:652][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:652][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/DeathScreen.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:652][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:675][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:675][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:675][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:676][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:676][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:676][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:697][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:697][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_DynamicCast_0
+[2020.11.29-10.00.55:697][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:698][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_CallFunction_1
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:698][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:733][728]LogBlueprint: Error: [Compiler DeathScreen] In use pin  <Unnamed>  no longer exists on node  Respawn . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:734][728]LogBlueprint: Error: [Compiler DeathScreen] In use pin  Target  no longer exists on node  Respawn . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:734][728]LogBlueprint: Error: [Compiler DeathScreen] Could not find a function named "Respawn" in 'DeathScreen'.
+Make sure 'DeathScreen' has been compiled for  Respawn
+[2020.11.29-10.00.55:734][728]LogBlueprint: Error: [Compiler DeathScreen] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.11.29-10.00.55:734][728]LogBlueprint: Error: [Compiler DeathScreen] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.11.29-10.00.55:734][728]LogBlueprint: Error: [Compiler DeathScreen] In use pin  As My Playable Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:758][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/GUI.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:758][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/GUI.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:758][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/GUI.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:758][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/GUI.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:761][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/GUI.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:761][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/GUI.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:761][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/GUI.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:761][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/GUI.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:793][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:793][728]LoadErrors: Failed to load /Script/MyProject.Abilities Referenced by GetAbilityData
+[2020.11.29-10.00.55:793][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:793][728]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/UI/GUI.GUI_C:GetAbilityData:CallFunc_GetDataTableRowFromName_OutRow'. Unknown structure.
+[2020.11.29-10.00.55:793][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:793][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:793][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:794][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:795][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:795][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by GUI
+[2020.11.29-10.00.55:795][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:795][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:799][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableSet_0
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:799][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:800][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_8
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:800][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_6
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:800][728]LoadErrors: Failed to load /Script/MyProject.HealthComponent Referenced by K2Node_VariableGet_6
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:800][728]LoadErrors: Failed to load /Script/MyProject.HealthComponent Referenced by K2Node_VariableGet_7
+[2020.11.29-10.00.55:800][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_2
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_3
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LoadErrors: Failed to load /Script/MyProject.HealthComponent Referenced by K2Node_VariableGet_3
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:801][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LoadErrors: Failed to load /Script/MyProject.HealthComponent Referenced by K2Node_VariableGet_4
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_5
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LoadErrors: Failed to load /Script/MyProject.HealthComponent Referenced by K2Node_VariableGet_9
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_10
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:802][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_11
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_12
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_13
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_14
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:803][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:804][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:805][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_20
+[2020.11.29-10.00.55:805][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:805][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:805][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:805][728]LoadErrors: Failed to load /Script/MyProject.Abilities Referenced by K2Node_GetDataTableRow_0
+[2020.11.29-10.00.55:805][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:805][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:805][728]LoadErrors: Failed to load /Script/MyProject.Abilities Referenced by K2Node_BreakStruct_0
+[2020.11.29-10.00.55:805][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:806][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:806][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:806][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:806][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_0
+[2020.11.29-10.00.55:806][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:806][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:806][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:806][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_1
+[2020.11.29-10.00.55:806][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:806][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:806][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:807][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:808][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:808][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:808][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:808][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:808][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:808][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:808][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:808][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:811][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:811][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:811][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:811][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:811][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:811][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:811][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:814][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:814][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:814][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:814][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:814][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:814][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:814][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:816][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:816][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:816][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:816][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:816][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:816][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:816][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:816][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:817][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:818][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:818][728]LoadErrors: Failed to load /Script/MyProject.Abilities Referenced by Abilities
+[2020.11.29-10.00.55:818][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:819][728]LogDataTable: Error: Missing RowStruct while emptying DataTable '/Game/Assets/DataTables/Abilities.Abilities'!
+[2020.11.29-10.00.55:819][728]LogDataTable: Error: Missing RowStruct while loading DataTable '/Game/Assets/DataTables/Abilities.Abilities'!
+[2020.11.29-10.00.55:831][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:831][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Ability3Cooldown" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Ability3Cooldown
+[2020.11.29-10.00.55:831][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Ability2Cooldown" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Ability2Cooldown
+[2020.11.29-10.00.55:831][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Ability1Cooldown" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Ability1Cooldown
+[2020.11.29-10.00.55:831][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:831][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Shield" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Shield
+[2020.11.29-10.00.55:831][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "DefaultHealth" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get DefaultHealth
+[2020.11.29-10.00.55:831][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:831][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Health" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Health
+[2020.11.29-10.00.55:831][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Health" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Health
+[2020.11.29-10.00.55:831][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:831][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Health" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Health
+[2020.11.29-10.00.55:831][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Health" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Health
+[2020.11.29-10.00.55:832][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:832][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:832][728]LogBlueprint: Error: [Compiler GUI] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.11.29-10.00.55:832][728]LogBlueprint: Error: [Compiler GUI] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.11.29-10.00.55:832][728]LogBlueprint: Error: [Compiler GUI] In use pin  As My Playable Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:853][728]LogBlueprint: Error: [Compiler GUI] In use pin  Abilities  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:853][728]LogBlueprint: Error: [Compiler GUI] In use pin  Rarity  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:853][728]LogBlueprint: Error: [Compiler GUI] In use pin  Name  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:853][728]LogBlueprint: Error: [Compiler GUI] In use pin  Category  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:853][728]LogBlueprint: Error: [Compiler GUI] In use pin  Points  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:853][728]LogBlueprint: Error: [Compiler GUI] In use pin  Cooldown  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:853][728]LogBlueprint: Error: [Compiler GUI] In use pin  Description  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:853][728]LogBlueprint: Error: [Compiler GUI] No Struct in  Break <unknown struct>
+[2020.11.29-10.00.55:854][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:854][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Inventory" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Inventory
+[2020.11.29-10.00.55:855][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:855][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Inventory" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Inventory
+[2020.11.29-10.00.55:856][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:856][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Inventory" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Inventory
+[2020.11.29-10.00.55:858][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:858][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Inventory" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Inventory
+[2020.11.29-10.00.55:860][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:861][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Inventory" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Inventory
+[2020.11.29-10.00.55:863][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:863][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Inventory" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Inventory
+[2020.11.29-10.00.55:864][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:864][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Ability1Cooldown" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Ability1Cooldown
+[2020.11.29-10.00.55:864][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:864][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Ability2Cooldown" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Ability2Cooldown
+[2020.11.29-10.00.55:865][728]LogBlueprint: Error: [Compiler GUI] In use pin  Character  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:865][728]LogBlueprint: Warning: [Compiler GUI] Could not find a variable named "Ability3Cooldown" in 'GUI'.
+Make sure 'GUI' has been compiled for  Get Ability3Cooldown
+[2020.11.29-10.00.55:865][728]LogBlueprint: Error: [Compiler GUI] The property associated with  Health  could not be found in '/Game/UI/GUI.GUI_C'
+[2020.11.29-10.00.55:865][728]LogBlueprint: Error: [Compiler GUI] The property associated with  Default Health  could not be found in '/Game/UI/GUI.GUI_C'
+[2020.11.29-10.00.55:865][728]LogBlueprint: Error: [Compiler GUI] The property associated with  Health  could not be found in '/Game/UI/GUI.GUI_C'
+[2020.11.29-10.00.55:865][728]LogBlueprint: Error: [Compiler GUI] The property associated with  Shield  could not be found in '/Game/UI/GUI.GUI_C'
+[2020.11.29-10.00.55:866][728]LogBlueprint: Error: [Compiler GUI] The property associated with  Health  could not be found in '/Game/UI/GUI.GUI_C'
+[2020.11.29-10.00.55:866][728]LogBlueprint: Error: [Compiler GUI] The property associated with  Health  could not be found in '/Game/UI/GUI.GUI_C'
+[2020.11.29-10.00.55:866][728]LogBlueprint: Error: [Compiler GUI] The property associated with  Ability 3Cooldown  could not be found in '/Game/UI/GUI.GUI_C'
+[2020.11.29-10.00.55:866][728]LogBlueprint: Error: [Compiler GUI] The property associated with  Ability 2Cooldown  could not be found in '/Game/UI/GUI.GUI_C'
+[2020.11.29-10.00.55:866][728]LogBlueprint: Error: [Compiler GUI] The property associated with  Ability 1Cooldown  could not be found in '/Game/UI/GUI.GUI_C'
+[2020.11.29-10.00.55:883][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/PauseMenu.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:883][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/PauseMenu.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:883][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:883][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/PauseMenu.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:883][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by Default__NewGameMode_C
+[2020.11.29-10.00.55:883][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/UI/PauseMenu.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:883][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:893][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:893][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:893][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:893][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:893][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:893][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:896][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableSet_1
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:896][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_DynamicCast_2
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:896][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:904][728]LogBlueprint: Error: [Compiler PauseMenu] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.11.29-10.00.55:904][728]LogBlueprint: Error: [Compiler PauseMenu] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.11.29-10.00.55:904][728]LogBlueprint: Error: [Compiler PauseMenu] In use pin  As My Playable Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.11.29-10.00.55:904][728]LogBlueprint: Warning: [Compiler PauseMenu] Could not find a variable named "Paused" in 'PauseMenu'.
+Make sure 'PauseMenu' has been compiled for  Set Paused
+[2020.11.29-10.00.55:906][728]LogBlueprint: Error: [Compiler PauseMenu] The property associated with  Paused  could not be found in '/Game/UI/PauseMenu.PauseMenu_C'
+[2020.11.29-10.00.55:910][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:910][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:910][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:910][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:910][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:910][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:911][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:911][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by MyPlayableCharacter
+[2020.11.29-10.00.55:911][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:911][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:911][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:911][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:912][728]LogBlueprint: Warning: FMemberReference::ResolveMember (DisableInput) bSelfContext == true, but no scope supplied!
+[2020.11.29-10.00.55:912][728]LogBlueprint: Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2020.11.29-10.00.55:912][728]LogBlueprint: Warning: FMemberReference::ResolveMember (EnableInput) bSelfContext == true, but no scope supplied!
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:913][728]LoadErrors: Failed to load /Script/MyProject.HealthComponent Referenced by K2Node_VariableGet_11
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:913][728]LoadErrors: Failed to load /Script/MyProject.HealthComponent Referenced by K2Node_VariableGet_13
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:913][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_4
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LoadErrors: Failed to load /Script/MyProject.HealthComponent Referenced by K2Node_VariableGet_5
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:914][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_7
+[2020.11.29-10.00.55:914][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableGet_9
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableSet_11
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableSet_17
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableSet_6
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:915][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableSet_7
+[2020.11.29-10.00.55:915][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:916][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by K2Node_VariableSet_14
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:916][728]LoadErrors: Failed to load /Script/MyProject.HealthComponent Referenced by K2Node_VariableSet_4
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:916][728]LoadErrors: Failed to load /Script/MyProject.MyCharacter Referenced by PackageMetaData
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/MyPlayableCharacter.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.55:916][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/MyPlayableCharacter.MyPlayableCharacter_C
+[2020.11.29-10.00.56:015][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.56:015][728]LoadErrors: Failed to load /Script/MyProject.AbilityComponent Referenced by Ability
+[2020.11.29-10.00.56:015][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.56:015][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.56:015][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.56:015][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Assets/BP/Ability.Ability_C
+[2020.11.29-10.00.56:016][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.56:016][728]LoadErrors: Failed to load /Script/MyProject.AbilityComponent Referenced by K2Node_VariableGet_0
+[2020.11.29-10.00.56:016][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.56:016][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.56:016][728]LoadErrors: Failed to load /Script/MyProject.AbilityComponent Referenced by PackageMetaData
+[2020.11.29-10.00.56:016][728]LogLinker: Warning: While loading '../../../../../PPP/TheTravelersJourney/Content/Assets/BP/Ability.uasset' failed to load '/Script/MyProject': Can't find file.
+[2020.11.29-10.00.56:016][728]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Assets/BP/Ability.Ability_C
+[2020.11.29-10.00.56:374][728]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.29-10.00.56:455][728]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyPlayableCharacter.MyPlayableCharacter
+[2020.11.29-10.01.07:777][728]LogSlate: Window 'Message' being destroyed
+[2020.11.29-10.01.07:781][728]Message dialog closed, result: Yes, title: Message, text: Blueprint could not be loaded because it derives from an invalid class.  Check to make sure the parent class for this blueprint hasn't been removed! Do you want to continue (it can crash the editor)?
+[2020.11.29-10.01.08:256][728]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.11.29-10.01.08:840][728]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.29-10.01.10:639][728]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.799 s
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: === Handled ensure: ===
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: 
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:/Build/++UE4/Sync/Engine/Source/Editor/BlueprintGraph/Private/BlueprintActionFilter.cpp] [Line: 632]
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: Unable to resolve IsEventUnimplementable() - Blueprint (MyPlayableCharacter) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: Stack: 
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda64298f UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda49022d UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda490bd3 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda490a6b UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc2a1a36 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc2c9b45 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc2a2042 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc510018 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc54465f UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd9296296 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd91a9681 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc4fd963 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc52589f UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc5212b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc4fc5b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc521930 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc310d85 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc331084 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc326708 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc352ab3 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc32c1fc UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdcb5b27b6 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdde47f909 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47a8fe7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd476688f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47b22ad UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd476461d UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd4761037 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47c4077 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47b271b UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf380f9e UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf4053e2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf3ee68a UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf3e1ad9 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a737f62 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a725c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a73a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a7217d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffe68a5e858 USER32.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffe68a5e299 USER32.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a73bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b568c4 UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b6ba7c UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b6bb5a UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b7e31d UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b8145a UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffe68977034 KERNEL32.DLL!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: [Callstack] 0x00007ffe691fcec1 ntdll.dll!UnknownFunction []
+[2020.11.29-10.01.10:649][728]LogOutputDevice: Error: 
+[2020.11.29-10.01.10:653][728]LogStats:                SubmitErrorReport -  0.000 s
+[2020.11.29-10.01.20:485][728]LogStats:                    SendNewReport -  9.832 s
+[2020.11.29-10.01.20:485][728]LogStats:             FDebug::EnsureFailed - 11.645 s
+[2020.11.29-10.01.20:753][728]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.29-10.01.20:754][728]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: === Handled ensure: ===
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: 
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:/Build/++UE4/Sync/Engine/Source/Editor/BlueprintGraph/Private/BlueprintActionFilter.cpp] [Line: 731]
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: Unable to resolve IsFieldInaccessible() - Blueprint (MyPlayableCharacter) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: Stack: 
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda64378f UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda49097f UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda490bd3 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda490a6b UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc2a1a36 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc2c9b45 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc2a2042 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc510018 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc54465f UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd9296296 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd91a9681 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc4fd963 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc52589f UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc5212b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc4fc5b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc521930 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc310d85 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc331084 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc326708 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc352ab3 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc32c1fc UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdcb5b27b6 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdde47f909 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47a8fe7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd476688f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47b22ad UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd476461d UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd4761037 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47c4077 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47b271b UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf380f9e UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf4053e2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf3ee68a UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf3e1ad9 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a737f62 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a725c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a73a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a7217d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffe68a5e858 USER32.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffe68a5e299 USER32.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a73bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b568c4 UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b6ba7c UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b6bb5a UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b7e31d UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b8145a UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.20:754][728]LogOutputDevice: Error: [Callstack] 0x00007ffe68977034 KERNEL32.DLL!UnknownFunction []
+[2020.11.29-10.01.20:755][728]LogOutputDevice: Error: [Callstack] 0x00007ffe691fcec1 ntdll.dll!UnknownFunction []
+[2020.11.29-10.01.20:755][728]LogOutputDevice: Error: 
+[2020.11.29-10.01.20:758][728]LogStats:                SubmitErrorReport -  0.000 s
+[2020.11.29-10.01.26:170][728]LogStats:                    SendNewReport -  5.412 s
+[2020.11.29-10.01.26:170][728]LogStats:             FDebug::EnsureFailed -  5.417 s
+[2020.11.29-10.01.27:042][728]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.29-10.01.27:043][728]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: === Handled ensure: ===
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: 
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: Ensure condition failed: Blueprint != nullptr && Blueprint->ParentClass != nullptr [File:D:/Build/++UE4/Sync/Engine/Source/Editor/BlueprintGraph/Private/BlueprintActionFilter.cpp] [Line: 1707]
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: 
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: Stack: 
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda6431d9 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda4919bf UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda490bd3 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffdda490a6b UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc2a1a36 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc2c9b45 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc2a2042 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc510018 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc54465f UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd9296296 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd91a9681 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc4fd963 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc52589f UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:043][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc5212b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc4fc5b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc521930 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc310d85 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc331084 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc326708 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc352ab3 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddc32c1fc UE4Editor-Kismet.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffdcb5b27b6 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffdde47f909 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47a8fe7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd476688f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47b22ad UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd476461d UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd4761037 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47c4077 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffdd47b271b UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf380f9e UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf4053e2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf3ee68a UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffddf3e1ad9 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a737f62 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a725c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a73a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a7217d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffe68a5e858 USER32.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffe68a5e299 USER32.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffe0a73bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b568c4 UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b6ba7c UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b6bb5a UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b7e31d UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ff6f4b8145a UE4Editor.exe!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffe68977034 KERNEL32.DLL!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: [Callstack] 0x00007ffe691fcec1 ntdll.dll!UnknownFunction []
+[2020.11.29-10.01.27:044][728]LogOutputDevice: Error: 

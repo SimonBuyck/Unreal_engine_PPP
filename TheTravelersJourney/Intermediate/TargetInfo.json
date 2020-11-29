@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TheTravelersJourney",
+			"Path": "D:\\PPP\\TheTravelersJourney\\Source\\TheTravelersJourney.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TheTravelersJourneyEditor",
+			"Path": "D:\\PPP\\TheTravelersJourney\\Source\\TheTravelersJourneyEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

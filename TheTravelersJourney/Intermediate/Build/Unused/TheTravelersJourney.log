@@ -1,0 +1,12 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\PPP).
+  Building TheTravelersJourneyEditor...
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 4 processes...
+    [1/4] MyPlayerController.cpp
+    [2/4] UE4Editor-TheTravelersJourney.lib
+       Creating library D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\UE4Editor-TheTravelersJourney.lib and object D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\UE4Editor-TheTravelersJourney.exp
+    [3/4] UE4Editor-TheTravelersJourney.dll
+       Creating library D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\UE4Editor-TheTravelersJourney.suppressed.lib and object D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\UE4Editor-TheTravelersJourney.suppressed.exp
+    [4/4] TheTravelersJourneyEditor.target
+  Total time in Parallel executor: 5,48 seconds
+  Total execution time: 6,36 seconds
