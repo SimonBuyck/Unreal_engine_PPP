@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TheTravelersJourney.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2560921A-F31F-47C2-93D1-F7770D1BABE3}</UniqueIdentifier>
+      <UniqueIdentifier>{71A81AE3-2109-442F-BCD8-6C0459B56E14}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TheTravelersJourney.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CA62B1D6-276F-4E3E-A744-D5B59C799C90}</UniqueIdentifier>
+      <UniqueIdentifier>{B5C016F5-706B-4FCE-AB8E-1F4171C1BCE5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TheTravelersJourney">
-      <UniqueIdentifier>{B74FBE54-0CD6-41B5-B835-4908E1CF83F6}</UniqueIdentifier>
+      <UniqueIdentifier>{5CBD592C-7B8F-4EDC-9AF1-D0EDA564A28F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TheTravelersJourney\AbilityComponent.cpp">
       <Filter>Source\TheTravelersJourney</Filter>
@@ -69,14 +69,26 @@
       <Filter>Source\TheTravelersJourney</Filter>
     </ClInclude>
     <Filter Include="Source\TheTravelersJourney\Private">
-      <UniqueIdentifier>{450102B3-B886-4FBF-BF94-FE3392C39B95}</UniqueIdentifier>
+      <UniqueIdentifier>{3D96C2D5-EFBA-4D7F-AB24-F10976CEFD23}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TheTravelersJourney\Private\InteractableBase.cpp">
+      <Filter>Source\TheTravelersJourney\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheTravelersJourney\Private\InteractInterface.cpp">
+      <Filter>Source\TheTravelersJourney\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TheTravelersJourney\Private\MyCharacter.cpp">
       <Filter>Source\TheTravelersJourney\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TheTravelersJourney\Public">
-      <UniqueIdentifier>{EF6099E1-2488-47B0-BEDE-D6648757FD5A}</UniqueIdentifier>
+      <UniqueIdentifier>{B52B7C7B-6586-49AD-B78A-3397A9387FC4}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\TheTravelersJourney\Public\InteractableBase.h">
+      <Filter>Source\TheTravelersJourney\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TheTravelersJourney\Public\InteractInterface.h">
+      <Filter>Source\TheTravelersJourney\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\TheTravelersJourney\Public\MyCharacter.h">
       <Filter>Source\TheTravelersJourney\Public</Filter>
     </ClInclude>

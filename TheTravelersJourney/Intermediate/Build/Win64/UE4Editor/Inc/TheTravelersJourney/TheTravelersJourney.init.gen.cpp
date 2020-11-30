@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeTheTravelersJourney_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x27E5EF7A,
-				0xC912D6CD,
+				0x4C1CC59C,
+				0xF134F8ED,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

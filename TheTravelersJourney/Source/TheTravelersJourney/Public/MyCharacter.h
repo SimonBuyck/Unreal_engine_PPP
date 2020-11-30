@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "TheTravelersJourney\HealthComponent.h"
+#include "InteractInterface.h"
 #include "MyCharacter.generated.h"
 
 UCLASS()

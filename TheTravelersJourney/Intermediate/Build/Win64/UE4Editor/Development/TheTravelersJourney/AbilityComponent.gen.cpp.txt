@@ -9,6 +9,8 @@ D:\games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotion
 D:\games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 D:\PPP\TheTravelersJourney\Source\TheTravelersJourney\HealthComponent.h
 D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Inc\TheTravelersJourney\HealthComponent.generated.h
+D:\PPP\TheTravelersJourney\Source\TheTravelersJourney\Public\InteractInterface.h
+D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Inc\TheTravelersJourney\InteractInterface.generated.h
 D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Inc\TheTravelersJourney\MyCharacter.generated.h
 D:\games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 D:\games\UE_4.25\Engine\Source\Runtime\Engine\Public\DataTableUtils.h

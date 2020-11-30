@@ -7,6 +7,8 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\TheTravelersJourneyEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\InteractableBase.cpp.obj"
+"D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\InteractInterface.cpp.obj"
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\MyCharacter.cpp.obj"
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\AbilityComponent.cpp.obj"
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\HealthComponent.cpp.obj"
@@ -16,6 +18,8 @@
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\TheTravelersJourneyGameModeBase.cpp.obj"
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\AbilityComponent.gen.cpp.obj"
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\HealthComponent.gen.cpp.obj"
+"D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\InteractableBase.gen.cpp.obj"
+"D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\InteractInterface.gen.cpp.obj"
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\MyCharacter.gen.cpp.obj"
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\MyPlayerController.gen.cpp.obj"
 "D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\TestActor.gen.cpp.obj"
