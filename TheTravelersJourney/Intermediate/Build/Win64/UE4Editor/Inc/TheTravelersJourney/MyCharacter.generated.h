@@ -17,15 +17,20 @@ struct FRotator;
 
 #define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_SPARSE_DATA
 #define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_RPC_WRAPPERS \
+	virtual void TraceForward_Implementation(); \
  \
+	DECLARE_FUNCTION(execTraceForward); \
 	DECLARE_FUNCTION(execSpawnAbility);
 
 
 #define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execTraceForward); \
 	DECLARE_FUNCTION(execSpawnAbility);
 
 
+#define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_EVENT_PARMS
+#define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_CALLBACK_WRAPPERS
 #define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
@@ -71,17 +76,20 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 #define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Arm() { return STRUCT_OFFSET(AMyCharacter, Arm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AMyCharacter, Camera); } \
-	FORCEINLINE static uint32 __PPO__CastedAbility() { return STRUCT_OFFSET(AMyCharacter, CastedAbility); } \
-	FORCEINLINE static uint32 __PPO__CastedAbilityIndex() { return STRUCT_OFFSET(AMyCharacter, CastedAbilityIndex); }
+	FORCEINLINE static uint32 __PPO__TraceDistance() { return STRUCT_OFFSET(AMyCharacter, TraceDistance); }
 
 
-#define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_11_PROLOG
+#define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_11_PROLOG \
+	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_EVENT_PARMS
+
+
 #define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_SPARSE_DATA \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_RPC_WRAPPERS \
+	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_CALLBACK_WRAPPERS \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_INCLASS \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
@@ -94,6 +102,7 @@ public: \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_SPARSE_DATA \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_CALLBACK_WRAPPERS \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_INCLASS_NO_PURE_DECLS \
 	TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \

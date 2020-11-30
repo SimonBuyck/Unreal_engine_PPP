@@ -7,6 +7,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Runtime\Engine\Classes\Kismet\GameplayStatics.h"
 #include "TheTravelersJourney\HealthComponent.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -41,6 +42,27 @@ void AMyCharacter::BeginPlay()
 	Super::BeginPlay();
 }
 
+void AMyCharacter::TraceForward_Implementation()
+{
+    FVector Loc;
+    FRotator Rot;
+    FHitResult Hit;
+
+    GetController()->GetPlayerViewPoint(Loc, Rot);
+
+    FVector Start = Loc;
+    FVector End = Start + (Rot.Vector() * TraceDistance);
+
+    FCollisionQueryParams TraceParams;
+    bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, TraceParams);
+
+    DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, 2.f);
+
+    if (bHit) {
+        DrawDebugBox(GetWorld(), Hit.ImpactPoint, FVector(10, 10, 10), FColor::Emerald, false, 2.f);
+    }
+}
+
 // Called every frame
 void AMyCharacter::Tick(float DeltaTime)
 {
@@ -59,6 +81,9 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
     PlayerInputComponent->BindAction("Ability1", IE_Pressed, this, &AMyCharacter::Ability1);
     PlayerInputComponent->BindAction("Ability2", IE_Pressed, this, &AMyCharacter::Ability2);
     PlayerInputComponent->BindAction("Ability3", IE_Pressed, this, &AMyCharacter::Ability3);
+    PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AMyCharacter::InteractPressed);
+    PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMyCharacter::CheckJump);
+    PlayerInputComponent->BindAction("Jump", IE_Released, this, &AMyCharacter::CheckJump);
 
     //Hook up every-frame handling for our four axes
     PlayerInputComponent->BindAxis("MoveForward", this, &AMyCharacter::MoveForward);
@@ -66,8 +91,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
     PlayerInputComponent->BindAxis("CameraYaw", this, &AMyCharacter::YawCamera);
     PlayerInputComponent->BindAxis("CameraPitch", this, &AMyCharacter::PitchCamera);
 
-    PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMyCharacter::CheckJump);
-    PlayerInputComponent->BindAction("Jump", IE_Released, this, &AMyCharacter::CheckJump);
+
 }
 
 //Input functions
@@ -121,6 +145,11 @@ void AMyCharacter::Ability2() {
 
 void AMyCharacter::Ability3() {
     CheckInventory(2);
+}
+
+void AMyCharacter::InteractPressed()
+{
+    TraceForward();
 }
 
 void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)

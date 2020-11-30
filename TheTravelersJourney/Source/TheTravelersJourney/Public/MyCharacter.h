@@ -53,6 +53,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool Dead;
 
+	UPROPERTY(EditAnywhere)
+		int CastedAbility;
+
+	UPROPERTY(EditAnywhere)
+		int CastedAbilityIndex;
+
 	int GetCastedAbility();
 	int GetCastedAbilityIndex();
 
@@ -80,17 +86,19 @@ protected:
 	void Ability1();
 	void Ability2();
 	void Ability3();
+	void InteractPressed();
 
 	UFUNCTION()
 		void SpawnAbility(FVector Loc, FRotator Rot);
 
-	UPROPERTY(EditAnywhere)
-		int CastedAbility;
-
-	UPROPERTY(EditAnywhere)
-		int CastedAbilityIndex;
-
 	FVector CurrentVelocity;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	float TraceDistance = 2000;
+
+	UFUNCTION(BlueprintNativeEvent)
+		void TraceForward();
+	void TraceForward_Implementation();
 
 public:	
 	// Called every frame
