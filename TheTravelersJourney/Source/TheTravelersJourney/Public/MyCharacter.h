@@ -108,4 +108,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void CheckInventory(int index);
+
+private:
+	AActor* FocusedActor;
 };

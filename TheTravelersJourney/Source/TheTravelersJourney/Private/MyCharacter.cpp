@@ -60,6 +60,33 @@ void AMyCharacter::TraceForward_Implementation()
 
     if (bHit) {
         DrawDebugBox(GetWorld(), Hit.ImpactPoint, FVector(10, 10, 10), FColor::Emerald, false, 2.f);
+
+        AActor* Interactable = Hit.GetActor();
+
+        if (Interactable) {
+            if (Interactable != FocusedActor) {
+                if (FocusedActor) {
+                    IInteractInterface* Interface = Cast<IInteractInterface>(FocusedActor);
+                    if (Interface) {
+                        Interface->Execute_EndFocus(FocusedActor);
+                    }
+                }
+                IInteractInterface* Interface = Cast<IInteractInterface>(Interactable);
+                if (Interface) {
+                    Interface->Execute_StartFocus(Interactable);
+                }
+                FocusedActor = Interactable;
+            }
+        }
+        else {
+            if (FocusedActor) {
+                IInteractInterface* Interface = Cast<IInteractInterface>(FocusedActor);
+                if (Interface) {
+                    Interface->Execute_EndFocus(FocusedActor);
+                }
+            }
+            FocusedActor = nullptr;
+        }
     }
 }
 
@@ -67,6 +94,8 @@ void AMyCharacter::TraceForward_Implementation()
 void AMyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+    TraceForward();
 
     if (jumping) {
         Jump();
@@ -150,6 +179,13 @@ void AMyCharacter::Ability3() {
 void AMyCharacter::InteractPressed()
 {
     TraceForward();
+    if (FocusedActor) {
+        IInteractInterface* Interface = Cast<IInteractInterface>(FocusedActor);
+        if (Interface) {
+            Interface->Execute_OnInteract(FocusedActor, this);
+        }
+    }
+    
 }
 
 void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
