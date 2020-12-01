@@ -152,8 +152,10 @@ void AMyCharacter::CheckJump()
 {
     if (jumping) {
         jumping = false;
+        CanCast = true;
     }else {
         jumping = true;
+        CanCast = false;
     }
 }
 
@@ -191,21 +193,22 @@ void AMyCharacter::CheckInventory(int index) {
     CastedAbility = Inventory[index];
     CastedAbilityIndex = index;
     if (Inventory[index] != 0) {
-        GEngine->AddOnScreenDebugMessage(1, 2.f, FColor::Orange, TEXT("InventoryItem not zero"));
-        if (index == 0 && CanCast1 == true) {
-            FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
-            SpawnAbility(ActorLocation, GetControlRotation());
-            CanCast1 = false;
-        }
-        else if (index == 1 && CanCast2 == true) {
-            FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
-            SpawnAbility(ActorLocation, GetControlRotation());
-            CanCast2 = false;
-        }
-        else if(index == 2 && CanCast3 == true) {
-            FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
-            SpawnAbility(ActorLocation, GetControlRotation());
-            CanCast3 = false;
+        if (CanCast) {
+            if (index == 0 && CanCast1 == true) {
+                FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+                SpawnAbility(ActorLocation, GetControlRotation());
+                CanCast1 = false;
+            }
+            else if (index == 1 && CanCast2 == true) {
+                FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+                SpawnAbility(ActorLocation, GetControlRotation());
+                CanCast2 = false;
+            }
+            else if (index == 2 && CanCast3 == true) {
+                FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+                SpawnAbility(ActorLocation, GetControlRotation());
+                CanCast3 = false;
+            }
         }
     }
 }

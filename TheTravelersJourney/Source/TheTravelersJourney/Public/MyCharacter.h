@@ -33,6 +33,9 @@ public:
 	TSubclassOf<AActor> Ability;
 
 	UPROPERTY(EditAnywhere)
+		bool CanCast = true;
+
+	UPROPERTY(EditAnywhere)
 		bool CanCast1 = true;
 
 	UPROPERTY(EditAnywhere)
