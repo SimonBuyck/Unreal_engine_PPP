@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "MyCharacter.h"
 #include "Components/ActorComponent.h"
 #include "HealthComponent.generated.h"
 
@@ -10,9 +11,6 @@
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class THETRAVELERSJOURNEY_API UHealthComponent : public UActorComponent
 {
-	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
-		TSubclassOf<AActor> Ability;
-
 	GENERATED_BODY()
 
 public:	

@@ -79,7 +79,6 @@ protected:
 
 	UPROPERTY()
 		class UCameraComponent* Camera;
-		class UHealthComponent* HealthComponent;
 
 	//Input functions
 	void MoveForward(float AxisValue);
@@ -100,7 +99,7 @@ protected:
 	FVector CurrentVelocity;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	float TraceDistance = 2000;
+	float TraceDistance = 500;
 
 	UFUNCTION(BlueprintNativeEvent)
 		void TraceForward();

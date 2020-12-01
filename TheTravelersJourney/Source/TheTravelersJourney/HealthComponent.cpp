@@ -1,6 +1,7 @@
 // Copyrights Simon Buyck 2020
 
 
+#include "MyCharacter.h"
 #include "HealthComponent.h"
 
 // Sets default values for this component's properties
@@ -32,6 +33,8 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const UDam
 	}
 
 	Health = FMath::Clamp(Health - Damage, 0.0f, DefaultHealth);
+
+	
 }
 
 

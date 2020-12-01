@@ -20,8 +20,6 @@ AMyCharacter::AMyCharacter()
     AutoPossessPlayer = EAutoReceiveInput::Player0;
 
     bUseControllerRotationYaw = false;
-    
-    HealthComponent = Cast<UHealthComponent>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 
     Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 
