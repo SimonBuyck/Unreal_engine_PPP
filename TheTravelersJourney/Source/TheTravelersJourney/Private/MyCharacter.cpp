@@ -7,7 +7,6 @@
 #include "Components/CapsuleComponent.h"
 #include "Runtime\Engine\Classes\Kismet\GameplayStatics.h"
 #include "TheTravelersJourney\HealthComponent.h"
-#include "DrawDebugHelpers.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -56,11 +55,7 @@ void AMyCharacter::TraceForward_Implementation()
     FCollisionQueryParams TraceParams;
     bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, TraceParams);
 
-    DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, 2.f);
-
     if (bHit) {
-        DrawDebugBox(GetWorld(), Hit.ImpactPoint, FVector(10, 10, 10), FColor::Emerald, false, 2.f);
-
         AActor* Interactable = Hit.GetActor();
 
         if (Interactable) {

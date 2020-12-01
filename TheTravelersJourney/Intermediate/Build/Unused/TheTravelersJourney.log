@@ -1,4 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\PPP).
+  Deleted hot-reload file: D:\PPP\TheTravelersJourney\Binaries\Win64\UE4Editor-TheTravelersJourney-0003.dll
+  Deleted hot-reload file: D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\UE4Editor-TheTravelersJourney-0003.lib
   Building TheTravelersJourneyEditor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 4 processes...
@@ -8,5 +10,5 @@
     [3/4] UE4Editor-TheTravelersJourney.dll
        Creating library D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\UE4Editor-TheTravelersJourney.suppressed.lib and object D:\PPP\TheTravelersJourney\Intermediate\Build\Win64\UE4Editor\Development\TheTravelersJourney\UE4Editor-TheTravelersJourney.suppressed.exp
     [4/4] TheTravelersJourneyEditor.target
-  Total time in Parallel executor: 12,25 seconds
-  Total execution time: 12,83 seconds
+  Total time in Parallel executor: 15,63 seconds
+  Total execution time: 16,77 seconds

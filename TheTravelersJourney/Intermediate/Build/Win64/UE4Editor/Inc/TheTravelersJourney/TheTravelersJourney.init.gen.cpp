@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTheTravelersJourney_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF255C002,
+				0x4EEAC29E,
 				0xF134F8ED,
 				METADATA_PARAMS(nullptr, 0)
 			};

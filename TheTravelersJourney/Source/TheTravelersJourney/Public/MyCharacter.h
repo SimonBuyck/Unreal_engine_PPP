@@ -26,6 +26,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
 		TArray<int32> Inventory;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
+		int Gold;
+
 	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
 	TSubclassOf<AActor> Ability;
 
