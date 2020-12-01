@@ -193,6 +193,7 @@ void AMyCharacter::CheckInventory(int index) {
     CastedAbility = Inventory[index];
     CastedAbilityIndex = index;
     if (Inventory[index] != 0) {
+        GEngine->AddOnScreenDebugMessage(1, 2.f, FColor::Orange, TEXT("InventoryItem not zero"));
         if (index == 0 && CanCast1 == true) {
             FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
             SpawnAbility(ActorLocation, GetControlRotation());
@@ -209,8 +210,6 @@ void AMyCharacter::CheckInventory(int index) {
             CanCast3 = false;
         }
     }
-    
-
 }
 
 int AMyCharacter::GetCastedAbility()
