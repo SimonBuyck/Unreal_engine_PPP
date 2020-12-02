@@ -17,15 +17,20 @@ struct FRotator;
 
 #define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_SPARSE_DATA
 #define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_RPC_WRAPPERS \
+	virtual void TraceAbilityForward_Implementation(); \
 	virtual void TraceForward_Implementation(); \
  \
+	DECLARE_FUNCTION(execTraceAbilityForward); \
 	DECLARE_FUNCTION(execTraceForward); \
+	DECLARE_FUNCTION(execSpawnProjectile); \
 	DECLARE_FUNCTION(execSpawnAbility);
 
 
 #define TheTravelersJourney_Source_TheTravelersJourney_Public_MyCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execTraceAbilityForward); \
 	DECLARE_FUNCTION(execTraceForward); \
+	DECLARE_FUNCTION(execSpawnProjectile); \
 	DECLARE_FUNCTION(execSpawnAbility);
 
 

@@ -24,11 +24,27 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
+	DEFINE_FUNCTION(AMyCharacter::execTraceAbilityForward)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->TraceAbilityForward_Implementation();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AMyCharacter::execTraceForward)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->TraceForward_Implementation();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AMyCharacter::execSpawnProjectile)
+	{
+		P_GET_STRUCT(FVector,Z_Param_Loc);
+		P_GET_STRUCT(FRotator,Z_Param_Rot);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SpawnProjectile(Z_Param_Loc,Z_Param_Rot);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AMyCharacter::execSpawnAbility)
@@ -40,6 +56,11 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		P_THIS->SpawnAbility(Z_Param_Loc,Z_Param_Rot);
 		P_NATIVE_END;
 	}
+	static FName NAME_AMyCharacter_TraceAbilityForward = FName(TEXT("TraceAbilityForward"));
+	void AMyCharacter::TraceAbilityForward()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AMyCharacter_TraceAbilityForward),NULL);
+	}
 	static FName NAME_AMyCharacter_TraceForward = FName(TEXT("TraceForward"));
 	void AMyCharacter::TraceForward()
 	{
@@ -50,6 +71,8 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		UClass* Class = AMyCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "SpawnAbility", &AMyCharacter::execSpawnAbility },
+			{ "SpawnProjectile", &AMyCharacter::execSpawnProjectile },
+			{ "TraceAbilityForward", &AMyCharacter::execTraceAbilityForward },
 			{ "TraceForward", &AMyCharacter::execTraceForward },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -87,6 +110,64 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacter_SpawnAbility_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics
+	{
+		struct MyCharacter_eventSpawnProjectile_Parms
+		{
+			FVector Loc;
+			FRotator Rot;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Rot;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Loc;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::NewProp_Rot = { "Rot", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacter_eventSpawnProjectile_Parms, Rot), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::NewProp_Loc = { "Loc", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCharacter_eventSpawnProjectile_Parms, Loc), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::NewProp_Rot,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::NewProp_Loc,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, nullptr, "SpawnProjectile", nullptr, nullptr, sizeof(MyCharacter_eventSpawnProjectile_Parms), Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00880401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyCharacter_SpawnProjectile()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacter_SpawnProjectile_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMyCharacter_TraceAbilityForward_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCharacter_TraceAbilityForward_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCharacter_TraceAbilityForward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCharacter, nullptr, "TraceAbilityForward", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCharacter_TraceAbilityForward_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCharacter_TraceAbilityForward_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyCharacter_TraceAbilityForward()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCharacter_TraceAbilityForward_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -190,6 +271,10 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		static void NewProp_CanCast_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_CanCast;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Projectile_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Projectile;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Ability_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Ability;
@@ -221,6 +306,8 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMyCharacter_SpawnAbility, "SpawnAbility" }, // 949758893
+		{ &Z_Construct_UFunction_AMyCharacter_SpawnProjectile, "SpawnProjectile" }, // 324593369
+		{ &Z_Construct_UFunction_AMyCharacter_TraceAbilityForward, "TraceAbilityForward" }, // 735438845
 		{ &Z_Construct_UFunction_AMyCharacter_TraceForward, "TraceForward" }, // 1375033285
 	};
 #if WITH_METADATA
@@ -361,6 +448,13 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast = { "CanCast", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacter), &Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_Projectile_MetaData[] = {
+		{ "Category", "Spawning" },
+		{ "ModuleRelativePath", "Public/MyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_Projectile = { "Projectile", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, Projectile), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Projectile_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Projectile_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability_MetaData[] = {
 		{ "Category", "Spawning" },
 		{ "ModuleRelativePath", "Public/MyCharacter.h" },
@@ -417,6 +511,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast1,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_CanCast,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Projectile,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Ability,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Gold,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Inventory,
@@ -451,7 +546,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacter, 412095696);
+	IMPLEMENT_CLASS(AMyCharacter, 2155003334);
 	template<> THETRAVELERSJOURNEY_API UClass* StaticClass<AMyCharacter>()
 	{
 		return AMyCharacter::StaticClass();
