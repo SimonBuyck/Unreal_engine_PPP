@@ -32,6 +32,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
 	TSubclassOf<AActor> Ability;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
+		TSubclassOf<AActor> Projectile;
+
 	UPROPERTY(EditAnywhere)
 		bool CanCast = true;
 
@@ -91,6 +94,7 @@ protected:
 
 	void CheckJump();
 
+	void BasicAttack();
 	void Ability1();
 	void Ability2();
 	void Ability3();
@@ -99,14 +103,21 @@ protected:
 	UFUNCTION()
 		void SpawnAbility(FVector Loc, FRotator Rot);
 
+	UFUNCTION()
+		void SpawnProjectile(FVector Loc, FRotator Rot);
+
 	FVector CurrentVelocity;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	float TraceDistance = 500;
+		float TraceDistance = 500;
 
 	UFUNCTION(BlueprintNativeEvent)
 		void TraceForward();
-	void TraceForward_Implementation();
+		void TraceForward_Implementation();
+
+	UFUNCTION(BlueprintNativeEvent)
+		void TraceAbilityForward();
+		void TraceAbilityForward_Implementation();
 
 public:	
 	// Called every frame

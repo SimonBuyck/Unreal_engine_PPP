@@ -83,6 +83,39 @@ void AMyCharacter::TraceForward_Implementation()
     }
 }
 
+void AMyCharacter::TraceAbilityForward_Implementation()
+{
+    FVector Loc;
+    FRotator Rot;
+    FHitResult Hit;
+
+    GetController()->GetPlayerViewPoint(Loc, Rot);
+
+    FVector Start = Loc;
+    FVector End = Start + (Rot.Vector() * 1000);
+
+    FCollisionQueryParams TraceParams;
+    bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, TraceParams);
+
+    if (bHit) {
+        if (CastedAbilityIndex == 0) {
+            SpawnAbility(Hit.Location, FRotator(0.f, 0.f, 0.f));
+            CanCast1 = false;
+            GEngine->AddOnScreenDebugMessage(1, 2.f, FColor::Orange, TEXT("Ability1 traced"));
+        }
+        if (CastedAbilityIndex == 1) {
+            SpawnAbility(Hit.Location, FRotator(0.f, 0.f, 0.f));
+            CanCast2 = false;
+            GEngine->AddOnScreenDebugMessage(1, 2.f, FColor::Orange, TEXT("Ability2 traced"));
+        }
+        if (CastedAbilityIndex == 2) {
+            SpawnAbility(Hit.Location, FRotator(0.f, 0.f, 0.f));
+            CanCast3 = false;
+            GEngine->AddOnScreenDebugMessage(1, 2.f, FColor::Orange, TEXT("Ability3 traced"));
+        }
+    }
+}
+
 // Called every frame
 void AMyCharacter::Tick(float DeltaTime)
 {
@@ -100,6 +133,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+    PlayerInputComponent->BindAction("Basic", IE_Pressed, this, &AMyCharacter::BasicAttack);
     PlayerInputComponent->BindAction("Ability1", IE_Pressed, this, &AMyCharacter::Ability1);
     PlayerInputComponent->BindAction("Ability2", IE_Pressed, this, &AMyCharacter::Ability2);
     PlayerInputComponent->BindAction("Ability3", IE_Pressed, this, &AMyCharacter::Ability3);
@@ -148,6 +182,14 @@ void AMyCharacter::PitchCamera(float AxisValue)
     }
 }
 
+void AMyCharacter::BasicAttack() {
+    FVector Loc;
+    FRotator Rot;
+    GetController()->GetPlayerViewPoint(Loc , Rot);
+
+    SpawnProjectile(Loc + FVector(-10.f, 0.f, 0.f), Rot);
+}
+
 void AMyCharacter::CheckJump()
 {
     if (jumping) {
@@ -180,7 +222,6 @@ void AMyCharacter::InteractPressed()
             Interface->Execute_OnInteract(FocusedActor, this);
         }
     }
-    
 }
 
 void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
@@ -189,25 +230,49 @@ void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
     AActor* SpawnedActorRef = GetWorld()->SpawnActor<AActor>(Ability, Loc, Rot, SpawnParams);
 }
 
+void AMyCharacter::SpawnProjectile(FVector Loc, FRotator Rot)
+{
+    FActorSpawnParameters SpawnParams;
+    AActor* SpawnedActorRef = GetWorld()->SpawnActor<AActor>(Projectile, Loc, Rot, SpawnParams);
+}
+
 void AMyCharacter::CheckInventory(int index) {
     CastedAbility = Inventory[index];
     CastedAbilityIndex = index;
     if (Inventory[index] != 0) {
         if (CanCast) {
-            if (index == 0 && CanCast1 == true) {
-                FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
-                SpawnAbility(ActorLocation, GetControlRotation());
-                CanCast1 = false;
+            if (index == 0 && CanCast1) {
+                if (Inventory[index] == 9 || Inventory[index] == 21 || Inventory[index] == 27) {
+                    TraceAbilityForward();
+                }
+                else {
+                    FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+                    FRotator ActorRotation = FRotator(0.0f, 0.0f, 0.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorRotation();
+                    SpawnAbility(ActorLocation, ActorRotation);
+                    CanCast1 = false;
+                }
             }
-            else if (index == 1 && CanCast2 == true) {
-                FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
-                SpawnAbility(ActorLocation, GetControlRotation());
-                CanCast2 = false;
+            else if (index == 1 && CanCast2) {
+                if (Inventory[index] == 9 || Inventory[index] == 21 || Inventory[index] == 27) {
+                    TraceAbilityForward();
+                }
+                else {
+                    FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+                    FRotator ActorRotation = FRotator(0.0f, 0.0f, 0.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorRotation();
+                    SpawnAbility(ActorLocation, ActorRotation);
+                    CanCast2 = false;
+                }        
             }
-            else if (index == 2 && CanCast3 == true) {
-                FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
-                SpawnAbility(ActorLocation, GetControlRotation());
-                CanCast3 = false;
+            else if (index == 2 && CanCast3) {
+                if (Inventory[index] == 9 || Inventory[index] == 21 || Inventory[index] == 27) {
+                    TraceAbilityForward();
+                }
+                else {
+                    FVector ActorLocation = FVector(0.0f, 0.0f, -88.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+                    FRotator ActorRotation = FRotator(0.0f, 0.0f, 0.0f) + GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorRotation();
+                    SpawnAbility(ActorLocation, ActorRotation);
+                    CanCast3 = false;
+                }
             }
         }
     }
