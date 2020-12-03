@@ -224,7 +224,7 @@ void AMyCharacter::CheckInventory(int index) {
     if (Inventory[index] != 0) {
         if (CanCast) {
             if (index == 0 && CanCast1) {
-                if (Inventory[index] == 9 || Inventory[index] == 21 || Inventory[index] == 27) {
+                if (Inventory[index] == 9 || Inventory[index] == 27) {
                     TraceAbilityForward();
                 }
                 else {
@@ -235,7 +235,7 @@ void AMyCharacter::CheckInventory(int index) {
                 }
             }
             else if (index == 1 && CanCast2) {
-                if (Inventory[index] == 9 || Inventory[index] == 21 || Inventory[index] == 27) {
+                if (Inventory[index] == 9 || Inventory[index] == 27) {
                     TraceAbilityForward();
                 }
                 else {
@@ -246,7 +246,7 @@ void AMyCharacter::CheckInventory(int index) {
                 }        
             }
             else if (index == 2 && CanCast3) {
-                if (Inventory[index] == 9 || Inventory[index] == 21 || Inventory[index] == 27) {
+                if (Inventory[index] == 9 || Inventory[index] == 27) {
                     TraceAbilityForward();
                 }
                 else {
