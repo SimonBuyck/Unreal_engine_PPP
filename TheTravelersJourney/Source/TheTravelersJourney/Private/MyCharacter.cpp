@@ -101,17 +101,14 @@ void AMyCharacter::TraceAbilityForward_Implementation()
         if (CastedAbilityIndex == 0) {
             SpawnAbility(Hit.Location, FRotator(0.f, 0.f, 0.f));
             CanCast1 = false;
-            GEngine->AddOnScreenDebugMessage(1, 2.f, FColor::Orange, TEXT("Ability1 traced"));
         }
         if (CastedAbilityIndex == 1) {
             SpawnAbility(Hit.Location, FRotator(0.f, 0.f, 0.f));
             CanCast2 = false;
-            GEngine->AddOnScreenDebugMessage(1, 2.f, FColor::Orange, TEXT("Ability2 traced"));
         }
         if (CastedAbilityIndex == 2) {
             SpawnAbility(Hit.Location, FRotator(0.f, 0.f, 0.f));
             CanCast3 = false;
-            GEngine->AddOnScreenDebugMessage(1, 2.f, FColor::Orange, TEXT("Ability3 traced"));
         }
     }
 }
@@ -133,7 +130,6 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-    PlayerInputComponent->BindAction("Basic", IE_Pressed, this, &AMyCharacter::BasicAttack);
     PlayerInputComponent->BindAction("Ability1", IE_Pressed, this, &AMyCharacter::Ability1);
     PlayerInputComponent->BindAction("Ability2", IE_Pressed, this, &AMyCharacter::Ability2);
     PlayerInputComponent->BindAction("Ability3", IE_Pressed, this, &AMyCharacter::Ability3);
@@ -182,14 +178,6 @@ void AMyCharacter::PitchCamera(float AxisValue)
     }
 }
 
-void AMyCharacter::BasicAttack() {
-    FVector Loc;
-    FRotator Rot;
-    GetController()->GetPlayerViewPoint(Loc , Rot);
-
-    SpawnProjectile(Loc + FVector(-10.f, 0.f, 0.f), Rot);
-}
-
 void AMyCharacter::CheckJump()
 {
     if (jumping) {
@@ -228,12 +216,6 @@ void AMyCharacter::SpawnAbility(FVector Loc, FRotator Rot)
 {
     FActorSpawnParameters SpawnParams;
     AActor* SpawnedActorRef = GetWorld()->SpawnActor<AActor>(Ability, Loc, Rot, SpawnParams);
-}
-
-void AMyCharacter::SpawnProjectile(FVector Loc, FRotator Rot)
-{
-    FActorSpawnParameters SpawnParams;
-    AActor* SpawnedActorRef = GetWorld()->SpawnActor<AActor>(Projectile, Loc, Rot, SpawnParams);
 }
 
 void AMyCharacter::CheckInventory(int index) {

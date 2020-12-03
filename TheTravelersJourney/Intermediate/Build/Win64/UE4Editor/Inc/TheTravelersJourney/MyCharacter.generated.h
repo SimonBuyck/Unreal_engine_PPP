@@ -22,7 +22,6 @@ struct FRotator;
  \
 	DECLARE_FUNCTION(execTraceAbilityForward); \
 	DECLARE_FUNCTION(execTraceForward); \
-	DECLARE_FUNCTION(execSpawnProjectile); \
 	DECLARE_FUNCTION(execSpawnAbility);
 
 
@@ -30,7 +29,6 @@ struct FRotator;
  \
 	DECLARE_FUNCTION(execTraceAbilityForward); \
 	DECLARE_FUNCTION(execTraceForward); \
-	DECLARE_FUNCTION(execSpawnProjectile); \
 	DECLARE_FUNCTION(execSpawnAbility);
 
 

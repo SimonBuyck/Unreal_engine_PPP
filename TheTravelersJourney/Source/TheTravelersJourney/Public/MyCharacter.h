@@ -32,9 +32,6 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
 	TSubclassOf<AActor> Ability;
 
-	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
-		TSubclassOf<AActor> Projectile;
-
 	UPROPERTY(EditAnywhere)
 		bool CanCast = true;
 
@@ -94,7 +91,6 @@ protected:
 
 	void CheckJump();
 
-	void BasicAttack();
 	void Ability1();
 	void Ability2();
 	void Ability3();
@@ -102,9 +98,6 @@ protected:
 
 	UFUNCTION()
 		void SpawnAbility(FVector Loc, FRotator Rot);
-
-	UFUNCTION()
-		void SpawnProjectile(FVector Loc, FRotator Rot);
 
 	FVector CurrentVelocity;
 
